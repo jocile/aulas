@@ -1,5 +1,5 @@
 ---
-title: About
+title: Sobre
 icon: fas fa-info-circle
 order: 4
 ---
@@ -14,7 +14,7 @@ Sempre me interessei muito por tecnologia e acabei encontrando a área quando cu
 
 Durante minha carreira lecionei disciplinas como Laboratório de Software, Lógica de Programação, Sistemas Operacionais, Assistência Informática, Administração de Redes, Meios de Comunicação de Dados, estágio, etc.
 
-Fora da bolha tecnológica gosto de brincar com meus filhos e [estudar](https://uninta.edu.br/site/graduacao-presencial/teologia/) a [Bíblia](https://www.bibliaonline.com.br/acf/jo/3/16), além de me aventurar no [direito](https://flucianofeijao.com.br/novo/paginas-de-cursos/direito/).
+Fora da bolha tecnológica gosto de brincar com meus filhos e [estudar a Bíblia](https://jocile.com/teologia/), além de me aventurar no [direito](https://flucianofeijao.com.br/novo/paginas-de-cursos/direito/).
 
 ---
 
@@ -29,3 +29,4 @@ Fora da bolha tecnológica gosto de brincar com meus filhos e [estudar](https://
 - [Blog](http://programandopc.blogspot.com/) com matérias sobre tecnologia e Computação.
 - [Notas da Computação](https://sites.google.com/a/cienciasdacomputacao.org/jocile/Home) com matérias sobre Ciências da Computação
 - [Blog Escola Bíblica](http://teologosinta.blogspot.com/) com estudos bíblicos
+- [Estudos teológicos](https://jocile.com/teologia/)
