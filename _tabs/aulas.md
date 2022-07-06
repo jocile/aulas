@@ -1,6 +1,6 @@
 ---
 title: Aulas
-icon: fas fa-pencil-square-o
+icon: fas fa-computer-classic
 order: 5
 ---
 
