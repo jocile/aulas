@@ -1,6 +1,6 @@
 ---
 title: Teologia
-icon: fas fa-book
+icon: fas fa-book-open
 order: 6
 ---
 
