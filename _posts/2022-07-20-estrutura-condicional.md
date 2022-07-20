@@ -176,8 +176,8 @@ public class Main {
 
 ## Referências
 
-- :computer: [IDE java online](https://www.online-java.com/)
-- :link: [Exemplos de códigos em Java](https://github.com/acenelio/curso-algoritmos/blob/master/java/)
-- :computer: [Editor de diagramas](https://mermaid-js.github.io/mermaid-live-editor/)
-- :chart_with_upwards_trend: [O que é um fluxograma](https://www.lucidchart.com/pages/pt/o-que-e-um-fluxograma)
-- :page_facing_up: [Equality, Relational, and Conditional Operators - Java docs ](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)
+- [IDE java online](https://www.online-java.com/)
+- [Exemplos de códigos em Java](https://github.com/acenelio/curso-algoritmos/blob/master/java/)
+- [Editor de diagramas](https://mermaid-js.github.io/mermaid-live-editor/)
+- [O que é um fluxograma](https://www.lucidchart.com/pages/pt/o-que-e-um-fluxograma)
+- [Equality, Relational, and Conditional Operators - Java docs ](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)
