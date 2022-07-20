@@ -6,7 +6,10 @@ categories: [COMPUTAÇÃO, LÓGICA]
 tags: [lógica, diagrama]
 mermaid: true
 ---
-Expressões comparativas São aquelas que comparam uma coisa com outra e seu resultado dá um valor verdadeiro ou falso.
+As decisões de um programa são avaliadas por expressões comparativas e lógicas, que direcionam o fluxo de execução conforme o resultado.
+
+## Expressões comparativas
+São aquelas que comparam uma coisa com outra e seu resultado dá um valor verdadeiro ou falso.
 
 [![](https://mermaid.ink/img/pako:eNpljrEOgjAQhl-luQkSSHRw6UCiopOTjtThwh1CQikpLdEIT-Oj-GLWqJM33SXf9_93h9IQg4SLxb4Wh6PqRJh1wdfe8jA8H-Ys0jSbwuFbh2QmsYlGbI0VI1tC4vijbIuVyMRy8Yfn0R7bwcSQgGarsaFQd39LClzNmhXIsBJXGBQFqpsD6ntCxztqnLEgq5DACaB35nTrSpDOev5BeYPhe_2l5hcSMkdS)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNpljrEOgjAQhl-luQkSSHRw6UCiopOTjtThwh1CQikpLdEIT-Oj-GLWqJM33SXf9_93h9IQg4SLxb4Wh6PqRJh1wdfe8jA8H-Ys0jSbwuFbh2QmsYlGbI0VI1tC4vijbIuVyMRy8Yfn0R7bwcSQgGarsaFQd39LClzNmhXIsBJXGBQFqpsD6ntCxztqnLEgq5DACaB35nTrSpDOev5BeYPhe_2l5hcSMkdS)
 
@@ -130,10 +133,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
+	    Locale.setDefault(Locale.US);
+	    Scanner sc = new Scanner(System.in);
 		
-		double nota1, nota2, notafinal;
+	    double nota1, nota2, notafinal;
 
 	    System.out.print("Digite a primeira nota: ");
 	    nota1 = sc.nextDouble();
@@ -153,3 +156,10 @@ public class Main {
 	}
 }
 ```
+
+## :books: Referencias
+
+:computer: [IDE java online](https://www.online-java.com/)\
+:link: [Exemplos de códigos em Java](https://github.com/acenelio/curso-algoritmos/blob/master/java/)\
+:chart_with_upwards_trend: [O que é um fluxograma](https://www.lucidchart.com/pages/pt/o-que-e-um-fluxograma)\
+:page_facing_up: [Equality, Relational, and Conditional Operators - Java docs ](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)
