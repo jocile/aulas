@@ -2,7 +2,7 @@
 title:  "O Prompt de Comando"
 author: Prof. Jocilé Serra
 date: 2021-05-24 16:10:00 -0300
-categories: [SISTEMAS OPERACIONAIS, WINDOWS]
+categories: [AULAS, SISTEMA OPERACIONAL PROPRIETÁRIO]
 tags: [prompt, comandos, Windows, manutenção]
 ---
 **A base para o que conhecemos hoje do sistema Windows é o DOS (Disk Operating System), e hoje está embutido no sistema operacional. Isso possibilita a utilização do sistema digitando linhas de comandos, ou seja, instruções em texto que realizam tarefas.**
@@ -76,14 +76,14 @@ shutdowm -t [x] – Desliga o computador em x segundos.
 ## Mudando as cores do prompt
 * O comando color - Permite alterar a cor de fundo e da fonte Lista de cores:
   
-|  | cor |  | cor|  | cor |
-| --- | --- | --- | --- | --- | --- |
- | 0 | - preto | 6 |- Amarelo  | C |- Vermelho claro 
- | 1 | - Azul  | 7 |- Branco   | D |- Roxo claro
- | 2 |- Verde  | 8 |- Cinza    | E |- Amarelo claro 
- | 3 |- Cian   | 9 |- Azul claro| F |- Branco claro
- | 4 |- Vermelho | A |- Verde claro | |
- | 5 |- Roxo   | B |- Cian claro | |
+|     | cor        |     | cor           |     | cor              |
+| --- | ---------- | --- | ------------- | --- | ---------------- |
+| 0   | - preto    | 6   | - Amarelo     | C   | - Vermelho claro |
+| 1   | - Azul     | 7   | - Branco      | D   | - Roxo claro     |
+| 2   | - Verde    | 8   | - Cinza       | E   | - Amarelo claro  |
+| 3   | - Cian     | 9   | - Azul claro  | F   | - Branco claro   |
+| 4   | - Vermelho | A   | - Verde claro |     |
+| 5   | - Roxo     | B   | - Cian claro  |     |
  
 
 * Exemplo para mudar a cor de fundo para azul e o texto para branco:
