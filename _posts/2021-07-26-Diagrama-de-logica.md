@@ -2,7 +2,7 @@
 title:  "Diagrama de lógica"
 author: Prof. Jocilé Serra
 date: 2021-07-26 10:30:00 -0300
-categories: [COMPUTAÇÃO, LÓGICA]
+categories: [DESENVOLVIMENTO, LÓGICA]
 tags: [lógica, diagrama]
 mermaid: true
 ---

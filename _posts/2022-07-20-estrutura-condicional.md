@@ -2,7 +2,7 @@
 title:  "Estrutura condicional"
 author: Prof. Jocilé Serra
 date: 2022-07-20 15:00:00 -0300
-categories: [COMPUTAÇÃO, LÓGICA]
+categories: [DESENVOLVIMENTO, LÓGICA]
 tags: [lógica, diagrama]
 mermaid: true
 ---
@@ -17,54 +17,54 @@ graph LR
     C[5 > 10] -->|resultado| D(Falso)
 ```
 
-| Operador | Significado |
-| :---:    | :---: |
-|    >     | maior |
-|    <     | menor |
+| Operador |  Significado   |
+| :------: | :------------: |
+|    >     |     maior      |
+|    <     |     menor      |
 |    >=    | maior ou igual |
 |    <=    | menor ou igual |
-|    ==    | igual |
-|    !=    | diferente |
+|    ==    |     igual      |
+|    !=    |   diferente    |
 
 Exemplos:
 
-| x = 5 | resultado |
-| :---:    | :---: |
-|  x > 0  | V |
-|  x == 3 | F |
-| 10 <= 30 | V |
-| x != 2   | V |
+|  x = 5   | resultado |
+| :------: | :-------: |
+|  x > 0   |     V     |
+|  x == 3  |     F     |
+| 10 <= 30 |     V     |
+|  x != 2  |     V     |
 
 ## Expressões lógicas
 São também expressões que avaliadas dão um valor lógico verdadeiro ou falso, elas podem ter outras expressões que utilizam operadores lógicos:
 
 | Operador | significado |
-| :---:    | :---: |
-|  &&  | E |
-|  \|\|  | OU |
-|  !  | NÃO |
+| :------: | :---------: |
+|    &&    |      E      |
+|   \|\|   |     OU      |
+|    !     |     NÃO     |
 
 Exemplos:
 
-| x = 5 | resultado |
-| :---:    | :---: |
-|  x <= 20 && x == 10  | F |
-|  x <= 20 | V |
-|  x == 10 | F |
-|  x > 0 && x != 3 | V |
-|  x > 0 | V |
-|  x != 3 | V |
-|  x <= 20 \|\| x == 10  | V |
-| !(x == 10) | V |
+|        x = 5         | resultado |
+| :------------------: | :-------: |
+|  x <= 20 && x == 10  |     F     |
+|       x <= 20        |     V     |
+|       x == 10        |     F     |
+|   x > 0 && x != 3    |     V     |
+|        x > 0         |     V     |
+|        x != 3        |     V     |
+| x <= 20 \|\| x == 10 |     V     |
+|      !(x == 10)      |     V     |
 
 ### Tabela verdade
 
-| A | B | A && B | A \|\| B | !A |
-| :---: | :---: | :---: | :---: | :---: |
-|  F | F | F | F | V |
-|  F | V | F | V | V |
-|  V | F | F | V | F |
-|  V | V | V | V | F |
+|   A   |   B   | A && B | A \|\| B |  !A   |
+| :---: | :---: | :----: | :------: | :---: |
+|   F   |   F   |   F    |    F     |   V   |
+|   F   |   V   |   F    |    V     |   V   |
+|   V   |   F   |   F    |    V     |   F   |
+|   V   |   V   |   V    |    V     |   F   |
 
 ## Conceito
 É uma estrutura de controle que permite definir que um certo bloco de comandos somente será executado dependendo de uma condição.
