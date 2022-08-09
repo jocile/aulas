@@ -1,7 +1,7 @@
 ---
 title:  "Funções do Sistema Operacional"
 author: Prof. Jocilé Serra
-date: 2021-05-31 21:00:00 -0300
+date: 2022-08-08 21:00:00 -0300
 categories: [AULAS, SISTEMA OPERACIONAL LIVRE]
 tags: [linux, devops]
 ---
@@ -83,4 +83,4 @@ reservam este espaço automaticamente, no linux ela conhecida como **Swap**.
 
 ## Referência
 
-[Sistemas Operacionais](https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_sistemas_operacionais.pdf). Secretaria de Educação do Estado do Ceará.
+[Apostila de Sistemas Operacionais](https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_sistemas_operacionais.pdf). Secretaria de Educação do Estado do Ceará.
