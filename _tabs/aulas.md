@@ -7,13 +7,13 @@ order: 5
 
 <div align="center">
 
-<a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Sistema Operacional Livre</button></a><br/>
+<a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Sistema Operacional Livre</button></a><br/> <br/> 
 
-<a href="https://jocile.com/categories/meios-de-comunica%C3%A7%C3%A3o/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Meios de Comunicação de Dados</button></a><br/>
+<a href="https://jocile.com/categories/meios-de-comunica%C3%A7%C3%A3o/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Meios de Comunicação de Dados</button></a><br/><br/> 
 
-<a href="https://jocile.com/categories/sistema-operacional-livre/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Montagem e intalação de Sistemas</button></a><br/>
+<a href="https://jocile.com/categories/sistema-operacional-livre/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Montagem e intalação de Sistemas</button></a><br/><br/> 
 
-<a href="https://jocile.com/categories/software-de-aplica%C3%A7%C3%A3o/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Software de Aplicação</button></a><br/>
+<a href="https://jocile.com/categories/software-de-aplica%C3%A7%C3%A3o/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Software de Aplicação</button></a><br/><br/> 
 
 </div>
 
