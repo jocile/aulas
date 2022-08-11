@@ -3,10 +3,9 @@ title: Aulas
 icon: fas fa-laptop
 order: 5
 ---
+![Aulas](/assets/img/aula.jpeg)
 
 <div align="center">
-
-![Aulas](/assets/img/aula.jpeg)
 
 <a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Sistema Operacional Livre</button></a>
 
