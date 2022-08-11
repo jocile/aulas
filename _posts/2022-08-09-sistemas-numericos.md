@@ -2,7 +2,7 @@
 title:  "Sistemas numéricos"
 author: Prof. Jocilé Serra
 date: 2022-08-09 19:00:00 -0300
-categories: [AULAS, INSTALAÇÃO E MONTAGEM DE SISTEMAS]
+categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [numérico, binário]
 ---
 Os sistemas numéricos, são usados para definir e representar quantidade de dados.
@@ -62,9 +62,9 @@ Para converter um valor em binário para Hexadecimal, basta agrupá-los em 4 dí
 
 Exemplo: Converta 101010110001<sub>2</sub> para Hexadecimal
 
-| Binário | 1010 | 1011 | 0001 |
-| :---: | :---: | :---: | :---: |
-| Hexadecimal | A | B | 1 |
+|   Binário   | 1010  | 1011  | 0001  |
+| :---------: | :---: | :---: | :---: |
+| Hexadecimal |   A   |   B   |   1   |
 
 101010110001<sub>2</sub> = AB1<sub>16</sub>
 
@@ -73,9 +73,9 @@ Para converter um valor em Hexadecimal para Binário, devemos separar cada digit
 
 Exemplo: Converta 82AF9<sub>16</sub> para Binário
 
-| Hexadecimal | 8 | 2 | A | F | 9 |
-| :---: | :---: | :---: | :---: |  :---: |  :---: |
-| Binário | 1000 | 0010 | 1010 | 1111 | 1001 |
+| Hexadecimal |   8   |   2   |   A   |   F   |   9   |
+| :---------: | :---: | :---: | :---: | :---: | :---: |
+|   Binário   | 1000  | 0010  | 1010  | 1111  | 1001  |
 
 82AF9<sub>16</sub> = 10000010101011111001
 
