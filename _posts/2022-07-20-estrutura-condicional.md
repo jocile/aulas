@@ -9,6 +9,7 @@ mermaid: true
 As decisões de um programa são avaliadas por expressões comparativas e lógicas, que direcionam o fluxo de execução conforme o resultado.
 
 ## Expressões comparativas
+
 São aquelas que comparam uma coisa com outra e seu resultado dá um valor verdadeiro ou falso.
 
 ```mermaid
@@ -36,6 +37,7 @@ Exemplos:
 |  x != 2  |     V     |
 
 ## Expressões lógicas
+
 São também expressões que avaliadas dão um valor lógico verdadeiro ou falso, elas podem ter outras expressões que utilizam operadores lógicos:
 
 | Operador | significado |
@@ -67,6 +69,7 @@ Exemplos:
 |   V   |   V   |   V    |    V     |   F   |
 
 ## Conceito
+
 É uma estrutura de controle que permite definir que um certo bloco de comandos somente será executado dependendo de uma condição.
 
 ```mermaid
@@ -78,14 +81,17 @@ graph TD
 ## Sintaxe da estrutura condicional
 
 ### Simples
-```
+
+```text
 if ( condição ) {
      comando 1 ;
      comando 2 ;
 }
 ```
+
 ### Composta
-```
+
+```text
 if ( condição ) {
      comando 1 ;
      comando 2 ;
@@ -95,6 +101,7 @@ else { //senão
      comando 2 ;
 }
 ```
+
 Exemplo:
 
 ```mermaid
@@ -130,10 +137,12 @@ public class Main
     }
 }
 ```
+
 ## Exercício
+
 Fazer um programa para ler duas notas em seguida mostrar a nota final (com uma casa decimal), caso a nota seja menor que 12 mostrar a mensagem "REPROVADO", conforme o exemplo:
 
-```
+```text
 Digite a primeira nota: 6.0
 Digite a segunda nota: 5.0
 NOTA FINAL = 11.0
@@ -148,29 +157,29 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+ public static void main(String[] args) {
 
-	    Locale.setDefault(Locale.US);
-	    Scanner sc = new Scanner(System.in);
-		
-	    double nota1, nota2, notafinal;
+     Locale.setDefault(Locale.US);
+     Scanner sc = new Scanner(System.in);
+  
+     double nota1, nota2, notafinal;
 
-	    System.out.print("Digite a primeira nota: ");
-	    nota1 = sc.nextDouble();
+     System.out.print("Digite a primeira nota: ");
+     nota1 = sc.nextDouble();
 
-	    System.out.print("Digite a segunda nota: ");
-	    nota2 = sc.nextDouble();
+     System.out.print("Digite a segunda nota: ");
+     nota2 = sc.nextDouble();
 
-	    notafinal = nota1 + nota2;
+     notafinal = nota1 + nota2;
 
-	    System.out.printf("NOTA FINAL = %.1f\n", notafinal);
+     System.out.printf("NOTA FINAL = %.1f\n", notafinal);
 
-	    if (notafinal < 12.0) {
-	    	System.out.println("REPROVADO");
-	    }
+     if (notafinal < 12.0) {
+      System.out.println("REPROVADO");
+     }
 
             sc.close();
-	}
+ }
 }
 ```
 
@@ -180,4 +189,4 @@ public class Main {
 - [Exemplos de códigos em Java](https://github.com/acenelio/curso-algoritmos/blob/master/java/)
 - [Editor de diagramas](https://mermaid-js.github.io/mermaid-live-editor/)
 - [O que é um fluxograma](https://www.lucidchart.com/pages/pt/o-que-e-um-fluxograma)
-- [Equality, Relational, and Conditional Operators - Java docs ](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)
+- [Equality, Relational, and Conditional Operators - Java docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)

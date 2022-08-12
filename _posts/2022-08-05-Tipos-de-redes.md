@@ -8,7 +8,6 @@ mermaid: true
 ---
 As redes de computadores se diferenciam em formas de transmissão, arquitetura, topologia e escopo de abrangência.
 
-# Tipos de redes de computadores
 ## Tipos de Transmissão de Dados
 
 Para que haja comunicação são necessários os seguintes elementos:
@@ -54,7 +53,6 @@ Existem 2 tipos fundamentais de redes. O primeiro tipo é a rede ponto-a-ponto, 
 
 ![Image](https://user-images.githubusercontent.com/45495068/182733684-fdbb7944-6cbb-464f-a5b3-96f6728327ab.png)
 
-
 O segundo tipo é a arquitetura cliente-servidor, onde todos os hosts, chamados de clientes, se comunicam com uma máquina principal, chamada de servidor. O servidor provê todas as aplicações e serviços e consegue gerenciar o acesso aos recursos da rede como impressoras, por exemplo. Neste tipo de arquitetura os hosts não trocam informações entre si de uma forma direta.
 Cada cliente se comunica com o servidor e este devolve respostas atendendo as requisições de cada um. Por exemplo, em um servidor de banco de dados, o cliente pode acessar a aplicação (programa) e alterar um dado. Esta alteração será feita no servidor. Caso outro cliente acesse a aplicação, ele já verá o dado alterado, pois está buscando a informação diretamente no servidor.
 
@@ -62,7 +60,7 @@ Normalmente um servidor é uma máquina mais robusta que as máquinas clientes, 
 
 ## Topologia de redes
 
-A topologia de uma rede nada mais é do que a forma como se define o layout da rede, ou como se organiza estruturalmente os computadores, dispositivos de rede e suas conexões. Uma topologia pode física ou lógica. 
+A topologia de uma rede nada mais é do que a forma como se define o layout da rede, ou como se organiza estruturalmente os computadores, dispositivos de rede e suas conexões. Uma topologia pode física ou lógica.
 
 A topologia física é como os computadores e dispositivos se encontram fisicamente, configurando uma espécie de desenho que é caracterizado pela disposição dos equipamentos. A topologia lógica é a forma como os dados trafegam na rede, logo, uma rede pode obedecer a uma determinada topologia apenas de forma lógica, não sendo necessário que os equipamentos estejam organizados de
 acordo com a topologia física. Há varias formas de se estruturar uma rede, veja as principais:
@@ -83,14 +81,14 @@ acordo com a topologia física. Há varias formas de se estruturar uma rede, vej
 
 A abrangência de alcance das redes de caracterizam em:
 
-* LAN – Rede Local interliga computadores presentes dentro de um mesmo espaço físico.
-* MAN – Rede Metropolitana, abrangem bairros ou uma cidade.
-* WAN – A Wide Area Network, ou Rede de Longa Distância, abrange um país ou até mesmo um continente.
-* WLAN – Rede Local Sem Fio.
-* WMAN – Rede Metropolitana Sem Fio, é a versão sem fio da MAN, com um alcance de dezenas de quilômetros.
-* WWAN – Rede de Longa Distância Sem Fio, alcança diversas partes do mundo. Justamente por isso, a WWAN está mais sujeita a ruídos.
-* SAN – Rede de Área de Armazenamento, são utilizadas para fazer a comunicação de um servidor e outros computadores.
-* PAN – Rede de Área Pessoal, de curtas distâncias mais utilizadas por periféricos.
+- LAN – Rede Local interliga computadores presentes dentro de um mesmo espaço físico.
+- MAN – Rede Metropolitana, abrangem bairros ou uma cidade.
+- WAN – A Wide Area Network, ou Rede de Longa Distância, abrange um país ou até mesmo um continente.
+- WLAN – Rede Local Sem Fio.
+- WMAN – Rede Metropolitana Sem Fio, é a versão sem fio da MAN, com um alcance de dezenas de quilômetros.
+- WWAN – Rede de Longa Distância Sem Fio, alcança diversas partes do mundo. Justamente por isso, a WWAN está mais sujeita a ruídos.
+- SAN – Rede de Área de Armazenamento, são utilizadas para fazer a comunicação de um servidor e outros computadores.
+- PAN – Rede de Área Pessoal, de curtas distâncias mais utilizadas por periféricos.
 
 ## Referência
 

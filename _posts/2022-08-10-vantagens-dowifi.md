@@ -9,7 +9,9 @@ mermaid: true
 As Redes Sem Fio, ou Redes Wireless, onde wire significa cabo e less significa ausência.
 
 ## Tipos básicos de Redes Wireless
+
 ### Rede sem infra-estrutura
+
  ![Image](https://user-images.githubusercontent.com/45495068/182726164-a42adebe-5e37-448e-b270-20472e5576d7.png)
 
 Principal topologia sem infra-estrura:
@@ -19,6 +21,7 @@ Principal arquitetura sem infra-estrura:
 ![Image](https://user-images.githubusercontent.com/45495068/182733236-f65f6c8c-424f-46a5-b36d-d627ca8aa7a1.png)
 
 ### Rede com infra-estrutura
+
 ![Image](https://user-images.githubusercontent.com/45495068/182726119-79577611-ca9a-427b-8f29-47cbce1f7c36.png)
 
 Principal topologia com infra-estrutura:
@@ -31,9 +34,11 @@ Principal arquitetura com infra-estrutura:
 ## Desvantagens do WiFi
 
 ### Atenuação do sinal
+
 À medida que vamos nos distanciando da fonte transmissora, o sinal também vai diminuindo ou atenuando. Um sinal fraco pode fazer com que a informação se perca ou se embaralhe com os ruídos gerados por outros elementos no ambiente.
 
 Podem causar atenuação os obstáculos como:
+
 - Paredes
 - Montanhas
 - Edifícios
@@ -60,15 +65,15 @@ Comparativo WiFi X cabeamento:
 
 ### Tabela comparativa
 
-|                         Redes | sem infra-estrutura |                      com infra-estrutura                       |
-| ----------------------------: | :-----------------: | :------------------------------------------------------------: |
-| Mobilidade dentro do alcance: |      dos hosts      |                        da estação-base                         |
-|                 Configuração: |  rápida e simples   |                   padronizada e centralizada                   |
-|                Conectividade: |       direta        |                    através da estação base                     |
-|               Escalabilidade: |  limitada ao host   | configuração padronizada <br/> hosts são conectados facilmente |
-|                  Comunicação: |   entre os hosts    |                            em grupo                            |
-|             Compartilhamento: |      arquivos       |                     serviços e aplicações                      |
-|                        Custo: |        menor        |         maior <br/> mas dependendo do tamanho da rede          |
+|                         Redes | sem infra-estrutura |                       com infra-estrutura                       |
+| ----------------------------: | :-----------------: | :-------------------------------------------------------------: |
+| Mobilidade dentro do alcance: |      dos hosts      |                         da estação-base                         |
+|                 Configuração: |  rápida e simples   |                   padronizada e centralizada                    |
+|                Conectividade: |       direta        |                     através da estação base                     |
+|               Escalabilidade: |  limitada ao host   | configuração padronizada  <br />hosts são conectados facilmente |
+|                  Comunicação: |   entre os hosts    |                            em grupo                             |
+|             Compartilhamento: |      arquivos       |                      serviços e aplicações                      |
+|                        Custo: |        menor        |         maior <br /> mas dependendo do tamanho da rede          |
 
 ### Gráfico comparativo
 

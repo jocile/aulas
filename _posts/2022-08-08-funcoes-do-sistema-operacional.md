@@ -7,8 +7,6 @@ tags: [linux, devops]
 ---
 A principal função do Sistema Operacional é gerenciar recursos, tais como os usuários, as memórias para os arquivos e o hardware com os dispositivos de entrada e saída, os aplicativos, a comunicação em rede, etc.
 
-# Funcões do Sistema Operacional
-
 ## O gerenciamento
 
 ![image](https://user-images.githubusercontent.com/45495068/183531771-86061c26-bf4a-4492-acf0-02bd18aee5ae.png)
@@ -32,7 +30,6 @@ O sistema operacional é uma interface para interação do usuário e aplicativo
 ## Principais conceitos
 
 Estudaremos termos como Processos, Núcleo (Kernel), Interpretador de Comandos (Sheel), Chamadas de Sistemas (system calls), Endereçamento de Memória, Memória Virtual e Entrada e Saída.
-
 
 ### Processos
 
@@ -65,21 +62,21 @@ As chamadas de sistema são micro processo enviados pelos programas para o SO co
 Outro fato importante é que as Chamadas de Sistema varia de acordo com o SO, com certeza o do MS-DOS é diferente do Windows que é diferente do Linux que tem suas particularidades frente ao UNIX e assim sucessivamente.
 
 Elas são responsáveis por:
-- Chamar o gerenciamento de arquivos.
-- Chamar o gerenciamento de diretórios.
-- Chamar o gerenciamento de processos.
-- Fazer a interação entre processos.
+
+* Chamar o gerenciamento de arquivos.
+* Chamar o gerenciamento de diretórios.
+* Chamar o gerenciamento de processos.
+* Fazer a interação entre processos.
 
 ### Memória virtual
 
-Os SO mais modernos tem a capacidade de gerenciar vários programas na memória principal ao mesmo tempo, para evitar problemas e conflitos, cada processo tem um espaço na memória para armazenar seu endereço. Este espaço pode ir de 0 até uma quantidade máxima que pode ser de 32 bits (2<sup>32</sup>) ou de 64bit (2<sup>64</sup>) de acordo com a arquitetura do computador.
+Os SO mais modernos tem a capacidade de gerenciar vários programas na memória principal ao mesmo tempo, para evitar problemas e conflitos, cada processo tem um espaço na memória para armazenar seu endereço. Este espaço pode ir de 0 até uma quantidade máxima que pode ser de 32 bits ($2^{32}$) ou de 64bit ($2^{64}$) de acordo com a arquitetura do computador.
 
 ![image](https://user-images.githubusercontent.com/45495068/183538423-c41d4747-e8e7-43a5-9c3b-f292f32f4c18.png)
 
 Os SO utilizam de uma técnica conhecida de Memória Virtual quando um endereço de memória excede a capacidade máxima da memória
 principal, isso consiste em armazenar estes endereços na memória secundária - o disco rígido. Alguns Sistemas Operacionais
 reservam este espaço automaticamente, no linux ela conhecida como **Swap**.
-
 
 ## Referência
 

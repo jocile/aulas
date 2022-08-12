@@ -7,15 +7,14 @@ tags: [simulador, redes]
 ---
 O Cisco Packet Tracer é um programa educacional gratuito que permite simular uma rede de computadores.
 
-# Simulador de redes packet Tracer
-
 [![Image](https://img.youtube.com/vi/CKqmVwJYL0M/mqdefault.jpg 'Vídeo no Youtube')](https://www.youtube.com/watch?v=CKqmVwJYL0M)
 
 O programa apresenta uma interface gráfica simples, e possibilita ao estudante de redes:
+
 - a visualização do ambiente de rede para a criação, configuração e solução de problemas
 - a criação e visualização da transmissão de pacotes virtuais através da rede criada em tempo real
 - desenvolver habilidades para solução de problemas potenciais
-- criar e configurar complexas topologias de redes 
+- criar e configurar complexas topologias de redes
 - permite que o estudante treine seus conhecimento em uma grande variedade de protocolos
 
 ## Como utilizar
@@ -29,7 +28,7 @@ O programa apresenta uma interface gráfica simples, e possibilita ao estudante 
 
 Novo lançamento! Cisco #PacketTracer 8.2 📣
 
-As atualizações da nova versão incluem: 
+As atualizações da nova versão incluem:
 
 ✅ Novos comandos\
 ✅ Melhorias de acessibilidade\
@@ -40,12 +39,9 @@ As atualizações da nova versão incluem:
 
 [Acessar a inscrição para o curso de introdução](https://skillsforall.com/course/getting-started-cisco-packet-tracer?instance_id=0cc83bf6-e8d7-4968-a89a-d055b49379b1)
 
-
 ## Referências
 
 - [Cursos - Cisco Skills for all](https://skillsforall.com/)
 - [netacad.com](https://www.netacad.com/pt-br) = A Academia Cisco Network proporciona cursos e o download do aplicativo.
 - [Blog labcisco](http://labcisco.blogspot.com/) = Proporciona artigos e exemplos de treinamento.
 - [Livro Construindo Simulações](https://pt.wikibooks.org/wiki/Packet_Tracer/Construindo_Simulações)
-
-
