@@ -1,7 +1,7 @@
 ---
 title:  "Conceitos de Eletricidade"
 author: Prof. Jocilé Serra
-date: 2022-08-09 19:00:00 -0300
+date: 2022-08-14 19:00:00 -0300
 categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [eletricidade, proteção]
 ---
@@ -29,7 +29,8 @@ A matéria que existe na natureza é constituída por elementos chamados de áto
 - Corrente elétrica - é a medida do fluxo de elétrons em Ampéres (A).
 - Amperímetro é o aparelho de medida de corrente elétrica.
 
-Submúltiplos do Ámpere:
+**Submúltiplos do Ámpere:**  
+
 | Microampére (∝A) | Miliampére (mA) | Ampére (A) | Quiloampére (kA) |
 | ---------------: | --------------: | ---------: | ---------------: |
 |        6 500 000 |           6 500 |        6,5 |           0,0065 |
@@ -40,7 +41,7 @@ Submúltiplos do Ámpere:
 |            5 000 |               5 |      0,005 |         0,000005 |
 |  108 000 000 000 |     108 000 000 |    108 000 |              108 |
 
-#### Fluxo da corrente
+**Fluxo da corrente:**  
 
 ![image](https://user-images.githubusercontent.com/45495068/184553048-4edb18a5-0ef2-4da4-b6e4-0b243dd889ca.png)
 
