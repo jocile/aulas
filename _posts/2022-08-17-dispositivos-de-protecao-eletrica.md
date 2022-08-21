@@ -58,19 +58,17 @@ A proteção oferecida pelos disjuntores somente será eficaz se estes dispositi
 
 1) Curva de atuação. Esta característica depende do circuito que será protegido. As mais comuns são as curvas B e C.
    - **Curva B** são utilizados em circuitos com cargas resistivas. Por exemplo: aquecedores, chuveiros, fornos e torneiras elétricas.
-   - **Curva C** são indicados para cargas indutivas e motores, além dos circuitos de tomadas de uso geral e específico. Portanto, são apropriados para aparelhos de ar condicionado, máquinas de lavar roupas, fornos micro-ondas, circuitos de iluminação, entre outros.  
+   - **Curva C** são indicados para cargas indutivas e motores, além dos circuitos de tomadas de uso geral e específico. Portanto, são apropriados para aparelhos de ar condicionado, máquinas de lavar roupas, fornos micro-ondas, circuitos de iluminação, entre outros.
 
-1) Número de polos. É definido de acordo com o número de condutores fase do circuito a ser protegido. Em geral, os disjuntores podem ser:
-
+2) Número de polos. É definido de acordo com o número de condutores fase do circuito a ser protegido. Em geral, os disjuntores podem ser:
    - Monopolares. Também conhecidos como disjuntores unipolares ou disjuntores monofásicos, são utilizados em circuitos de iluminação e tomadas com fase e neutro, onde ligam e desligam apenas a fase, pois o neutro aterrado não representa perigo.  
    - Bipolares. Os modelos bipolares, também conhecidos como disjuntores duplos ou bifásicos, são utilizados com frequência em chuveiros elétricos e outros circuitos energizados com duas fases, pois nesse caso, precisam ser interrompidas simultaneamente.
    - Tripolares. Os disjuntores tripolares ou trifásicos são utilizados em circuitos alimentados com três fases, geralmente em redes de 220V ou 380V, permitindo ligar e desligar todas através de uma só alavanca.
 
-1) **Corrente nominal (“amperagem”)**.  Em geral, são encontrados modelos de 4A até 63A. O valor ideal é escolhido de acordo com a capacidade do equipamento ou circuito a ser protegido e a bitola (“grossura”) dos cabos (fios) utilizados.  
+3) **Corrente nominal (“amperagem”)**.  Em geral, são encontrados modelos de 4A até 63A. O valor ideal é escolhido de acordo com a capacidade do equipamento ou circuito a ser protegido e a bitola (“grossura”) dos cabos (fios) utilizados.  
+   Por exemplo, em certas condições, um circuito de iluminação pode utilizar um disjuntor de 3A, para proteger um cabo de 1,5mm2. Já no caso de um chuveiro, é comum o uso de disjuntores de 40A, para proteger cabos de 6mm2.
 
-   Por exemplo, em certas condições, um circuito de iluminação pode utilizar um disjuntor de 3A, para proteger um cabo de 1,5mm2. Já no caso de um chuveiro, é comum o uso de disjuntores de 40A, para proteger cabos de 6mm2.  
-
-1) **Capacidade de interrupção**. Podemos dizer que é o “tamanho do curto-circuito” que o disjuntor consegue desligar com segurança. Nos modelos residenciais, normalmente é de 3000A (3KA). Porém existem capacidades maiores, para utilização nos projetos elétricos que assim necessitarem.
+4) **Capacidade de interrupção**. Podemos dizer que é o “tamanho do curto-circuito” que o disjuntor consegue desligar com segurança. Nos modelos residenciais, normalmente é de 3000A (3KA). Porém existem capacidades maiores, para utilização nos projetos elétricos que assim necessitarem.
 
 Também é importante saber que a especificação dos disjuntores deverá ser feita por profissionais qualificados, seguindo um projeto elétrico com base na norma **ABNT NBR 5410** (Instalações elétricas de baixa tensão), para assegurar que os requisitos mínimos de proteção sejam atendidos.
 
