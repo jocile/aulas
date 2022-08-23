@@ -24,13 +24,10 @@ a:hover {
 
 <div align="center">
 
-## Aulas em 2002.2
-
 &#xa0;  
 <a href="https://jocile.com/categories/meios-de-comunica%C3%A7%C3%A3o/" class="button">Meios de Comunicação de Dados</a> &#xa0; | &#xa0;
-<a href="https://jocile.com/categories/sistema-operacional-livre/" class="button">Montagem e instalação de Sistemas</a>  
+<a href="https://jocile.com/categories/sistema-operacional-livre/" class="button">Montagem e instalação de Sistemas</a><br />
 &#xa0;  
-
 <a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/" class="button">Sistema Operacional Livre</a> &#xa0; | &#xa0;
 <a href="https://jocile.com/categories/software-de-aplica%C3%A7%C3%A3o/" class="button">Software de Aplicação</a> &#xa0; | &#xa0;
 <a href="https://github.com/jocile/redes-de-computadores"><button style = "color: red">Matérias em PDF</button></a>
@@ -50,3 +47,6 @@ Meu nome é Jocilé M. Serra e trabalho como professor👨‍🏫 de computaçã
 - [Notas da Computação](https://sites.google.com/a/cienciasdacomputacao.org/jocile/Home) com matérias sobre Ciências da Computação
 - [Blog Escola Bíblica](http://teologosinta.blogspot.com/) com estudos bíblicos
 - [Estudos teológicos](https://jocile.com/teologia/)
+
+> **Nota:**
+> Dúvidas ou sugestões envie um [issue](https://github.com/jocile/jocile.github.io/issues)
