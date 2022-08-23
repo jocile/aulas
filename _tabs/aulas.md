@@ -3,18 +3,40 @@ title: Aulas
 icon: fas fa-laptop
 order: 5
 ---
+
+<style>
+a.button {
+  background: #069cc2;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+a:hover {
+  background: black;
+}
+</style>
+
 ![Aulas](/assets/img/aula.jpeg)
 
 <div align="center">
 
-<a href="https://jocile.com/categories/meios-de-comunica%C3%A7%C3%A3o/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Meios de Comunicação de Dados</button></a> &#xa0; | &#xa0;
-<a href="https://jocile.com/categories/sistema-operacional-livre/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Montagem e intalação de Sistemas</button></a>  
+## Aulas em 2002.2
 
-<a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Sistema Operacional Livre</button></a> &#xa0; | &#xa0;
-<a href="https://jocile.com/categories/software-de-aplica%C3%A7%C3%A3o/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Software de Aplicação</button></a> &#xa0; | &#xa0;
-<a><button name="button" style = "color: red" onclick="https://github.com/jocile/redes-de-computadores">`matéria` em PDF</button></a>
+&#xa0;  
+<a href="https://jocile.com/categories/meios-de-comunica%C3%A7%C3%A3o/" class="button">Meios de Comunicação de Dados</a> &#xa0; | &#xa0;
+<a href="https://jocile.com/categories/sistema-operacional-livre/" class="button">Montagem e instalação de Sistemas</a>  
+&#xa0;  
+
+<a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/" class="button">Sistema Operacional Livre</a> &#xa0; | &#xa0;
+<a href="https://jocile.com/categories/software-de-aplica%C3%A7%C3%A3o/" class="button">Software de Aplicação</a> &#xa0; | &#xa0;
+<a href="https://github.com/jocile/redes-de-computadores"><button style = "color: red">Matérias em PDF</button></a>
 
 </div>
+&#xa0;  
 
 ## Sobre o autor
 
