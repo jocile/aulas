@@ -120,7 +120,7 @@ Por reduzir o tamanho, custo e consumo de energia, e se comparados à forma de u
 
 ## Referências
 
-- [Conceitos de eletricidade]({{% post_url 2022-08-14-conceitos-de-eletricidade %})
+- [Conceitos de eletricidade]({% post_url 2022-08-14-conceitos-de-eletricidade %})
 - [Componentes eletrônicos. Manual da eletrônica](https://www.manualdaeletronica.com.br/cat/componentes-eletronicos/)
 - [Diodo e a sua aplicação. Manual da eletrônica](https://www.manualdaeletronica.com.br/diodo-o-que-e-qual-a-sua-aplicacao/)
 - [Apresentação sobre Sistemas Informáticos](https://drive.google.com/file/d/1bi_GMsgJ93DbNpZjLDh_vIMtlwr_vNqK/view)
