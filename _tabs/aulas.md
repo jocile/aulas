@@ -26,9 +26,9 @@ a:hover {
 
 &#xa0;  
 <a href="https://jocile.com/categories/meios-de-comunica%C3%A7%C3%A3o/" class="button">Meios de Comunicação de Dados</a> &#xa0; | &#xa0;
-<a href="https://jocile.com/categories/sistema-operacional-livre/" class="button">Montagem e instalação de Sistemas</a><br/><br/>
+<a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/" class="button">Montagem e instalação de Sistemas</a><br/><br/>
 &#xa0;  
-<a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/" class="button">Sistema Operacional Livre</a> &#xa0; | &#xa0;
+<a href="https://jocile.com/categories/sistema-operacional-livre/" class="button">Sistema Operacional Livre</a> &#xa0; | &#xa0;
 <a href="https://jocile.com/categories/software-de-aplica%C3%A7%C3%A3o/" class="button">Software de Aplicação</a> &#xa0; | &#xa0;
 <a href="https://github.com/jocile/redes-de-computadores"><button style = "color: red">Matérias em PDF</button></a>
 
@@ -49,4 +49,4 @@ Meu nome é Jocilé M. Serra e trabalho como professor👨‍🏫 de computaçã
 - [Estudos teológicos](https://jocile.com/teologia/)
 
 > **Nota:**
-> Dúvidas ou sugestões participe das [discussões](https://github.com/jocile/redes-de-computadores/discussions)
+> Dúvidas ou sugestões comente na área das [discussões](https://github.com/jocile/redes-de-computadores/discussions)
