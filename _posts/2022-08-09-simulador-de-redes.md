@@ -26,7 +26,7 @@ O programa apresenta uma interface gráfica simples, e possibilita ao estudante 
 
 ## Versão atual
 
-Novo lançamento! Cisco #PacketTracer 8.2 📣
+Novo lançamento! [Cisco PacketTracer 8.2 📣](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
 
 As atualizações da nova versão incluem:
 
@@ -41,6 +41,7 @@ As atualizações da nova versão incluem:
 
 ## Referências
 
+- [Paket Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
 - [Cursos - Cisco Skills for all](https://skillsforall.com/)
 - [netacad.com](https://www.netacad.com/pt-br) = A Academia Cisco Network proporciona cursos e o download do aplicativo.
 - [Blog labcisco](http://labcisco.blogspot.com/) = Proporciona artigos e exemplos de treinamento.
