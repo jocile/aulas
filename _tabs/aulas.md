@@ -25,11 +25,11 @@ a:hover {
 <div align="center">
 
 &#xa0;  
-<a href="https://jocile.com/categories/meios-de-comunica%C3%A7%C3%A3o/" class="button">Meios de Comunicação de Dados</a> &#xa0; | &#xa0;
-<a href="https://jocile.com/categories/montagem-e-instala%C3%A7%C3%A3o-de-sistemas/" class="button">Montagem e instalação de Sistemas</a><br/><br/>
+<a href="{% post_url 2022-08-02-meios-de-comunicacao %}" class="button">Meios de Comunicação de Dados</a> &#xa0; | &#xa0;
+<a href="{% post_url 2022-08-01-montagem-e-instalacao %}" class="button">Montagem e instalação de Sistemas</a><br/><br/>
 &#xa0;  
-<a href="https://jocile.com/categories/sistema-operacional-livre/" class="button">Sistema Operacional Livre</a> &#xa0; | &#xa0;
-<a href="https://jocile.com/categories/software-de-aplica%C3%A7%C3%A3o/" class="button">Software de Aplicação</a> &#xa0; | &#xa0;
+<a href="{% post_url 2022-08-04-sistemas-operacionais-livres %}" class="button">Sistemas Operacionais Livres</a> &#xa0; | &#xa0;
+<a href="{% post_url 2022-08-03-softwares-de-aplicacao %}" class="button">Softwares de Aplicação</a> &#xa0; | &#xa0;
 <a href="https://github.com/jocile/redes-de-computadores"><button style = "color: red">Matérias em PDF</button></a>
 
 </div>
@@ -39,7 +39,7 @@ a:hover {
 
 Meu nome é Jocilé M. Serra e trabalho como professor👨‍🏫 de computação em Escolas Profissionais ([EEEP](https://www.ceara.gov.br/2018/03/16/ceara-comemora-10-anos-das-escolas-estaduais-de-educacao-profissional/)) desde 2018, ministrando [aulas nos cursos técnicos em Redes de computadores e Informática](https://aulas.jocile.com/), e também como [instrutor de informática](https://senac.jocile.com/) no [SENAC](https://cursos.ce.senac.br/) ministrando sobre sistemas operacionais e pacote office, e tenho me aventurado em desenvolvimento de sistemas.
 
-- [Arquivos de aulas dos cursos técnicos em Redes de computadores e Informática](https://aulas.jocile.com/)
+- [Arquivos de aulas anteriores dos cursos técnicos em Redes de computadores e Informática](https://aulas.jocile.com/)
 - [instagram](https://www.instagram.com/jocileserra/).
 - Currículo no [Linkedin](https://www.linkedin.com/in/jocil%C3%A9-serra-56298838/).
 - [canal no YouTube](https://www.youtube.com/channel/UC4YYb0PmbcHJJgEX-fkoutg).

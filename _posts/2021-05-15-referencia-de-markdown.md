@@ -1,6 +1,6 @@
 ---
 title:  "Referência de formatação em Markdown"
-date: 2022-09-18 17:05:00 -0300
+date: 2022-05-15 17:05:00 -0300
 categories: [DESENVOLVIMENTO, MARKDOWN]
 tags: [web, github, estilo, markdown]
 ---
