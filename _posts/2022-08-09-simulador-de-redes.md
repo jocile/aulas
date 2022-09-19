@@ -2,7 +2,7 @@
 title:  "Simulador de redes"
 author: Prof. Jocilé Serra
 date: 2022-08-09 20:00:00 -0300
-categories: [AULAS, SOFTWARE DE APLICAÇÃO]
+categories: [AULAS, SOFTWARES DE APLICAÇÃO]
 tags: [simulador, redes]
 ---
 O Cisco Packet Tracer é um programa educacional gratuito que permite simular uma rede de computadores.
