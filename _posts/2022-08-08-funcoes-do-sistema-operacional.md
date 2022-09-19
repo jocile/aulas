@@ -2,7 +2,7 @@
 title:  "Funções do Sistema Operacional"
 author: Prof. Jocilé Serra
 date: 2022-08-08 21:00:00 -0300
-categories: [AULAS, SISTEMA OPERACIONAL LIVRE]
+categories: [AULAS, SISTEMAS OPERACIONAIS LIVRES]
 tags: [linux, devops]
 ---
 A principal função do Sistema Operacional é gerenciar recursos, tais como os usuários, as memórias para os arquivos e o hardware com os dispositivos de entrada e saída, os aplicativos, a comunicação em rede, etc.

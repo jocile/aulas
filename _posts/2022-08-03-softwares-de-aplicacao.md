@@ -10,13 +10,14 @@ Explorar as possibilidades dos softwares de aplicação segundo as condições e
 ## Planejamento
 
 * [X] Apresentação da Disciplina, introdução aos Softwares de redes;
-* [X] Softwares de gerenciamento de redes;
-* [X] Software de Scanner WiFi: WiFiman.
+* [X] Software de simulação de redes;
+* [X] Softwares de gerenciamento de redes: Packet Tracer;
+* [X] Software de ecaneamento de WiFi: WiFiman.
 * [ ] Softwares de mapeamento e monitoramento de redes: The Dude manual, minicurso, download.
 * [ ] Softwares de gerenciamento e monitoramento de redes;
 * [ ] Softwares de monitoramento de redes: Zabbix.
 * [ ] Softwares abordados:
-  * [x] Packet Tracer - Simulador de redes; LabCisco
+  * [x] [Packet Tracer - Simulador de redes]({% post_url 2022-08-09-simulador-de-redes %}); LabCisco
   * [x] Wireshark - Sniffer de rede;
   * [x] WiFiman - scanner de rede WiFi;
   * [ ] The Dude - Mapeamento e monitoramento da rede;
