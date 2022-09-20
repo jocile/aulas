@@ -52,9 +52,9 @@ Existem também os criadores de diagramas de redes, usados para projetos, monito
 
 1. Como vimos, para monitorar e gerenciar as redes de computadores é indispensável o uso de softwares como ferramentas, dentre os softwares de rede apresentados escolha 5, pesquise e apresente as suas características como empresa criadora, se é freeware,open source ou proprietário, onde pode ser instalado e que funções desempenha na rede.
 
-Exemplo:
+   > Exemplo:
 
-      WifiMan 
+      WifiMan
 
       Empresa: Ubiquiti
       Freeware
@@ -66,7 +66,7 @@ Exemplo:
       Mede a velocidade da conexão da internet;
       Mede a potência do sinal WiFi para escolher o roteador mais próximo
 
-2. Em equipes de no máximo 4 partipantes, serão distribuídos os softwares para serem apresentados em seminários descrevendo as principais características como: empresa criadora, se é possível ser remoto,  método de instalação e utilidade prática.
+1. Em equipes de no máximo 4 partipantes, serão distribuídos os softwares para serem apresentados em seminários descrevendo as principais características como: empresa criadora, se é possível ser remoto,  método de instalação e utilidade prática.
 
 ## Referências
 

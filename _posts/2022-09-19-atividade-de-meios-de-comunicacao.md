@@ -1,7 +1,7 @@
 ---
 title:  "Atividade de Meios de Comunicação de Dados"
 author: Prof. Jocilé Serra
-date: 2022-08-19 21:00:00 -0300
+date: 2022-09-19 21:00:00 -0300
 categories: [AULAS, MEIOS DE COMUNICAÇÃO]
 tags: [atividades, meios]
 ---
