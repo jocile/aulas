@@ -1,7 +1,7 @@
 ---
 title:  "Atividade de Meios de Comunicação de Dados"
 author: Prof. Jocilé Serra
-date: 2022-08-10 21:00:00 -0300
+date: 2022-08-19 21:00:00 -0300
 categories: [AULAS, MEIOS DE COMUNICAÇÃO]
 tags: [atividades, meios]
 ---
@@ -10,15 +10,15 @@ tags: [atividades, meios]
 
 1. Identifique a respectiva característica da camada de rede do padrão OSI
 
-   | Camada OSI   |                                   propriedade |
-   | ------------ | --------------------------------------------: |
-   | Aplicação    |      Usa o protocolo TCP de pacotes de dados. |
-   | Apresentação |           Equipamentos para conexão de redes. |
-   | Sessão       |        Usa o protocolo IP para endereçamento. |
-   | Transporte   | Meios de transmissão como cabo ou fibra ótica |
-   | Rede         |                  Abre o canal de comunicação. |
-   | Enlace       |                     Traduz o formato de dados |
-   | Física       |            Interage diretamente com o usuário |
+   | Camada OSI       |                                        propriedade |
+   | ---------------- | -------------------------------------------------: |
+   | (7) Aplicação    |       Usa o protocolo TCP de pacotes de dados (__) |
+   | (6) Apresentação |            Equipamentos para conexão de redes (__) |
+   | (5) Sessão       |         Usa o protocolo IP para endereçamento (__) |
+   | (4) Transporte   | Meios de transmissão como cabo ou fibra ótica (__) |
+   | (3) Rede         |                   Abre o canal de comunicação (__) |
+   | (2) Enlace       |                     Traduz o formato de dados (__) |
+   | (1) Física       |            Interage diretamente com o usuário (__) |
 
 1. Qual a principal vantagem do WiFi?
 
