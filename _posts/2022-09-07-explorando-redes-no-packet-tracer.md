@@ -3,8 +3,7 @@ title:  "Explorando redes no Packet Tracer"
 author: Prof. Jocilé Serra
 date: 2022-09-07 20:00:00 -0300
 categories: [AULAS, MEIOS DE COMUNICAÇÃO]
-tags: [redes, meios, simulador]
-mermaid: true
+tags: [redes, meios, simulador, práticas]
 ---
 Roteiro de práticas no simulador de redes Packet Tracer.
 
@@ -83,6 +82,6 @@ Caso ainda não tenha o Packet Tracer acesse a área de [recursos de aprendizage
 ## Referências
 
 - [Simulador de redes]({% post_url 2022-08-09-simulador-de-redes %})
-- [Cursos - Cisco Skills for all](https://skillsforall.com/)
+- [Curso Explorando Redes com Packet Tracer - Cisco Skills for all](https://skillsforall.com/course/exploring-networking-cisco-packet-tracer)
 - [Paket Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
 - [Extenção Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).
