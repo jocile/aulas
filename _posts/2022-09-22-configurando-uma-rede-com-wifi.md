@@ -1,5 +1,5 @@
 ---
-title:  "Explorando redes no Packet Tracer"
+title:  "Configurando uma rede com WiFi"
 author: Prof. Jocilé Serra
 date: 2022-09-22 15:00:00 -0300
 categories: [AULAS, MEIOS DE COMUNICAÇÃO]
@@ -45,7 +45,7 @@ Para configurar a rede WiFi será necessário acessar o utilitário de configura
      - Os dispositivos sem fio contêm transmissores/receptores de rádio que funcionam dentro de uma faixa de frequência específica. Se um dispositivo tiver apenas o rádio necessário para 802.11 b/g, ele não se conectará se o roteador ou ponto de acesso sem fio estiver configurado para aceitar apenas os padrões 802.11n ou 802.11ac. Se todos os dispositivos suportarem o mesmo padrão, a rede funcionará em sua velocidade ideal.  
      - Se você tiver dispositivos que não suportam os padrões n ou ac, será necessário habilitar o modo legado. Um ambiente de rede sem fio de modo legado varia entre os modelos de roteador, mas pode incluir uma combinação de 802.11a, 802.11b, 802.11g, 802.11n e 802.11ac.
 1. Definir um canal livre:
-     - Se na vizinhança existem outros roteadores devemos usar um scanner de canais para verificar um canal livre e evitar interferência, roteadores moderno fazem esta procura automaticamente.
+     - Se na vizinhança existem outros roteadores devemos usar um scanner de canais para verificar um canal livre e evitar interferência, roteadores moderno fazem esta procura automaticamente, um exemplo de software scanner é o [Ubiquiti WiFiman](https://wifiman.com/).
 1. Definir a segurança de acesso:
      - Configurar o usário e senha;
      - Configurar o tipo de criptografia da senha;
