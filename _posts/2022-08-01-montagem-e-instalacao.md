@@ -16,13 +16,13 @@ Conhecer a competência de analisar a arquitetura e o funcionamento de um sistem
 * [x] [Componentes eletrônicos]({% post_url 2022-08-28-componentes-eletronicos %})
 * [x] Modos de transmissão
 * [x] [Conceitos do sistema informático]({% post_url 2022-09-04-sistema-informatico %})
-* [ ] [A história e evolução dos computadores](https://www.tecmundo.com.br/tecnologia-da-informacao/1697-a-historia-dos-computadores-e-da-computacao.htm)
-* [ ] [Overclock e atualizações](https://canaltech.com.br/hardware/o-que-e-overclock-1041/)
-* [ ] O ambiente adequado para montagem
-* [ ] O Gabinete para montagem
-* [ ] [Fonte de alimentação](https://www.infowester.com/fontesatx.php)
-* [ ] Instalando a [placa-mãe](https://www.iperiusbackup.net/pt-br/explicando-as-caracteristicas-do-chipset-e-qual-sua-importancia/)
-* [ ] Tipos de processadores: [Intel](https://canaltech.com.br/hardware/o-que-e-memoria-ram/), [AMD](https://canaltech.com.br/empresa/amd/)
+* [x] [A história e evolução dos computadores](https://www.tecmundo.com.br/tecnologia-da-informacao/1697-a-historia-dos-computadores-e-da-computacao.htm)
+* [x] [Overclock e atualizações](https://canaltech.com.br/hardware/o-que-e-overclock-1041/)
+* [x] O ambiente adequado para montagem
+* [x] O Gabinete para montagem
+* [x] [Fonte de alimentação](https://www.infowester.com/fontesatx.php)
+* [x] Instalando a [placa-mãe](https://www.iperiusbackup.net/pt-br/explicando-as-caracteristicas-do-chipset-e-qual-sua-importancia/)
+* [x] Tipos de processadores: [Intel](https://canaltech.com.br/hardware/o-que-e-memoria-ram/), [AMD](https://canaltech.com.br/empresa/amd/)
 * [ ] Instalação do processador
 * [ ] Instalação dos pentes de [memória](https://canaltech.com.br/hardware/o-que-e-memoria-ram/)
 * [ ] Tipos de conexões de cabos
@@ -35,8 +35,11 @@ Conhecer a competência de analisar a arquitetura e o funcionamento de um sistem
 
 ## Avaliações
 
-* [ ] Práticas no laboratório
+* [ ] Práticas no laboratório:
   * [x] Orçamento de montagem: [Monte seu PC - meupc.net](https://meupc.net/)
+  * [x] Reconhecimento de ferramentas básicas
+  * [x] Reconhecimento de peças do computador
+  * [x] Reconhecimento de componentes da placa-mãe
 * [ ] Avaliações globais
   * [x] Avaliação global 1
   * [ ] Avaliação global 2
