@@ -3,11 +3,11 @@ title:  "Configurando uma rede com WiFi"
 author: Prof. Jocilé Serra
 date: 2022-09-22 15:00:00 -0300
 categories: [AULAS, MEIOS DE COMUNICAÇÃO]
-tags: [redes, meios, simulador, wifi, práticas]
+tags: [redes, meios, simulador, WiFi, práticas]
 ---
 Roteiro de práticas no simulador de redes Packet Tracer.
 
-Todas as práticas seguem os cursos oficiais da Cisco Network Academy, que estão disponíveis na plataforma [Skills for all](https://skillsforall.com/), elas contêm vídeos e tutoriais que estão em inglês e podem ser traduzidas com a [extenção Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).
+Todas as práticas seguem os cursos oficiais da Cisco Network Academy, que estão disponíveis na plataforma [Skills for all](https://skillsforall.com/), elas contêm vídeos e tutoriais que estão em inglês e podem ser traduzidas com a [extensão Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).
 
 ## Objetivos
 
@@ -61,7 +61,7 @@ Para configurar a rede WiFi será necessário acessar o utilitário de configura
 Nesta atividade do Packet Tracer, você concluirá os seguintes objetivos:
 
 1. Acesse o catálogo de cursos na [plataforma Skills for all](https://skillsforall.com/) e selecione o curso: Networking Basics: Build a Home Network (Noções básicas de rede: Construa uma rede doméstica);
-1. Selecione o ítem 4.4.4: Packet Tracer - Configurar um roteador e cliente sem fio;
+1. Selecione o item 4.4.4: Packet Tracer - Configurar um roteador e cliente sem fio;
 1. Faça do download do [arquivo](https://contenthub.netacad.com/sgp/nb/1.0/en-US/m4/course/pt-BR/assets/4.4.4-packet-tracer---configure-a-wireless-router-and-clients.pka) e abra-o no Packet Tracer;
 1. Realize as atividades conforme as instruções que acompanham o arquivo:
    - Parte 1: Conecte os dispositivos
@@ -72,5 +72,5 @@ Nesta atividade do Packet Tracer, você concluirá os seguintes objetivos:
 
 - [Simulador de redes]({% post_url 2022-08-09-simulador-de-redes %})
 - [Curso Conceitos Básicos de Redes - Cisco Skills for all](https://skillsforall.com/course/networking-basics?userLang=pt-BR)
-- [Paket Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
-- [Extenção Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).
+- [Packet Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
+- [Extensão Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).

@@ -7,7 +7,7 @@ tags: [redes, meios, simulador, práticas]
 ---
 Roteiro de práticas no simulador de redes Packet Tracer.
 
-Todas as práticas seguem os cursos oficiais da Cisco Network Academy, que estão disponíveis na plataforma [Skills for all](https://skillsforall.com/), elas contêm vídeos e tutoriais que estão em inglês e podem ser traduzidas com a [extenção Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).
+Todas as práticas seguem os cursos oficiais da Cisco Network Academy, que estão disponíveis na plataforma [Skills for all](https://skillsforall.com/), elas contêm vídeos e tutoriais que estão em inglês e podem ser traduzidas com a [extensão Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).
 
 ## Objetivos
 
@@ -24,7 +24,7 @@ Caso ainda não tenha o Packet Tracer acesse a área de [recursos de aprendizage
 ![Image](https://user-images.githubusercontent.com/45495068/189006411-a994beab-3859-414b-932c-86c4bd1d9d52.png)
 
 1. Acesse o capítulo 1: Configure sua rede de pequenos escritórios - Set Up Your Small Office Network;
-2. Selecione o ítem 1.1.4: Packet Tracer - Criar cabeamento estruturado realista no espaço de trabalho físico e dispositivos de cabeamento em um rack;
+2. Selecione o item 1.1.4: Packet Tracer - Criar cabeamento estruturado realista no espaço de trabalho físico e dispositivos de cabeamento em um rack;
 3. Faça do download do [arquivo](https://contenthub.netacad.com/sgp/i2ptnet/1.0/en-US/m1/course/en-US/assets/1.1.4packet-tracer-create-realistic-structured-cablinginthe-physical-workspaceand-cabling-devices-ina-rack.pka) e abra-o no Packet Tracer;
 4. Realize as atividades conforme as instruções:
    - Parte 1: Instale um Patch Panel no armário de fiação;
@@ -36,7 +36,7 @@ Caso ainda não tenha o Packet Tracer acesse a área de [recursos de aprendizage
 ![Image](https://user-images.githubusercontent.com/45495068/189006998-23c3375c-741e-4986-8914-d31527448b6b.png)
 
 1. Selecione o capítulo 2: Gerencie e monitore sua rede de pequenos escritórios - Manage and Monitor Your Small Office Network;
-2. Selecione o ítem 2.0.3: Packet Tracer - Examine pacotes em um pequeno escritório;
+2. Selecione o item 2.0.3: Packet Tracer - Examine pacotes em um pequeno escritório;
 3. Faça do download do [arquivo](https://contenthub.netacad.com/sgp/i2ptnet/1.0/en-US/m2/course/en-US/assets/2.0.3packettracerexaminepacketsinesmalloffice.pka) e abra-o no Packet Tracer;
 4. Realize as atividades conforme as instruções:
    - Parte 1: Criar uma PDU simples no modo de simulação;
@@ -48,7 +48,7 @@ Caso ainda não tenha o Packet Tracer acesse a área de [recursos de aprendizage
 ![Image](https://user-images.githubusercontent.com/45495068/189008426-fb06ecfc-0ea0-463d-8137-686daba63d7e.png)
 
 1. Selecione o capítulo 2: Gerencie e monitore sua rede de pequenos escritórios - Manage and Monitor Your Small Office Network;
-2. Selecione o ítem 2.0.7: Packet Tracer - Editar topologias;
+2. Selecione o item 2.0.7: Packet Tracer - Editar topologias;
 3. Faça do download do [arquivo](https://contenthub.netacad.com/sgp/i2ptnet/1.0/en-US/m2/course/en-US/assets/2.0.7packetrtacer-edittoplogies.pka) e abra-o no Packet Tracer;
 4. Realize as atividades conforme as instruções:
    - Parte 1: Adicionar um switch adicional ao rack na rede do escritório;
@@ -61,7 +61,7 @@ Caso ainda não tenha o Packet Tracer acesse a área de [recursos de aprendizage
 ![Image](https://user-images.githubusercontent.com/45495068/189009986-7a97d4ed-2ed2-4f20-a333-1466dc62c2a8.png)
 
 1. Selecione o capítulo 2: Gerencie e monitore sua rede de pequenos escritórios - Manage and Monitor Your Small Office Network;
-2. Selecione o ítem 2.1.3: Packet Tracer - Monitore sua rede usando um controlador de rede;
+2. Selecione o item 2.1.3: Packet Tracer - Monitore sua rede usando um controlador de rede;
 3. Faça do download do [arquivo](https://contenthub.netacad.com/sgp/i2ptnet/1.0/en-US/m2/course/en-US/assets/2.1.3packettracermonitoryournetworkusinganetworkcontroller.pka) e abra-o no Packet Tracer;
 4. Realize as atividades conforme as instruções:
    - Parte 1: Implementar um controlador de rede;
@@ -72,7 +72,7 @@ Caso ainda não tenha o Packet Tracer acesse a área de [recursos de aprendizage
 ![Image](https://user-images.githubusercontent.com/45495068/189011177-7063f412-5316-459f-b700-a08dc11e80a4.png)
 
 1. Selecione o capítulo 2: Gerencie e monitore sua rede de pequenos escritórios - Manage and Monitor Your Small Office Network;
-2. Selecione o ítem 2.1.5: Packet Tracer - Gerencie e configure sua rede usando um controlador de rede;
+2. Selecione o item 2.1.5: Packet Tracer - Gerencie e configure sua rede usando um controlador de rede;
 3. Faça do download do [arquivo](https://contenthub.netacad.com/sgp/i2ptnet/1.0/en-US/m2/course/en-US/assets/2.1.5-packet-tracer-manage-and-configure-your-network-using-a-network-controller.pka) e abra-o no Packet Tracer;
 4. Realize as atividades conforme as instruções:
    - Parte 1: Implementar um controlador de rede;
@@ -83,5 +83,5 @@ Caso ainda não tenha o Packet Tracer acesse a área de [recursos de aprendizage
 
 - [Simulador de redes]({% post_url 2022-08-09-simulador-de-redes %})
 - [Curso Explorando Redes com Packet Tracer - Cisco Skills for all](https://skillsforall.com/course/exploring-networking-cisco-packet-tracer)
-- [Paket Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
-- [Extenção Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).
+- [Packet Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
+- [Extensão Google tradutor do Chrome](https://canaltech.com.br/utilitarios/conheca-a-extensao-do-google-tradutor-para-o-chrome/).

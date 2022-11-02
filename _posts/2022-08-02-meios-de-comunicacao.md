@@ -22,16 +22,16 @@ As redes de computadores vieram para revolucionar a forma como nos comunicamos p
   * [x] Conhecer e entender as redes Wi-Fi
   * [x] Conhecer os padrões do protocolo 802.11
   * [x] Configurar uma rede Wi-Fi com roteador
-  * [ ] Conhecer os algoritmos de criptografia
+  * [x] Conhecer os algoritmos de criptografia
   * [ ] Conhecer e entender as redes WiMAX
-  * [ ] Conhecer os tipos de antenas
-  * [ ] Apresentar os conectores e cabos
-  * [ ] Apresentar os modelos de antenas  
+  * [x] Conhecer os tipos de antenas
+  * [x] Apresentar os conectores e cabos
+  * [x] Apresentar os modelos de antenas  
 * [ ] FASE II: Acesso Remoto
-  * [ ] Apresentar os sistemas de redes.
-  * [ ] Definir uma rede virtual privada
-  * [ ] Conhecer os elementos de uma VPN
-  * [ ] Apresentar as vantagens e desvantagens de uma VPN
+  * [x] Apresentar os sistemas de redes.
+  * [x] Definir uma rede virtual privada
+  * [x] Conhecer os elementos de uma VPN
+  * [x] Apresentar as vantagens e desvantagens de uma VPN
   * [ ] Identificar os principais equipamentos de acesso remoto
   * [ ] Conhecer os mecanismos de segurança de um acesso remoto
   * [ ] Instalar ferramentas de acesso remoto
@@ -41,8 +41,10 @@ As redes de computadores vieram para revolucionar a forma como nos comunicamos p
 
 ## Avaliações
 
-* [ ] Práticas no laboratório com simulador de redes Packet Tracer
+* [x] [Atividade]({% post_url 2022-09-19-atividade-de-meios-de-comunicacao %})
+* [x] Práticas no laboratório com simulador de redes Packet Tracer
   * [x] Curso da Cisco: [Explorando Redes]({% post_url 2022-09-07-explorando-redes-no-packet-tracer %})
+  * [x] Curso da Cisco: [Configurando uma rede com WiFi]({% post_url 2022-09-22-configurando-uma-rede-com-wifi %})
 * [ ] Avaliações globais
   * [x] Avaliação global 1
   * [ ] Avaliação global 2
@@ -50,7 +52,8 @@ As redes de computadores vieram para revolucionar a forma como nos comunicamos p
 ## Referências
 
 * [Apostila da disciplina de Redes de Computadores](https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores.pdf). Secretaria da Educação do Ceará.
-* [Paket Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
+* [Packet Tracer BR download](https://skillsforall.com/resources/lab-downloads?userLang=pt-BR)
+* [Curso da Cisco: Conceitos básicos de redes](https://skillsforall.com/course/networking-basics?userLang=pt-BR)
 * [Aulas anteriores de Meios de Comunicação](https://aulas.jocile.com/redes/meios-de-comunica%C3%A7%C3%A3o-de-dados)
 * [Kanban de planejamento da disciplina](https://github.com/users/jocile/projects/9)
 * [Dúvidas e sugestões](https://github.com/jocile/redes-de-computadores/discussions)
