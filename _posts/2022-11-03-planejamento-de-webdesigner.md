@@ -22,20 +22,20 @@ Atua em organizações públicas, privadas ou do Terceiro Setor de diversos segm
 * [ ] UC1: Elaborar projetos de aplicações para web. Carga Horária: 36 horas;
   * [x] Briefing: conceito, especificidades para projetos web e modelos;
   * [x] Técnicas de criatividade: brainstorming, mapas mentais e painéis semânticos;
-  * [ ] Análise de mercado: identificação do perfil do cliente e público-alvo, concorrentes diretos e indiretos;
-  * [ ] Domínios de internet: conceito, registro e disponibilidade de serviços;
-  * [ ] Projetos web: tendências, tecnologias, gestão de projetos (custos, calendários de tarefas e relatórios de acompanhamento);
-  * [ ] Arquitetura da informação: conceito e aplicações, mapa do site e estruturas de navegação, organização de conteúdo;
-  * [ ] Proposta comercial: características, requisitos, elaboração e modelos de contrato de serviço;
-  * [ ] Análise de requisitos: conceitos e técnicas;
+  * [x] Análise de mercado: identificação do perfil do cliente e público-alvo, concorrentes diretos e indiretos;
+  * [x] Domínios de internet: conceito, registro e disponibilidade de serviços;
+  * [x] Projetos web: tendências, tecnologias, gestão de projetos (custos, calendários de tarefas e relatórios de acompanhamento);
+  * [x] Arquitetura da informação: conceito e aplicações, mapa do site e estruturas de navegação, organização de conteúdo;
+  * [x] Proposta comercial: características, requisitos, elaboração e modelos de contrato de serviço;
+  * [x] Análise de requisitos: conceitos e técnicas;
 * [ ] UC2: Desenvolver aplicações para websites. Carga Horária: 72 horas;
-  * [ ] Imagem digital: Conceitos de vetor e bitmap, formatos e aplicações, unidades de medida, densidade de pixels, taxa de bits, animações web;
-  * [ ] Comunicação visual: Tipografia, teoria e modos de cor, grid e alinhamento, Gestalt (conceito e aplicabilidade);
-  * [ ] Wireframes e protótipos: conceito, estrutura e desenvolvimento;
-  * [ ] Design responsivo: conceitos e aplicações;
-  * [ ] Projeto de website: características funcionais, usabilidade, acessibilidade e ergonomia;
-  * [ ] Estrutura semântica: conceitos, linguagem de marcação de conteúdo;
-  * [ ] Estilização de páginas: definições de estilos
+  * [x] Imagem digital: Conceitos de vetor e bitmap, formatos e aplicações, unidades de medida, densidade de pixels, taxa de bits, animações web;
+  * [x] Comunicação visual: Tipografia, teoria e modos de cor, grid e alinhamento, Gestalt (conceito e aplicabilidade);
+  * [x] Wireframes e protótipos: conceito, estrutura e desenvolvimento;
+  * [x] Design responsivo: conceitos e aplicações;
+  * [x] Projeto de website: características funcionais, usabilidade, acessibilidade e ergonomia;
+  * [x] Estrutura semântica: conceitos, linguagem de marcação de conteúdo;
+  * [x] Estilização de páginas: definições de estilos
 e integração com estrutura de conteúdo;
   * [ ] Web standards: boas práticas e padrões recomendados pelo W3C;
   * [ ] Desempenho e compatibilidade: conceito e ferramentas;
