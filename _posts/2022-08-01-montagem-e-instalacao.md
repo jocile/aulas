@@ -23,19 +23,19 @@ Conhecer a competência de analisar a arquitetura e o funcionamento de um sistem
 * [x] [Fonte de alimentação](https://www.infowester.com/fontesatx.php)
 * [x] Instalando a [placa-mãe](https://www.iperiusbackup.net/pt-br/explicando-as-caracteristicas-do-chipset-e-qual-sua-importancia/)
 * [x] Tipos de processadores: [Intel](https://canaltech.com.br/hardware/o-que-e-memoria-ram/), [AMD](https://canaltech.com.br/empresa/amd/)
-* [ ] Instalação do processador
-* [ ] Instalação dos pentes de [memória](https://canaltech.com.br/hardware/o-que-e-memoria-ram/)
-* [ ] Tipos de conexões de cabos
-* [ ] Instalação de drivers de HDD e DVD-ROM
-* [ ] Instalação de placas de expansão
-* [ ] Alimentação do pc
-* [ ] Ligando o computador após a montagem
-* [ ] O boot do sistema - [BIOS ou UEFI](https://canaltech.com.br/hardware/o-que-e-uefi/)
-* [ ] Problemas comuns na inicialização
+* [x] Instalação do processador
+* [x] Instalação dos pentes de [memória](https://canaltech.com.br/hardware/o-que-e-memoria-ram/)
+* [x] Tipos de conexões de cabos
+* [x] Instalação de drivers de HDD e DVD-ROM
+* [x] Instalação de placas de expansão
+* [x] Alimentação do pc
+* [x] Ligando o computador após a montagem
+* [x] O boot do sistema - [BIOS ou UEFI](https://canaltech.com.br/hardware/o-que-e-uefi/)
+* [x] Problemas comuns na inicialização
 
 ## Avaliações
 
-* [ ] Práticas no laboratório:
+* [x] Práticas no laboratório:
   * [x] Orçamento de montagem: [Monte seu PC - meupc.net](https://meupc.net/)
   * [x] Reconhecimento de ferramentas básicas
   * [x] Reconhecimento de peças do computador
