@@ -19,7 +19,7 @@ Atua em organizações públicas, privadas ou do Terceiro Setor de diversos segm
 
 ### Web Designer
 
-* [ ] UC1: Elaborar projetos de aplicações para web. Carga Horária: 36 horas;
+* [x] UC1: Elaborar projetos de aplicações para web. Carga Horária: 36 horas;
   * [x] Briefing: conceito, especificidades para projetos web e modelos;
   * [x] Técnicas de criatividade: brainstorming, mapas mentais e painéis semânticos;
   * [x] Análise de mercado: identificação do perfil do cliente e público-alvo, concorrentes diretos e indiretos;
@@ -28,7 +28,7 @@ Atua em organizações públicas, privadas ou do Terceiro Setor de diversos segm
   * [x] Arquitetura da informação: conceito e aplicações, mapa do site e estruturas de navegação, organização de conteúdo;
   * [x] Proposta comercial: características, requisitos, elaboração e modelos de contrato de serviço;
   * [x] Análise de requisitos: conceitos e técnicas;
-* [ ] UC2: Desenvolver aplicações para websites. Carga Horária: 72 horas;
+* [x] UC2: Desenvolver aplicações para websites. Carga Horária: 72 horas;
   * [x] Imagem digital: Conceitos de vetor e bitmap, formatos e aplicações, unidades de medida, densidade de pixels, taxa de bits, animações web;
   * [x] Comunicação visual: Tipografia, teoria e modos de cor, grid e alinhamento, Gestalt (conceito e aplicabilidade);
   * [x] Wireframes e protótipos: conceito, estrutura e desenvolvimento;
@@ -37,11 +37,11 @@ Atua em organizações públicas, privadas ou do Terceiro Setor de diversos segm
   * [x] Estrutura semântica: conceitos, linguagem de marcação de conteúdo;
   * [x] Estilização de páginas: definições de estilos
 e integração com estrutura de conteúdo;
-  * [ ] Web standards: boas práticas e padrões recomendados pelo W3C;
-  * [ ] Desempenho e compatibilidade: conceito e ferramentas;
-  * [ ] Código do website:
+  * [x] Web standards: boas práticas e padrões recomendados pelo W3C;
+  * [x] Desempenho e compatibilidade: conceito e ferramentas;
+  * [x] Código do website:
 testes, validação e correção;
-  * [ ] Content Management System (CMS) - Interface, requisitos básicos, servidor local e banco de dados, configuração de usuários administrativos, customização,
+  * [x] Content Management System (CMS) - Interface, requisitos básicos, servidor local e banco de dados, configuração de usuários administrativos, customização,
  CSS e temas, plug-ins, implantação e publicação;
 * [ ] UC3: Publicar aplicações web. Carga Horária: 36 horas;
   * [ ] Tecnologias de Servidor web:
