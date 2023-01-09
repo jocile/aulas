@@ -25,12 +25,6 @@ Fora da bolha tecnológica gosto de brincar com meus filhos e [estudar a Bíblia
 
 ---
 
-## Tecnologias que estou estudando
-
-![Badges](https://github-readme-stats.vercel.app/api/top-langs/?username=jocile&layout=compact&langs_count=7)
-
----
-
 ## Contatos
 
  [![Istagran](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jocileserra)
