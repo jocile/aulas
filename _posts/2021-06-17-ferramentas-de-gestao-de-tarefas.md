@@ -51,7 +51,7 @@ Exemplo 5W2H fonte: [heflo](https://www.heflo.com/)
 
 ## Kanban
 
-Kanban é um termo japonês que significa “cartão”. Ele é um sistema de gestão visual para controle de tarefas e fluxos de trabalho através da utilização de colunas e cartões. [^2]
+Kanban é um termo japonês que significa "cartão". Ele é um sistema de gestão visual para controle de tarefas e fluxos de trabalho através da utilização de colunas e cartões. [^2]
 
 Criado na década de 60 como uma parte do Sistema Toyota de Produção com o objetivo de controlar o estoque de materiais para não exceder nem faltar produtos, provocando um equilíbrio entre o estoque e a linha de produção.
 
@@ -74,19 +74,7 @@ Um gráfico de Gantt é um tipo de gráfico de barras, desenvolvido pela primeir
 
 Os gráficos de Gantt registrarão cada tarefa agendada como uma barra contínua que se estende da esquerda para a direita. O eixo "x" representa o tempo e o eixo "y" registra as diferentes tarefas e a ordem em que devem ser concluídas.
 
-```mermaid
-
-gantt
-    title Diagrama de Gantt
-    dateFormat  YYYY-MM-DD
-    section Seção
-    Uma tarefa           :a1, 2021-01-01, 30d
-    outra tarefa     :after a1  , 20d
-    section Outra seção
-    Tarefa em sequência      :2021-01-12  , 12d
-    Mais uma tarefa      : 24d
-
-```
+![Diagrama de Gantt](https://user-images.githubusercontent.com/45495068/211387155-c623636d-1f58-4607-9058-430e55851367.png)
 
 ## Diagrama de Pert
 
@@ -109,7 +97,7 @@ Exemplo de Diagrama de Pert CPM.
 
  O CPM designa a ordem específica e a sequência de ações que inevitavelmente determinam a duração do projeto que você está definindo. Isso é especialmente útil no gerenciamento de projetos com áreas de sobreposição, longo consumo de tempo ou até mesmo atraso, porque você pode abordar o agendamento de um projeto em uma base de tarefa separada, visualizá-los em um fluxograma e, em seguida, obter uma estimativa quase exata no duração que cada tarefa individual exigirá. [^5]
 
- ![Diagrama CPM](https://image.slidesharecdn.com/seminariopertcpm-130711202158-phpapp02/95/seminrio-pertcpm-6-638.jpg?cb=1373574204)
+ ![Diagrama CPM](https://user-images.githubusercontent.com/45495068/211386088-4875c5dd-1776-4308-bda2-04781a4845db.png)
  Exemplo do diagrama CPM de construção.
 
 ## Diagrama de fluxo de trabalho
@@ -120,6 +108,8 @@ fornece uma visão geral gráfica do processo de negócios. Usando símbolos e f
 Exemplo de diagrama de fluxo
 
 ## Referências
+
+- [StarUML - editor de diagramas online](https://staruml.io/)
 
 [^1]: PAULA, Charlles B. O que é 5W2H: reduza incertezas, ganhe produtividade e aprenda como fazer um plano de ação. **Treasy blog**, 2015. Disponível em <https://www.treasy.com.br/blog/5w2h/>. Acessado em 17 de junho de 2021.
 
