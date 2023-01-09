@@ -109,7 +109,7 @@ Exemplo de diagrama de fluxo
 
 ## Referências
 
-- [StarUML - editor de diagramas online](https://staruml.io/)
+- [PlantUML - editor de diagramas online](https://plantuml.com/mindmap-diagram)
 
 [^1]: PAULA, Charlles B. O que é 5W2H: reduza incertezas, ganhe produtividade e aprenda como fazer um plano de ação. **Treasy blog**, 2015. Disponível em <https://www.treasy.com.br/blog/5w2h/>. Acessado em 17 de junho de 2021.
 

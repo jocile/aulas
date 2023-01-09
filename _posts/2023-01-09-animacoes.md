@@ -5,7 +5,7 @@ date: 2023-01-09 13:00:00 -0300
 categories: [AULAS, EDITOR GRÁFICO]
 tags: [Senac, animações, vídeos]
 ---
-Para criar animações interativas para jogos, programas de TV e a Web, como desenhos animados e anúncios de banner, além de conteúdo de e-learning e infográficos dinâmicos. 
+Para criar animações interativas para jogos, programas de TV e a Web, como desenhos animados e anúncios de banner, além de conteúdo de e-learning e infográficos dinâmicos.
 
 ## Animate
 
