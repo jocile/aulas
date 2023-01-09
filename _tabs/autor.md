@@ -26,54 +26,33 @@ Fora da bolha tecnológica gosto de brincar com meus filhos e [estudar a Bíblia
 ---
 
 ## Tecnologias que estou estudando
-  
-<div align="justify">
-  <a href="https://github.com/jocile">
-  <img height="150cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jocile&layout=compact&langs_count=7"/>
-  </a>  
-</div>
+
+![Badges](https://github-readme-stats.vercel.app/api/top-langs/?username=jocile&layout=compact&langs_count=7)
 
 ---
 
 ## Contatos
 
-<div>
+ [![Istagran](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jocileserra)
   
-  <a href="https://www.instagram.com/jocileserra" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
-  </a>
-  <a href="https://www.linkedin.com/in/jocil%C3%A9-serra-56298838" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-  </a>
-  <a href="https://twitter.com/jocileserra" target="_blank">
-    <img height="28px" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjocileserra" target="_blank">
-  </a>
-  <a href="mailto:jocilecam@gmail.com?subject=Ola%20amigo">
-    <img height="28px" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
-  </a>
-</div>
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white")](https://www.linkedin.com/in/jocil%C3%A9-serra-56298838)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jocilecam@gmail.com?subject=Ola%20amigo)
 
 ---
 
 ## Links
 
-<a href="https://jocile.com" target="_blank">
-  <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" target="_blank">
-</a>
-<a href="https://github.com/jocile" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank">
-</a>
-<a href="https://www.youtube.com/channel/UC4YYb0PmbcHJJgEX-fkoutg" target="_blank">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank">
-</a>
-<a href="http://programandopc.blogspot.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white" target="_blank">
-</a>
+[![Site](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://jocile.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jocile)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC4YYb0PmbcHJJgEX-fkoutg)
+[![Blogger](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](http://programandopc.blogspot.com/)
 
 - [Arquivos de aulas dos cursos técnicos em Redes de computadores e Informática](https://aulas.jocile.com/)
-
 
 - [Notas da Computação](https://sites.google.com/a/cienciasdacomputacao.org/jocile/Home) com matérias sobre Ciências da Computação
 - [Estudos teológicos](https://jocile.com/teologia/)
 
 ---
+
+Atualizado em 09.01.2023
