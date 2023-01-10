@@ -2,7 +2,7 @@
 title:  "Explorando redes no Packet Tracer"
 author: Prof. Jocilé Serra
 date: 2022-09-07 20:00:00 -0300
-categories: [AULAS, MEIOS DE COMUNICAÇÃO]
+categories: [AULAS 2022, MEIOS DE COMUNICAÇÃO]
 tags: [redes, meios, simulador, práticas]
 ---
 Roteiro de práticas no simulador de redes Packet Tracer.

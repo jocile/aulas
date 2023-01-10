@@ -2,7 +2,7 @@
 title:  "Tipos de Redes de Computadores"
 author: Prof. Jocilé Serra
 date: 2022-08-05 15:00:00 -0300
-categories: [AULAS, MEIOS DE COMUNICAÇÃO]
+categories: [AULAS 2022, MEIOS DE COMUNICAÇÃO]
 tags: [redes, meios]
 mermaid: true
 ---

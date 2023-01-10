@@ -2,7 +2,7 @@
 title:  "O Sistema Informático"
 author: Prof. Jocilé Serra
 date: 2022-09-04 19:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [manutenção, eletrônica]
 ---
 Um Sistema Informático trata-se de um conjuntos de equipamentos mecânicos e eletrônicos adequados e capazes de processar dados afim de que estes se tornem informação, de forma automática.

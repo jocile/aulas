@@ -2,7 +2,7 @@
 title:  "Conceitos de Eletricidade"
 author: Prof. Jocilé Serra
 date: 2022-08-14 19:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [eletricidade, proteção]
 ---
 A matéria que existe na natureza é constituída por elementos chamados de átomos, que vem do grego e significa indivisível, e sua estrutura de modelo foi proposta pelo físico inglês Lorde Ernest Rutherford, ela mostra que o mesmo se assemelha a uma miniatura de Sistema Solar, onde os elétrons (planetas) giram em torno do núcleo (Sol), que é constituído de prótons e nêutrons.

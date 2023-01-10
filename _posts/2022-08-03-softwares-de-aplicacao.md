@@ -2,7 +2,7 @@
 title:  "Planejamento de Softwares de aplicação"
 author: Prof. Jocilé Serra
 date: 2022-08-01 09:00:00 -0300
-categories: [AULAS, SOFTWARES DE APLICAÇÃO]
+categories: [AULAS 2022, SOFTWARES DE APLICAÇÃO]
 tags: [softwares, planejamento]
 ---
 Explorar as possibilidades dos softwares de aplicação segundo as condições e critérios, através da utilização de estudos de caso.

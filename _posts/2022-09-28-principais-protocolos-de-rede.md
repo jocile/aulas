@@ -2,7 +2,7 @@
 title:  "Principais protocolos de rede"
 author: Prof. Jocilé Serra
 date: 2022-09-28 15:00:00 -0300
-categories: [AULAS, MEIOS DE COMUNICAÇÃO]
+categories: [AULAS 2022, MEIOS DE COMUNICAÇÃO]
 tags: [redes, meios, simulador, protocolos, práticas]
 ---
 Roteiro de práticas no simulador de redes Packet Tracer.

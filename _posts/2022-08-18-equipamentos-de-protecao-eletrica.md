@@ -2,7 +2,7 @@
 title:  "Equipamentos de proteção elétrica"
 author: Prof. Jocilé Serra
 date: 2022-08-18 19:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [eletricidade, proteção]
 ---
 Problemas mais comuns que ocorrem na rede de energia são o pico e a queda de tensão. Mas para evitar esses problemas temos alguns formas equipamentos de proteção elétrica.

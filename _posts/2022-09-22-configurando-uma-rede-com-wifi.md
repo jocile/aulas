@@ -2,7 +2,7 @@
 title:  "Configurando uma rede com WiFi"
 author: Prof. Jocilé Serra
 date: 2022-09-22 15:00:00 -0300
-categories: [AULAS, MEIOS DE COMUNICAÇÃO]
+categories: [AULAS 2022, MEIOS DE COMUNICAÇÃO]
 tags: [redes, meios, simulador, WiFi, práticas]
 ---
 Roteiro de práticas no simulador de redes Packet Tracer.

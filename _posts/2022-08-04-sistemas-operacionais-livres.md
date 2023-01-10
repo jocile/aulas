@@ -2,7 +2,7 @@
 title:  "Planejamento de Sistemas Operacionais livres"
 author: Prof. Jocilé Serra
 date: 2022-08-04 09:00:00 -0300
-categories: [AULAS, SISTEMAS OPERACIONAIS LIVRES]
+categories: [AULAS 2022, SISTEMAS OPERACIONAIS LIVRES]
 tags: [linux, planejamento]
 ---
 Apresentar os conceitos práticos na utilização de sistemas operacionais livres analisando a estrutura de funcionamento das principais distribuições do mercado com ênfase na distribuição

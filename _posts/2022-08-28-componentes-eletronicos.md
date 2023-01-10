@@ -2,7 +2,7 @@
 title:  "Componentes eletrônicos"
 author: Prof. Jocilé Serra
 date: 2022-08-28 19:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [eletricidade, eletrônica]
 ---
 Componentes são elementos que manipulam os elétrons controlando a forma com eles que se movimentam em um circuito condutor.

@@ -2,7 +2,7 @@
 title:  "Sistemas numéricos"
 author: Prof. Jocilé Serra
 date: 2022-08-09 19:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [numérico, binário]
 ---
 Os sistemas numéricos, são usados para definir e representar quantidade de dados.

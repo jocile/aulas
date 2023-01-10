@@ -2,7 +2,7 @@
 title:  "Kit de ferramentas"
 author: Prof. Jocilé Serra
 date: 2022-10-10 09:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [montagem, ferramentas]
 ---
 Sugestões para ferramentas básicas para manutenção

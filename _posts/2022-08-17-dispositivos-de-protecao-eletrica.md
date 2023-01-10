@@ -2,7 +2,7 @@
 title:  "Dispositivos de proteção elétrica"
 author: Prof. Jocilé Serra
 date: 2022-08-17 19:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [eletricidade, proteção]
 ---
 

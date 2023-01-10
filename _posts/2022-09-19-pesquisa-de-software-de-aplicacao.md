@@ -2,7 +2,7 @@
 title:  "Pesquisa de Softwares de Aplicação"
 author: Prof. Jocilé Serra
 date: 2022-09-19 20:00:00 -0300
-categories: [AULAS, SOFTWARES DE APLICAÇÃO]
+categories: [AULAS 2022, SOFTWARES DE APLICAÇÃO]
 tags: [atividades, redes]
 ---
 Para cuidar de uma rede é muito importante usar ferramentas que monitoram, simulam, gerenciam e vigiam a rede para garantir o seu perfeito funcionamento.

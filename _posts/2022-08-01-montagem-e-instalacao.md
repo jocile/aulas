@@ -2,7 +2,7 @@
 title:  "Planejamento de Montagem e Instalação de Sistemas Informáticos"
 author: Prof. Jocilé Serra
 date: 2022-08-01 09:00:00 -0300
-categories: [AULAS, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
+categories: [AULAS 2022, MONTAGEM E INSTALAÇÃO DE SISTEMAS]
 tags: [montagem, planejamento]
 ---
 Conhecer a competência de analisar a arquitetura e o funcionamento de um sistema informático de acordo com as condições, critérios e necessidades encontradas.

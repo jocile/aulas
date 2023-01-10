@@ -2,7 +2,7 @@
 title:  "Conhecendo o Linux"
 author: Prof. Jocilé Serra
 date: 2022-08-15 18:00:00 -0300
-categories: [AULAS, SISTEMAS OPERACIONAIS LIVRES]
+categories: [AULAS 2022, SISTEMAS OPERACIONAIS LIVRES]
 tags: [linux, devops]
 ---
 O Linux é um dos sistema operacionais mais populares e é amplamente utilizado pelo segmento de servidores e desenvolvedores de software.
