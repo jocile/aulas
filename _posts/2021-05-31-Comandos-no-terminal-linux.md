@@ -2,7 +2,7 @@
 title:  "Comandos no terminal do linux"
 author: Prof. Jocilé Serra
 date: 2021-05-31 14:00:00 -0300
-categories: [AULAS, SISTEMAS OPERACIONAIS LIVRES]
+categories: [AULAS 2022, SISTEMAS OPERACIONAIS LIVRES]
 tags: [prompt, comandos, linux, manutenção]
 ---
 O linux permite realizar tarefas com o sistema operacional inserindo comandos no terminal. Cada comando aciona um programa, armazenado geralmente na pasta bin, e pode receber parâmetros com diversas opções.

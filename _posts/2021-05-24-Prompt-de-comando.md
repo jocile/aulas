@@ -2,7 +2,7 @@
 title:  "O Prompt de Comando"
 author: Prof. Jocilé Serra
 date: 2021-05-24 16:10:00 -0300
-categories: [AULAS, SISTEMA OPERACIONAL PROPRIETÁRIO]
+categories: [AULAS 2022, SISTEMA OPERACIONAL PROPRIETÁRIO]
 tags: [prompt, comandos, Windows, manutenção]
 ---
 **A base para o que conhecemos hoje do sistema Windows é o DOS (Disk Operating System), e hoje está embutido no sistema operacional. Isso possibilita a utilização do sistema digitando linhas de comandos, ou seja, instruções em texto que realizam tarefas.**
