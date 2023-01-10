@@ -14,18 +14,18 @@ Ubuntu.
 * [x] Conhecer as [principais distribuições Linux]({% post_url 2022-08-15-conhecendo-o-linux %}) existentes no mercado (distribuições de base);
 * [x] Conhecer os pré-requisitos de hardware para instalação do Linux;
 * [x] Praticar a instalação do sistema operacional Linux na distribuição Ubuntu;
-* [ ] Configurar o sistema operacional Ubuntu no pós-instalação (modo gráfico);
-* [ ] Entender a estruturação de diretórios Linux baseado na distribuição Ubuntu;
-* [ ] Operar com os principais comandos Linux através do terminal (ambiente de comandos);
-* [ ] Capacitar o aluno a instalar, configurar e resolver problemas apresentados pelo sistema operacional Ubuntu.
+* [x] Configurar o sistema operacional Ubuntu no pós-instalação (modo gráfico);
+* [x] Entender a estruturação de diretórios Linux baseado na distribuição Ubuntu;
+* [x] Operar com os principais comandos Linux através do terminal (ambiente de comandos);
+* [x] Capacitar o aluno a instalar, configurar e resolver problemas apresentados pelo sistema operacional Ubuntu.
 
 ## Avaliações
 
-* [ ] Práticas no laboratório
+* [x] Práticas no laboratório
   * [x] I[nstalação do Sistema Operacional Ubuntu](https://fiodevida.com/como-instalar-o-ubuntu-linux-no-windows-10-com-o-virtualbox/)
-* [ ] Avaliações globais
+* [x] Avaliações globais
   * [x] Avaliação global 1
-  * [ ] Avaliação global 2
+  * [x] Avaliação global 2
 
 ## Conteúdo programático
 

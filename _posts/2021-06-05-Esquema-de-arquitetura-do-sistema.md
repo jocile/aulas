@@ -53,35 +53,36 @@ graph LR
     PROJ --> IMP(Implementação)
     PROJ --> MAN(Manutenção)
 
-``` 
+```
 
 ## Modelagem do Sistema
+
 - Objetivo - Requisitos
   - Levantamento
-     - Entrevista
-     - Pesquisa
-     - Questionário
-     - Reuniões
-     - Observações
-   - Tipos de requisitos - Analista do sistema
-     - Funcionais - necessidades
-     - Não funcionais - desejáveis
-     - Do usuário - quem interage
-     - Do sistema
-     - Do software
+    - Entrevista
+    - Pesquisa
+    - Questionário
+    - Reuniões
+    - Observações
+  - Tipos de requisitos - Analista do sistema
+    - Funcionais - necessidades
+    - Não funcionais - desejáveis
+    - Do usuário - quem interage
+    - Do sistema
+    - Do software
 - Entradas
-   - Coleta de dados
-   - Análise dos dados
+  - Coleta de dados
+  - Análise dos dados
 - Processamento - Converte entradas em saídas
 - Saídas - Informações geradas pelo processamento
 - Retroalimentação - Informações sobre o comportamento do sistema
 - Ambiente - Meio de atuação do sistema
-   - Online
-   - Local
+  - Online
+  - Local
 - Recursos
-   - Dinheiro
-   - Equipamentos
-   - Pessoas capacitadas
+  - Dinheiro
+  - Equipamentos
+  - Pessoas capacitadas
 - Viabilidade
 - Projeto
   - Implementação
