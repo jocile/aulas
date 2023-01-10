@@ -43,15 +43,15 @@ e integração com estrutura de conteúdo;
 testes, validação e correção;
   * [x] Content Management System (CMS) - Interface, requisitos básicos, servidor local e banco de dados, configuração de usuários administrativos, customização,
  CSS e temas, plug-ins, implantação e publicação;
-* [ ] UC3: Publicar aplicações web. Carga Horária: 36 horas;
-  * [ ] Tecnologias de Servidor web:
+* [x] UC3: Publicar aplicações web. Carga Horária: 36 horas;
+  * [x] Tecnologias de Servidor web:
 conceitos e princípios de funcionamento;
-  * [ ] Serviços de hospedagem: gratuitos, pagos, compartilhados e dedicados;
-  * [ ] Gerenciamento do site: atualização de informações e backups;
-  * [ ] Transferência de arquivos: hospedagem via FTP e upload no servidor;
-  * [ ] Testes de desempenho: comportamento e integridade do website;
-* [ ] UC4: Projeto Integrador Web designer(16  horas)
-  * [ ] desenvolver as etapas do website,
+  * [x] Serviços de hospedagem: gratuitos, pagos, compartilhados e dedicados;
+  * [x] Gerenciamento do site: atualização de informações e backups;
+  * [x] Transferência de arquivos: hospedagem via FTP e upload no servidor;
+  * [x] Testes de desempenho: comportamento e integridade do website;
+* [x] UC4: Projeto Integrador Web designer(16  horas)
+  * [x] desenvolver as etapas do website,
  prevendo sua compatibilidade com múltiplos dispositivos e plataformas, bem como, sua aderência aos padrões internacionais de acessibilidade recomendados;
 
 ## Referências
@@ -66,6 +66,6 @@ conceitos e princípios de funcionamento;
 * [Web Designer no Quero Bolsa](https://querobolsa.com.br/carreiras-e-profissoes/web-designer)
 * [Portal Web Designer](https://portalwebdesigner.com/)
 * [Guia de Carreira: Descubra o que faz um web designer](https://www.guiadacarreira.com.br/blog/o-que-faz-um-web-designer)
-* [Guia de Carreita: Quanto ganha um Web designer](https://www.guiadacarreira.com.br/blog/quanto-ganha-um-web-designer)
+* [Guia de Carreira: Quanto ganha um Web designer](https://www.guiadacarreira.com.br/blog/quanto-ganha-um-web-designer)
 * [DIO: Cursos de programação web](https://dio.me/sign-up?ref=XXNHOX4TYB)
 * [Projeto kanban da disciplina](https://github.com/users/jocile/projects/13/views/1)
