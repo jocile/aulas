@@ -3,8 +3,8 @@ title:  "Noções de Robótica"
 date: 2023-01-27 18:00:00 -0300
 categories: [AULAS, NOÇÕES DE ROBÓTICA]
 tags: [eletrônica, planejamento, robótica]
-summary: "conhecimentos de conceitos eletrônicos e o uso de sensores e atuadores que juntos podem realizar ações automatizadas levando ao conhecimento da programação com uso do simulador online TINKERCAD, ferramenta essa que possibilita a utilização de componentes eletrônicos, sensores e linha de código com ferramentas de testes."
 ---
+conhecimentos de conceitos eletrônicos e o uso de sensores e atuadores que juntos podem realizar ações automatizadas levando ao conhecimento da programação com uso do simulador online TINKERCAD, ferramenta essa que possibilita a utilização de componentes eletrônicos, sensores e linha de código com ferramentas de testes.
 
 ## Objetivo profissional
 
