@@ -38,9 +38,9 @@ layout: page
       <div class="panel-body">
         Implementação de redes locais; segurança de redes; comunicação de dados.
         <ul>
-          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          {% for post in page.posts %} {% for tag in site.tags %} {% if tag ==
           "infraestrutura" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
           {% endif %} {% endfor %} {% endfor %}
         </ul>
       </div>
@@ -54,9 +54,9 @@ layout: page
         Conceitos eletrônicos com uso de sensores e atuadores que juntos podem
         realizar ações automatizadas.
         <ul>
-          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          {% for post in page.posts %} {% for tag in site.tags %} {% if tag ==
           "robótica" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
           {% endif %} {% endfor %} {% endfor %}
         </ul>
       </div>
@@ -72,9 +72,9 @@ layout: page
       <div class="panel-body">
         Mercado de trabalho de tecnologia da informação.
         <ul>
-          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          {% for post in page.posts %} {% for tag in site.tags %} {% if tag ==
           "carreira" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
           {% endif %} {% endfor %} {% endfor %}
         </ul>
       </div>
@@ -90,9 +90,9 @@ layout: page
       <div class="panel-body">
         Áreas de atuação em tecnologia. Ambiente profissional, graduação.
         <ul>
-          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          {% for post in page.posts %} {% for tag in site.tags %} {% if tag ==
           "profissão" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
           {% endif %} {% endfor %} {% endfor %}
         </ul>
       </div>
@@ -105,9 +105,9 @@ layout: page
       <div class="panel-body">
         Áreas de atuação em tecnologia. Ambiente profissional, graduação.
         <ul>
-          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          {% for post in page.posts %} {% for tag in site.tags %} {% if tag ==
           "profissão" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
           {% endif %} {% endfor %} {% endfor %}
         </ul>
       </div>
@@ -123,9 +123,9 @@ layout: page
       <div class="panel-body">
         Áreas de atuação em tecnologia. Ambiente profissional, graduação.
         <ul>
-          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          {% for post in page.posts %} {% for tag in site.tags %} {% if tag ==
           "meios" %}
-          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
           {% endif %} {% endfor %} {% endfor %}
         </ul>
       </div>
