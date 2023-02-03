@@ -3,90 +3,138 @@ layout: page
 # All the Categories of Aulas
 ---
 
-<div class="row">
-  <div class="col-lg-12">
-    <h2 class="page-header">Escola Profissional</h2>
-  </div>
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-default text-center">
-      <div class="panel-heading">
-        <span class="fa-stack fa-5x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
-        </span>
-      </div>
-      <div class="panel-body">
-        <h4>Planejamento de Carreira</h4>
-        <p>Mercado de trabalho de tecnologia da informação.</p>
-        <a
-          href="https://jocile.com/categories/planejamento-de-carreira/"
-          class="btn btn-primary"
-          >Acessar</a
-        >
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-default text-center">
-      <div class="panel-heading">
-        <span class="fa-stack fa-5x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
-        </span>
-      </div>
-      <div class="panel-body">
-        <h4>Noções de Robótica</h4>
-        <p>
-          Conceitos eletrônicos com uso de sensores e atuadores que juntos podem
-          realizar ações automatizadas.
-        </p>
-        <a
-          href="https://jocile.com/categories/no%C3%A7%C3%B5es-de-rob%C3%B3tica/"
-          class="btn btn-primary"
-          >Acessar</a
-        >
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-default text-center">
-      <div class="panel-heading">
-        <span class="fa-stack fa-5x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-wifi fa-stack-1x fa-inverse"></i>
-        </span>
-      </div>
-      <div class="panel-body">
-        <h4>Infraestrutura de Redes</h4>
-        <p>
-          Implementação de redes locais; segurança de redes; comunicação de
-          dados.
-        </p>
-        <a
-          href="https://jocile.com/categories/infraestrutura-de-redes/"
-          class="btn btn-primary"
-          >Acessar</a
-        >
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-default text-center">
-      <div class="panel-heading">
-        <span class="fa-stack fa-5x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-        </span>
-      </div>
-      <div class="panel-body">
-        <h4>Profissão e Formação</h4>
-        <p>Áreas de atuação em tecnologia. Ambiente profissional, graduação.</p>
-        <a
-          href="https://jocile.com/categories/profiss%C3%A3o-e-forma%C3%A7%C3%A3o/"
-          class="btn btn-primary"
-          >Acessar</a
-        >
-      </div>
-    </div>
-  </div>
+<script src="/assets/js/jquery.shuffle.min.js"></script>
+<script src="/assets/js/jquery.ba-throttle-debounce.min.js"></script>
+
+<div class="filter-options">
+  <button class="btn btn-primary" data-group="all">All</button>
+  <button class="btn btn-primary" data-group="infraestrutura-de-redes">
+    Infraestrutura de Redes
+  </button>
+  <button class="btn btn-primary" data-group="nocoes-de-robotica">
+    Noções de Robótica
+  </button>
+  <button class="btn btn-primary" data-group="planejamento-de-carreira">
+    Planejamento de Carreira
+  </button>
+  <button class="btn btn-primary" data-group="profissao-e-formacao">
+    Profissão e Formação
+  </button>
+  <button class="webdesign" data-group="Webdesign">
+    Planejamento de Carreira
+  </button>
+  <button class="btn btn-primary" data-group="meios-de-comunicacao">
+    Meios de Comunicação
+  </button>
 </div>
+
+<div id="grid" class="row">
+  <div
+    class="col-xs-6 col-sm-4 col-md-4"
+    data-groups='["infraestrutura-de-redes"]'
+  >
+    <div class="panel panel-default">
+      <div class="panel-heading">Infraestrutura de Redes</div>
+      <div class="panel-body">
+        Implementação de redes locais; segurança de redes; comunicação de dados.
+        <ul>
+          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          "infraestrutura" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %} {% endfor %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["nocoes-de-robotica"]'>
+    <div class="panel panel-default">
+      <div class="panel-heading">Noções de Robótica</div>
+      <div class="panel-body">
+        Conceitos eletrônicos com uso de sensores e atuadores que juntos podem
+        realizar ações automatizadas.
+        <ul>
+          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          "robótica" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %} {% endfor %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="col-xs-6 col-sm-4 col-md-4"
+    data-groups='["planejamento-de-carreira"]'
+  >
+    <div class="panel panel-default">
+      <div class="panel-heading">Planejamento de Carreira</div>
+      <div class="panel-body">
+        Mercado de trabalho de tecnologia da informação.
+        <ul>
+          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          "carreira" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %} {% endfor %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="col-xs-6 col-sm-4 col-md-4"
+    data-groups='["profissao-e-formacao"]'
+  >
+    <div class="panel panel-default">
+      <div class="panel-heading">Profissão e Formação</div>
+      <div class="panel-body">
+        Áreas de atuação em tecnologia. Ambiente profissional, graduação.
+        <ul>
+          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          "profissão" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %} {% endfor %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["webdesign"]'>
+    <div class="panel panel-default">
+      <div class="panel-heading">Webdesign</div>
+      <div class="panel-body">
+        Áreas de atuação em tecnologia. Ambiente profissional, graduação.
+        <ul>
+          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          "profissão" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %} {% endfor %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="col-xs-6 col-sm-4 col-md-4"
+    data-groups='["meios-de-comunicacao"]'
+  >
+    <div class="panel panel-default">
+      <div class="panel-heading">Meios de Comunicação</div>
+      <div class="panel-body">
+        Áreas de atuação em tecnologia. Ambiente profissional, graduação.
+        <ul>
+          {% for page in site.pages %} {% for tag in page.tags %} {% if tag ==
+          "meios" %}
+          <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+          {% endif %} {% endfor %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- sizer -->
+  <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>
+</div>
+<!-- /#grid -->
+
+{% include initialize_shuffle.html %}
