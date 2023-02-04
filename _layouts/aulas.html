@@ -1,160 +1,105 @@
 ---
 layout: page
-refactor: true
 # All the Categories of Aulas
 ---
 
 <!-- Estilos CSS personalizados -->
 {% include my-styles.html %}
 
-<div class="filter-options">
-  <button class="btn btn-primary" data-group="all">All</button>
-  <button class="btn btn-primary" data-group="infraestrutura-de-redes">
-    Infraestrutura de Redes
-  </button>
-  <button class="btn btn-primary" data-group="nocoes-de-robotica">
-    Noções de Robótica
-  </button>
-  <button class="btn btn-primary" data-group="planejamento-de-carreira">
-    Planejamento de Carreira
-  </button>
-  <button class="btn btn-primary" data-group="profissao-e-formacao">
-    Profissão e Formação
-  </button>
-  <button class="btn btn-primary" data-group="planejamento-de-carreira">
-    Planejamento de Carreira
-  </button>
-  <button class="btn btn-primary" data-group="meios-de-comunicacao">
-    Meios de Comunicação
-  </button>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#home">Planejamento</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#infraestrutura"
+      >Infraestrutura</a
+    >
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#robotica">Robótica</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#carreira"
+      >Planejamento de Carreira</a
+    >
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane container active" id="home">
+    <div class="panel-heading">
+      Planejamento das aulas do primeiro semestre de 2023
+    </div>
+    <div class="panel-body">
+      <ul>
+        <li>Infraestrutura de Redes</li>
+        <li>Noções de Robótica</li>
+        <li>Planejamento de carreira</li>
+        <li>Profissão e Formação</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="infraestrutura">
+    <div class="panel-heading">Infraestrutura de Redes</div>
+    <div class="panel-body">
+      Implementação de redes locais; segurança de redes; comunicação de dados.
+      <ul>
+        {% for post in site.posts %} {% for tag in post.tags %} {% if tag ==
+        "infraestrutura" %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endif %} {% endfor %} {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="robotica">
+    <div class="panel-heading">Noções de Robótica</div>
+    <div class="panel-body">
+      Conceitos eletrônicos com uso de sensores e atuadores que juntos podem
+      realizar ações automatizadas.
+      <ul>
+        {% for post in site.posts %} {% for tag in post.tags %} {% if tag ==
+        "robótica" %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endif %} {% endfor %} {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="carreira">
+    <div class="panel-heading">Planejamento de Carreira</div>
+    <div class="panel-body">
+      Mercado de trabalho de tecnologia da informação.
+      <ul>
+        {% for post in site.posts %} {% for tag in post.tags %} {% if tag ==
+        "carreira" %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endif %} {% endfor %} {% endfor %}
+      </ul>
+    </div>
+
+    <div class="panel-heading">Profissão e Formação</div>
+    <div class="panel-body">
+      Áreas de atuação em tecnologia. Ambiente profissional, graduação.
+      <ul>
+        {% for post in site.posts %} {% for tag in post.tags %} {% if tag ==
+        "profissão" %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endif %} {% endfor %} {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
 
-<div id="grid" class="row">
-  <div
-    class="col-xs-6 col-sm-4 col-md-4 col-lg-4"
-    data-groups='["infraestrutura-de-redes"]'
-  >
-    <div class="panel panel-info">
-      <div class="panel-heading">Infraestrutura de Redes</div>
-      <div class="panel-body">
-        Implementação de redes locais; segurança de redes; comunicação de dados.
-        <ul>
-          {% for post in site.posts %}
-           {% for tag in post.tags %}
-            {% if tag == "infraestrutura" %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endif %} {% endfor %} {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4" data-groups='["nocoes-de-robotica"]'>
-    <div class="panel panel-info">
-      <div class="panel-heading">Noções de Robótica</div>
-      <div class="panel-body">
-        Conceitos eletrônicos com uso de sensores e atuadores que juntos podem
-        realizar ações automatizadas.
-        <ul>
-          {% for post in site.posts %}
-           {% for tag in post.tags %}
-            {% if tag == "robótica" %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endif %} {% endfor %} {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div
-    class="col-xs-6 col-sm-4 col-md-4 col-lg-4"
-    data-groups='["planejamento-de-carreira"]'
-  >
-    <div class="panel panel-info">
-      <div class="panel-heading">Planejamento de Carreira</div>
-      <div class="panel-body">
-        Mercado de trabalho de tecnologia da informação.
-        <ul>
-          {% for post in site.posts %}
-           {% for tag in post.tags %} 
-           {% if tag == "carreira" %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endif %} {% endfor %} {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-</di>
-
-<div
-    class="col-xs-6 col-sm-4 col-md-4 col-lg-4"
-    data-groups='["profissao-e-formacao"]'
-  >
-    <div class="panel panel-info">
-      <div class="panel-heading">Profissão e Formação</div>
-      <div class="panel-body">
-        Áreas de atuação em tecnologia. Ambiente profissional, graduação.
-        <ul>
-          {% for post in site.posts %}
-           {% for tag in post.tags %}
-            {% if tag == "profissão" %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endif %} {% endfor %} {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4"
-   data-groups='["webdesign"]'>
-    <div class="panel panel-info">
-      <div class="panel-heading">Webdesign</div>
-      <div class="panel-body">
-        Áreas de atuação em tecnologia. Ambiente profissional, graduação.
-        <ul>
-          {% for post in site.posts %}
-           {% for tag in post.tags %}
-            {% if tag == "profissão" %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endif %} {% endfor %} {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div
-    class="col-xs-6 col-sm-4 col-md-4 col-lg-4"
-    data-groups='["meios-de-comunicacao"]'
-  >
-    <div class="panel panel-info">
-      <div class="panel-heading">Meios de Comunicação</div>
-      <div class="panel-body">
-        Áreas de atuação em tecnologia. Ambiente profissional, graduação.
-        <ul>
-          {% for post in site.posts %}
-           {% for tag in post.tags %}
-            {% if tag == "meios" %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-          {% endif %} {% endfor %} {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- sizer -->
-  <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>
-</div><!-- /#grid -->
-
-{% include initialize_shuffle.html %}
+<!-- /tab-content -->
