@@ -1,5 +1,5 @@
 ---
-title: Autor
+title: Professor
 icon: fas fa-info-circle
 order: 4
 ---
@@ -17,7 +17,7 @@ Meu nome é Jocilé M. Serra e trabalho como professor👨‍🏫 de informátic
 
 - 🌱 Atualmente lecionando treinamento profissional, robótica, webdesign, editor gráfico e infraestrutura de redes, veja os materiais em [aulas](https://jocile.com/aulas/);
 
-## Interesses
+## Formação
 
 Sempre me interessei muito por tecnologia e acabei encontrando a área quando cursava a escola técnica de [eletroeletrônica](https://www.centec.org.br/cursos-tecnicos-nivel-medio/), o que me levou a me aprofundar mais e me tornar bacharel🎓 em [Ciências da Computação](https://www.uva.br/content/ciencias-da-computacao) 👨‍💻, atualmente estou concluindo a [especialização em Redes de Computadores e Segurança de Sistemas](https://uninta.edu.br/site/pos-graduacao/ciencias-exatas/especializacao-em-redes-e-seguranca-de-sistemas/).
 
@@ -31,6 +31,8 @@ Atualmente estou buscando conhecimento em cursos:
 - [Treinamento Microsoft](https://learn.microsoft.com/pt-br/training/)
 - [Treinamento Amazon AWS](https://explore.skillbuilder.aws/learn)
 - [Treinamento Huawei](https://e.huawei.com/en/talent/portal/#/)
+
+## Interesses
 
 Durante minha carreira lecionei disciplinas como Laboratório de Software, Lógica de Programação, Sistemas Operacionais, Assistência Informática, Administração de Redes, Meios de Comunicação de Dados, estágio, etc.
 
@@ -60,4 +62,4 @@ Fora da bolha tecnológica gosto de brincar com meus filhos e [estudar a Bíblia
 
 ---
 
-Atualizado em 10.01.2023
+Atualizado em 04.02.2023
