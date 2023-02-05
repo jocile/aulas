@@ -1,0 +1,31 @@
+--- # -------------------------------------
+
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+#   name: {full name}
+#   class: {class_of_discipline}
+#   school: {school_of_discipline}
+
+- tag: infraestrutura
+  name: Infraestrutura de redes
+  description: Implementação de redes locais; segurança de redes; comunicação de dados.
+  class: 2º Redes de Computadores
+  school: EEEP Mon. Aloísio
+
+- tag: robótica
+  name: Noções de Robótica
+  description: Conceitos eletrônicos com uso de sensores e atuadores que juntos podem realizar ações automatizadas.
+  class: 2º informática
+  school: EEEP Mon. Aloísio
+
+- tag: carreira
+  name: Planejamento de Carreira
+  description: Mercado de trabalho de tecnologia da informação.
+  class: 1º Redes de Computadores
+  school: EEEP Mon. Aloísio
+
+- tag: profissão
+  name: Profissão e Formação
+  description: Áreas de atuação em tecnologia. Ambiente profissional, graduação.
+  class: 3º Informática
+  school: EEEP Mon. Aloísio
