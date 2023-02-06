@@ -1,0 +1,80 @@
+---
+layout: page
+# All references
+---
+
+<!-- Estilos CSS personalizados -->
+{% include my-styles.html %}
+
+<!-- Nav tabs -->
+<div>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#geral">Geral</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#informatica">Informática</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#redes"
+        >Redes de Computadores</a
+      >
+    </li>
+  </ul>
+</div>
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane container active" id="geral">
+    <div class="panel-heading">Planejamento das aulas</div>
+    <div class="panel-body">
+      <h3>Apostilas das Disciplinas da Escola Profissional</h3>
+      <ul>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#informatica"
+            >Curso Médio Técnico em Informática</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#redes"
+            >Curso Médio Técnico em Redes de Computadores</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="informatica">
+    <div class="panel-heading">Informática</div>
+    <div class="panel-body">
+      <h3>Apostilas do Curso Médio Técnico em Informática:</h3>
+
+      <ul>
+        {% for apostila in site.data.references.apostilas-informatica %}
+
+        <li class="d-flex justify-content-between pl-md-3 pr-md-3">
+          <a href="{{ apostila.link }}">{{ apostila.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="redes">
+    <div class="panel-heading">Redes de Computadores</div>
+    <div class="panel-body">
+      <h3>Apostilas do Curso Médio Técnico em em Redes de Computadores:</h3>
+
+      <ul>
+        {% for apostila in site.data.references.apostilas-redes %}
+
+        <li class="d-flex justify-content-between pl-md-3 pr-md-3">
+          <a href="{{ apostila.link }}">{{ apostila.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- /tab-content -->
+</div>
