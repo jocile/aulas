@@ -1,6 +1,6 @@
 ---
 title:  "Infraestrutura de redes"
-date: 2023-01-27 22:00:00 -0300
+date: 2023-02-02 10:00:00 -0300
 categories: [AULAS, INFRAESTRUTURA DE REDES]
 tags: [redes, planejamento, infraestrutura]
 ---

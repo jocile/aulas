@@ -1,6 +1,6 @@
 ---
 title:  "Noções de Robótica"
-date: 2023-01-27 18:00:00 -0300
+date: 2023-02-06 09:00:00 -0300
 categories: [AULAS, NOÇÕES DE ROBÓTICA]
 tags: [eletrônica, planejamento, robótica]
 ---
