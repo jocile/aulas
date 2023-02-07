@@ -49,9 +49,10 @@ layout: page
     <div class="panel-body">
       <h3>Apostilas do Curso Médio Técnico em Informática:</h3>
 
+      {% assign references = site.data.references.apostilas.informatica | sort:
+      'name' %}
       <ul>
-        {% for apostila in site.data.references.apostilas.informatica %}
-
+        {% for apostila in references %}
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
           <a href="{{ apostila.link }}">
             <i class="far fa-file-pdf"></i>
@@ -67,9 +68,10 @@ layout: page
     <div class="panel-heading">Redes de Computadores</div>
     <div class="panel-body">
       <h3>Apostilas do Curso Médio Técnico em em Redes de Computadores:</h3>
-
+      {% assign references = site.data.references.apostilas.redes | sort: 'name'
+      %}
       <ul>
-        {% for apostila in site.data.references.apostilas.redes %}
+        {% for apostila in references %}
 
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
           <a href="{{ apostila.link }}">

@@ -14,7 +14,8 @@ layout: page
         >Planejamento</a
       >
     </li>
-    {% for discipline in site.data.disciplines %}
+    {% assign disciplines = site.data.disciplines | sort: 'tag' %} {% for
+    discipline in disciplines %}
     <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#{{ discipline.tag }}"
         >{{ discipline.tag }}</a
