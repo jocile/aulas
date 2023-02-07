@@ -20,21 +20,21 @@ Adquirir competência permitindo situar-se em relação ao mercado trabalho de t
 ## Organização curricular
 
 1. Introdução a Robótica
-   * História da Robótica
-   * Conceito - Leis da Robótica
+   * [História da Robótica](https://blog.eletrogate.com/o-que-e-robotica-conceito-historia-e-evolucao/)
+   * Conceito - [Leis da Robótica](https://pt.wikipedia.org/wiki/Leis_da_Rob%C3%B3tica)
 1. Arduino na Robótica
-   * Introdução ao Arduíno.
+   * [Introdução ao Arduíno](https://www.makerhero.com/blog/o-que-e-arduino/).
    * Breve história; Site oficial, Fórum, Download e instalação;
    * Documentação da biblioteca padrão;
 1. Placa Arduino
-   * O que é arduino?
+   * [O que é arduino?](https://www.makerhero.com/blog/o-que-e-ide-arduino/)
    * Tipos de Arduinos.
    * Aplicações de Projetos com arduino.
    * Arquitetura do arduino (Estrutura)
 1. Ambiente IDE Arduino
    1. [Site oficial do arduino](http://wwwarduino.cc)
    2. [Apresentação do simulador](https://tinkercad.com)
-1. Linguagem do Arduino (C++) Linguagem de Programação
+1. [Linguagem do Arduino](https://www.freecodecamp.org/portuguese/news/o-manual-do-iniciante-em-c-aprenda-o-basico-sobre-a-linguagem-de-programacao-c-em-apenas-algumas-horas/) (C++) Linguagem de Programação
    1. Tipos de dados; Sintaxe básica; Controle de fluxo;
    1. Funções da biblioteca padrão;
    1. Principais bibliotecas

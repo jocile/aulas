@@ -22,8 +22,10 @@ Adquirir competência permitindo situar-se em relação ao mercado trabalho de t
 
 A topologia de uma rede nada mais é do que a forma como se define o layout da rede, ou como se organiza estruturalmente os computadores, dispositivos de rede e suas conexões. Uma topologia pode física ou lógica.
 
-A topologia física é como os computadores e dispositivos se encontram fisicamente, configurando uma espécie de desenho que é caracterizado pela disposição dos equipamentos. A topologia lógica é a forma como os dados trafegam na rede, logo, uma rede pode obedecer a uma determinada topologia apenas de forma lógica, não sendo necessário que os equipamentos estejam organizados de
-acordo com a topologia física. Há varias formas de se estruturar uma rede, veja as principais:
+A topologia física é como os computadores e dispositivos se encontram fisicamente, configurando uma espécie de desenho que é caracterizado pela disposição dos equipamentos. A topologia lógica é a forma como os dados trafegam na rede, logo, uma rede pode obedecer a uma determinada topologia apenas de forma lógica, não sendo necessário que os equipamentos estejam organizados de acordo com a topologia física.
+
+> Há varias formas de se estruturar uma rede, veja as principais:
+{: .prompt-tip }
 
 ![Image](https://user-images.githubusercontent.com/45495068/182739000-d1a24f90-aefb-4146-8384-b76ec65d7cfb.png)
 
@@ -47,18 +49,21 @@ Existem 2 tipos fundamentais de redes. O primeiro tipo é a rede ponto-a-ponto, 
 
 > HOST: Palavra inglesa que significa hospedeiro.
 > Em informática, um host é um computador ou outro equipamento conectado na rede e que pode compartilhar informações, serviços e recursos.
+{: .prompt-info }
 
 ### REDES CLIENTE-SERVIDOR
 
 ![Image](https://user-images.githubusercontent.com/45495068/182733684-fdbb7944-6cbb-464f-a5b3-96f6728327ab.png)
 
 O segundo tipo é a arquitetura cliente-servidor, onde todos os hosts, chamados de clientes, se comunicam com uma máquina principal, chamada de servidor. O servidor provê todas as aplicações e serviços e consegue gerenciar o acesso aos recursos da rede como impressoras, por exemplo. Neste tipo de arquitetura os hosts não trocam informações entre si de uma forma direta.
+
 Cada cliente se comunica com o servidor e este devolve respostas atendendo as requisições de cada um. Por exemplo, em um servidor de banco de dados, o cliente pode acessar a aplicação (programa) e alterar um dado. Esta alteração será feita no servidor. Caso outro cliente acesse a aplicação, ele já verá o dado alterado, pois está buscando a informação diretamente no servidor.
 
-Normalmente um servidor é uma máquina mais robusta que as máquinas clientes, pois ela armazena e processa um grande número de informações,  além de precisar estar sempre ligada para que haja tráfego de informações na rede.
+> Normalmente um servidor é uma máquina mais robusta que as máquinas clientes, pois ela armazena e processa um grande número de informações,  além de precisar estar sempre ligada para que haja tráfego de informações na rede.
+{: .prompt-info }
 
 ## Referências
 
 - [Tipos de redes]({% post_url 2022-08-05-Tipos-de-redes %})
-
-{% include references-filter.html content="redes" %}
+- [Apostila do {{ site.data.references.apostilas.redes[0].name }}]({{ site.data.references.apostilas.redes[0].link }})
+- [Apostila de {{ site.data.references.apostilas.redes[1].name }}]({{ site.data.references.apostilas.redes[1].link }})
