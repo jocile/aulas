@@ -50,10 +50,13 @@ layout: page
       <h3>Apostilas do Curso Médio Técnico em Informática:</h3>
 
       <ul>
-        {% for apostila in site.data.references.apostilas-informatica %}
+        {% for apostila in site.data.references.apostilas.informatica %}
 
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-          <a href="{{ apostila.link }}">{{ apostila.name }}</a>
+          <a href="{{ apostila.link }}">
+            <i class="far fa-file-pdf"></i>
+            {{ apostila.name }}</a
+          >
         </li>
         {% endfor %}
       </ul>
@@ -66,10 +69,13 @@ layout: page
       <h3>Apostilas do Curso Médio Técnico em em Redes de Computadores:</h3>
 
       <ul>
-        {% for apostila in site.data.references.apostilas-redes %}
+        {% for apostila in site.data.references.apostilas.redes %}
 
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-          <a href="{{ apostila.link }}">{{ apostila.name }}</a>
+          <a href="{{ apostila.link }}">
+            <i class="far fa-file-pdf"></i>
+            {{ apostila.name }}</a
+          >
         </li>
         {% endfor %}
       </ul>

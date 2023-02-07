@@ -60,3 +60,5 @@ Normalmente um servidor é uma máquina mais robusta que as máquinas clientes, 
 ## Referências
 
 - [Tipos de redes]({% post_url 2022-08-05-Tipos-de-redes %})
+
+{% include references-filter.html content="redes" %}

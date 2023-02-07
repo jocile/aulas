@@ -1,0 +1,113 @@
+informatica:
+  - tag: banco-de-dados
+    name: Banco de Dados
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_banco_de_dados.pdf
+
+  - tag: lab-software
+    name: Laboratório de Software
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_laboratorio_de_software.pdf
+
+  - tag: programacao-web
+    name: Programação Web (JavaScript/PHP/MySQL)
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_otimizacao_de_uma_estacao_de_trabalho_aluno.pdf
+
+  - tag: robotica
+    name: Noções de Robótica
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_nocoes_de_robotica_2019.pdf
+
+  - tag: lab-web
+    name: Laboratório web
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_laboratorio_web.pdf
+
+  - tag: poo
+    name: Programação Orientada a Objetos / Java
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_programacao_orientada_a_objetos_java_2019.pdf
+
+  - tag: sisop
+    name: Sistemas Operacionais
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_sistemasoperacionais.pdf
+
+  - tag: php
+    name: Java Script e PHP
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_javascript_php.pdf
+
+  - tag: ingles
+    name: Inglês Técnico
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/ingles_tecnico.pdf
+
+  - tag: informatica
+    name: Informática Básica
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_basica_todos_os_cursos_2018.pdf
+
+  - tag: php-mysql
+    name: PHP com MySQL
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_php_mysql.pdf
+
+  - tag: html
+    name: HTML com CSS
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_html_css_2018.pdf
+
+  - tag: arquitetura
+    name: Arquitetura e Manutenção de Computadores
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_arquitetura_manutencao_computadores.pdf
+
+  - tag: gestao-do-tempo
+    name: Gestão do Tempo
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/informatica/informatica_gestao_do_tempo_2018.pdf
+
+  - tag: informatica-aplicada
+    name: Informática Aplicada a Finanças
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/financas/financas_informatica_aplicada.pdf
+
+redes:
+  - tag: redes
+    name: Curso de Redes de Computadores
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores.pdf
+
+  - tag: meios
+    name: Meios de Comunicação de Dados
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_meios_de_comunicacao_de_dados.pdf
+
+  - tag: profissao
+    name: Profissão e Formação
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_profissao_e_formacao.pdf
+
+  - tag: banco-de-dados
+    name: Banco de Dados
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_banco_de_dados.pdf
+
+  - tag: hardware
+    name: Instalação de hardware
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_instalacao_de_hardware.pdf
+
+  - tag: otimizacao
+    name: Otimização de uma estação de trabalho
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_otimizacao_de_uma_estacao_de_trabalho_aluno.pdf
+
+  - tag: sisop
+    name: Sistemas Operacionais
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_sistemas_operacionais.pdf
+
+  - tag: softwares
+    name: Software de Aplicação
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_softwares_de_aplicacao.pdf
+
+  - tag: investigacao
+    name: Investigação das informações
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_investigacao_das_informacoes.pdf
+
+  - tag: restabelecimento
+    name: Restabelecimento de uma Estação do Trabalho
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_restabelecimento_de_uma_estacao_do_trabalho_aluno.pdf
+
+  - tag: assistencia
+    name: Assistência Informática
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_assistencia_informatica.pdf
+
+  - tag: analise
+    name: Análise e Programação
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_analise_e_programacao.pdf
+
+  - tag: resolucao
+    name: Resolução de Problemas
+    link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_resolucoes_de_problemas.pdf
