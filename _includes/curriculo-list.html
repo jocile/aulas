@@ -1,0 +1,35 @@
+<div>
+  {% for curriculo in site.data.references[{{include.disciplina}}] %}
+  <h2>{{ curriculo.titulo }}</h2>
+
+  <h2>Objetivos:</h2>
+
+  <ul>
+    {% for objetivos in curriculo.objetivos %}
+    <li>{{ objetivos }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Organização curricular:</h2>
+  <ol>
+    {% for ementa in curriculo.curriculo %}
+    <li>{{ ementa.item }}</li>
+    {% if ementa.subitems[0] %}
+    <ul>
+      {% for subitem in ementa.subitems %}
+      <li>{{ subitem }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %} {% endfor %}
+  </ol>
+
+  <h2>Bibliografia:</h2>
+
+  <ul>
+    {% for bibliografia in curriculo.bibliografia %}
+    <li>{{ bibliografia }}</li>
+    {% endfor %}
+  </ul>
+
+  {% endfor %}
+</div>

@@ -1,0 +1,63 @@
+- titulo: Infraestrutura de redes
+  objetivos:
+    - Entender/compreender os conceitos fundamentais de infraestrutura de redes, entendendo suas principais diferenças de utilização e implementação em redes locais com segurança.
+    - Entender/compreender os conceitos básicos sobre infraestrutura de redes
+    - Conhecer os recursos utilizados no projeto físico de uma rede
+    - Conhecer normas de padronização de cabeamento estruturado
+    - Conhecer tecnologias de redes sem fios
+    - Conhecer princípios de Administração e Gerência de Redes de computadores
+    - Implementar na prática uma pequena Rede de Computadores
+  bibliografia:
+    - SOUSA, Lindeberg Barros de. Redes de computadores - dados, voz e imagem. Érica.
+    - ROSS, Keith; KUROSE, James. Redes de Computadores e a Internet - uma nova abordagem top-down. Addison Wesley.
+    - LACERDA,  Ivan  Max  Freire  de.  Cabeamento  estruturado  -  Projeto,  Implantação  e Certificação. Natal, 2002. (Livro-texto)
+    - Catálogo de produtos da Furukawa. Disponível em <http://www.furukawa.com.br>
+    - Catálogo de produtos da Pial. Disponível em www.pial.com.br
+    - VASCONCELOS, Laércio. Como montar e configurar sua rede de PCs - Rápido e fácil, MAKRON Books.
+    - DANTAS, Mario. Tecnologias de redes de comunicação e computadores, AXCEL Books.
+    - DERFLER, Frank. Tudo sobre cabeamento de redes. Editora Campus. 1993.
+    - PINHEIRO, José Maurício. Guia Completo de Cabeamento de Redes. Editora Campus, 2003.
+    - TORRES, Gabriel. Redes de Computadores, Ed. Axcel Books.
+    - ANDERSON, Al e BENEDETTI, Ryan. Use a cabeça! Redes de Computadores. Alta Books, 2010
+    - MENDES, Douglas Rocha. Redes de computadores - teoria e prática. Novatec. 2007.
+  curriculo:
+    - item: Conceitos básicos em redes de computadores
+      subitems:
+        - Conceituação
+        - Topologias
+        - Componentes principais de uma rede
+    - item: Introdução à comunicação de dados
+    - item: Arquiteturas de redes de computadores
+      subitems:
+        - Modelo OSI/ISO
+        - Arquitetura IEEE 802
+        - Arquitetura TCP/IP
+    - item: Meios físicos e tecnologias de transmissão
+      subitems:
+        - Tipos de conectores
+        - Interfaces de redes
+        - Meios físicos cabeados
+        - Padronização do cabeamento estruturado
+        - Elementos do projeto de cabeamento estruturado
+        - Tecnologias de redes sem fio
+        - Tecnologias alternativas de meios físicos
+    - item: Ferramentas para confecção e certificação de cabos de par trançado
+      subitems:
+        - Alicate de crimpagem
+        - Testador de cabos
+    - item: Implementação de redes locais
+      subitems:
+        - Construção de uma rede ponto a ponto
+        - Construção de uma rede com Hub/Switch/Roteador
+        - Uso de ferramentas básicas para coleta de estatísticas de rede, ping e traceroute
+    - item: Introdução à segurança de redes de computadores
+    - item: Patch Cord
+    - item: Patch Panel
+    - item: Rack
+    - item: Armazenamento de Dados / Backup
+    - item: Suporte Nível 1, 2 e 3
+    - item: Firewall
+    - item: Criptografia de Disco Rígidos / SSDs
+    - item: Balanceamento de Cargas
+    - item: Acesso Remoto
+    - item: Lei Geral de Proteção de Dados
