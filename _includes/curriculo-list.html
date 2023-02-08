@@ -1,9 +1,7 @@
 <div>
   {% for curriculo in site.data.references[{{include.disciplina}}] %}
-  <h2>{{ curriculo.titulo }}</h2>
 
   <h2>Objetivos:</h2>
-
   <ul>
     {% for objetivos in curriculo.objetivos %}
     <li>{{ objetivos }}</li>
@@ -24,7 +22,6 @@
   </ol>
 
   <h2>Bibliografia:</h2>
-
   <ul>
     {% for bibliografia in curriculo.bibliografia %}
     <li>{{ bibliografia }}</li>
