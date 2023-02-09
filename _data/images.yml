@@ -15,3 +15,6 @@ roteador:
 roteador-wifi:
   link: https://backend.intelbras.com/sites/default/files/2022-02/GF-1200-detalhe-3.png
   caption: Intelbras
+obr:
+  link: https://i0.wp.com/www.obr.org.br/wp-content/uploads/2019/03/Olympus_FotoEquipe-Juan-Gabriel-Albuquerque-Ramos.jpg
+  caption: Olimpíada Brasileira de Robótica (OBR)
