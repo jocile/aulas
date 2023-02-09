@@ -1,0 +1,17 @@
+# the links of the pictures of the posts
+
+placa-de-rede:
+  link: https://img-aws.ehowcdn.com/750x400p/photos.demandstudios.com/getty/article/117/144/87730718.jpg
+  caption: Jupiterimages/Photos.com/Getty Images
+hub:
+  link: https://media.fs.com/images/community/upload/wangEditor/201909/12/_1568281840_ZK4myJNWO8.gif
+  caption: FS community - media.fs.com
+switch:
+  link: https://www.uniaogeek.com.br/wp-content/uploads/2016/09/SWITCH_DGS1024DG1Image-LSide-e1479357721211.png
+  caption: União Geek - uniaogeek.com.br
+roteador:
+  link: https://www.projetoderedes.com.br/artigos/imagens/Image73.gif
+  caption: Projeto de redes em projetoderedes.com.br
+roteador-wifi:
+  link: https://backend.intelbras.com/sites/default/files/2022-02/GF-1200-detalhe-3.png
+  caption: Intelbras
