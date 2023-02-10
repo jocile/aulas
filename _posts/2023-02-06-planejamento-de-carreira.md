@@ -2,7 +2,7 @@
 title:  "Planejamento de Carreira"
 date: 2023-02-06 10:00:00 -0300
 categories: [AULAS, PLANEJAMENTO DE CARREIRA]
-tags: [profissão, planejamento, carreira]
+tags: [planejamento, carreira]
 ---
 Conceitos básicos de mercado de trabalho. Introdução ao mercado de tecnologia da informação. Explanações sobre níveis de formação acadêmica. Áreas de atuação em tecnologia da informação. Ambiente profissional, comunicação, ética profissional, networking e inserção no mercado de trabalho.
 

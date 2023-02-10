@@ -18,3 +18,24 @@ roteador-wifi:
 obr:
   link: https://i0.wp.com/www.obr.org.br/wp-content/uploads/2019/03/Olympus_FotoEquipe-Juan-Gabriel-Albuquerque-Ramos.jpg
   caption: Olimpíada Brasileira de Robótica (OBR)
+modos-de-operacao:
+  link: https://user-images.githubusercontent.com/45495068/182736472-99d96cd9-8f26-49c5-b69b-5a51b931767e.png
+  caption: apostila de Meios de Comunicação da Seduc
+redes-p2p:
+  link: https://user-images.githubusercontent.com/45495068/182733236-f65f6c8c-424f-46a5-b36d-d627ca8aa7a1.png
+  caption: apostila de Meios de Comunicação da Seduc
+redes-cliente-serv:
+  link: https://user-images.githubusercontent.com/45495068/182733684-fdbb7944-6cbb-464f-a5b3-96f6728327ab.png
+  caption: apostila de Meios de Comunicação da Seduc
+topologia-barramento:
+  link: https://user-images.githubusercontent.com/45495068/182739000-d1a24f90-aefb-4146-8384-b76ec65d7cfb.png
+topologia-anel:
+  link: https://user-images.githubusercontent.com/45495068/182739043-dac9a65d-27f0-43a1-9356-0438df56b672.png
+topologia-estrela:
+  link: https://user-images.githubusercontent.com/45495068/182739095-2a528b3e-023e-4fd9-b505-b4913b84b61f.png
+topologia-arvore:
+  link: https://user-images.githubusercontent.com/45495068/182739138-dc2b36e8-71cf-477f-89e5-5ddb7138f5ec.png
+topologia-hibrida:
+  link: https://user-images.githubusercontent.com/45495068/182739187-a7f94769-d805-49f5-af88-4390b991cb8a.png
+topologia-malha:
+  link: https://user-images.githubusercontent.com/45495068/182739222-4c11a233-32ee-4d51-9df2-40c23a3fa119.png

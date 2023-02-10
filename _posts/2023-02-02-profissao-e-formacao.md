@@ -1,6 +1,6 @@
 ---
 title:  "Profissão e Formação"
-date: 2023-01-27 10:40:00 -0300
+date: 2023-02-02 10:40:00 -0300
 categories: [AULAS, PROFISSÃO E FORMAÇÃO]
 tags: [profissão, planejamento, formação]
 ---

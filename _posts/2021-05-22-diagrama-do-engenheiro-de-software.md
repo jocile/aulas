@@ -3,7 +3,7 @@ title:  "Diagrama do engenheiro de software"
 author: Prof. Jocilé Serra
 date: 2021-05-22 20:14:00 -0300
 categories: [DESENVOLVIMENTO, ENGENHARIA DE SOFTWARE]
-tags: [diagrama, profissão, programação]
+tags: [diagrama, programação]
 mermaid: true
 ---
 **Profissional regulamentado pelo CREA - Conselho Federal de Egenharia e Agronomia, que é responsável pelo projeto e estrutura do desenvolvimento de software**
