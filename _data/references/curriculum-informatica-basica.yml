@@ -1,0 +1,87 @@
+- titulo: Infraestrutura de redes
+  objetivos:
+    - Utilizar ferramentas básicas de sistemas operacionais cliente na operação de computadores;
+    - Utilizar ferramentas e serviços da internet, aplicando práticas de segurança da informação;
+    - Utilizar ferramentas do aplicativo de correio eletrônico de acordo com práticas de segurança da informação;
+    - Elaborar e edita textos, utilizando ferramentas do aplicativo de edição de textos;
+    - Elaborar e edita planilhas, utilizando as ferramentas do aplicativo de planilhas eletrônicas;
+    - Criar e edita apresentações multimídia, utilizando as ferramentas do aplicativo de apresentação eletrônica;
+    - Transferir dados utilizando periféricos, de acordo com a especificidade do trabalho;
+    - Utilizar aplicativos utilitários na operação do computador respeitando normas e regras de segurança.
+  bibliografia:
+    - Apostila de Informática Básica Intensivo - Windows. 003791. Ed. SENAC.
+    - Apostila de Informática Básica. Ensino Médio Integrado à Educação Profissional, SEDUC - CE.
+  curriculo:
+    - item: Introdução a Processamento de Dados - IPD
+      subitems:
+        - Definição e evolução do computador;
+        - Processamento de dados;
+        - Representação dos Dados (Bit e Byte);
+        - Hardware (UCP e Dispositivos Periféricos);
+        - Classificação de Software;
+    - item: Sistema Operacional Windows
+      subitems:
+        - Conceito de Sistema Operacional;
+        - Área de trabalho (ícone, barra de tarefas);
+        - Personalização do desktop (plano de fundo, protetor de tela);
+        - Operações com janelas;
+        - Atalhos;
+        - Barra de tarefas;
+        - Acessórios (calculadora, wordpad e paint).
+        - Windows Explorer: Gerenciamento de pastas, arquivos e dispositivos;
+        - Localização de arquivos e pastas;
+        - Lixeira;
+        - Painel de Controle.
+    - item: Processador de Textos Word
+      subitems:
+        - Elementos da tela;
+        - Manipulação com arquivo de texto;
+        - Recursos de seleção de texto;
+        - Copiar, recortar e colar texto;
+        - Ferramenta Zoom; Desfaz e
+        - refaz ações;
+        - Formatação de fonte e parágrafos;
+        - Tabulação;
+        - Bordas, plano de fundo (sombreamento) e moldura na página e no texto;
+        - Cabeçalho e rodapé; Quebra de página;
+        - Operações com figuras;
+        - Numeração de páginas;
+        - Listas numeradas e com marcadores;
+        - Inserir e formatar Tabelas;
+        - Revisor ortográfico;
+        - Configuração de página e de impressão;
+    - item: Planilha Eletrônica Excel
+      subitems:
+        - Conceito de Planilha eletrônica;
+        - Principais elementos do espaço de trabalho (Pasta, planilha, célula, barras, menus);
+        - Navegação; Edição de dados nas células;
+        - Seleção de célula, intervalo(s), coluna(s), linha(s), toda planilha;
+        - Operações com colunas e linhas;
+        - Cópia e movimentação de dados das células;
+        - Desfazer e refazer ações realizadas;
+        - Alça de preenchimento;
+        - Área de transferência do Excel;
+        - Formatação de células (fonte, alinhamento, número, plano de fundo, bordas);
+        - Construção de fórmulas matemáticas, usando operadores matemáticos (+, -, *, /, %, ^) e os operadores relacionais (>, <, <>, =, <=, >=);
+        - Algumas funções do Excel (Soma, Média, Máximo, Mínimo, Se simples e aninhado), usando também o assistente de funções;
+        - Criação e formatação de Gráficos;
+        - Configuração de página, visualização e impressão.
+    - item: Fundamentos de Internet
+      subitems:
+        - Conceitos básicos;
+        - Navegação Internet Explorer;
+        - Serviços de Pesquisa;
+        - Download;
+        - Correio Eletrônico (e-mail) Criação de conta, envio e recebimento, respondendo, enviando com anexo.
+    - item: Gerenciador de apresentação Power Point
+      subitems:
+        - Conhecendo o ambiente, os elementos e as ferramentas do gerenciador;
+        - Criando slides com auto-layouts; Modos de classificação e exibição de slides;
+        - Trabalhando com marcadores;
+        - Utilizando as ferramentas de desenho;
+        - Utilizando a biblioteca de figuras;
+        - Conhecendo os modelos de estrutura; Efeitos especiais;
+        - Configurando a apresentação;
+        - Trabalhando com gráficos;
+        - Inserindo Hyperlinks;
+        - Criando ações.

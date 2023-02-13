@@ -10,16 +10,12 @@ layout: page
 <div>
   <ul class="nav nav-tabs">
     <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#planejamento"
-        >Planejamento</a
-      >
+      <a class="nav-link active" data-toggle="tab" href="#planejamento">Planejamento</a>
     </li>
     {% assign disciplines = site.data.disciplines | sort: 'tag' %} {% for
     discipline in disciplines %}
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#{{ discipline.tag }}"
-        >{{ discipline.tag }}</a
-      >
+      <a class="nav-link" data-toggle="tab" href="#{{ discipline.tag }}">{{ discipline.tag }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -31,11 +27,9 @@ layout: page
     <div class="panel-body">
       <h3>Disciplinas para este semestre</h3>
       <ul>
-        {% for discipline in site.data.disciplines %}
+        {% for discipline in disciplines %}
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#{{ discipline.tag }}"
-            >{{ discipline.name }}</a
-          >
+          <a class="nav-link" data-toggle="tab" href="#{{ discipline.tag }}">{{ discipline.name }}</a>
         </li>
         {% endfor %}
       </ul>

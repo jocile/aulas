@@ -29,3 +29,9 @@
   description: Áreas de atuação em tecnologia. Ambiente profissional, graduação.
   class: 3º Informática
   school: EEEP Mon. Aloísio
+
+- tag: informática
+  name: Informática Básica
+  description: Informática Básica Intensivo Windows com pacote Office e internet
+  class: Informática
+  school: SENAC
