@@ -1,6 +1,6 @@
 ---
 title:  "Informática Básica"
-date: 2023-02-11 19:00:00 -0300
+date: 2023-02-13 13:00:00 -0300
 categories: [AULAS, INFORMÁTICA BÁSICA]
 tags: [informática, Senac]
 ---
@@ -12,4 +12,5 @@ Os computadores e o meio digital em si transformaram a sociedade nos últimos an
 
 {% include curriculo-list.html disciplina="curriculum-informatica-basica" %}
 
-[Apostila sobre {{ site.data.references.apostilas.informatica[9].name }}]({{ site.data.references.apostilas.informatica[9].link }})
+- [Apostila sobre {{ site.data.references.apostilas.informatica[9].name }}]({{ site.data.references.apostilas.informatica[9].link }})
+- [Apostila sobre {{ site.data.references.apostilas.senac[0].name }}]({{ site.data.references.apostilas.senac[0].link }})

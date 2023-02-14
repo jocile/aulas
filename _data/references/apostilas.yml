@@ -111,3 +111,8 @@ redes:
   - tag: resolucao
     name: Resolução de Problemas
     link: https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_resolucoes_de_problemas.pdf
+
+senac:
+  - tag: informatica-basica
+    name: Informática básica Senac, intensivo Windows, pacote Office, internet
+    link: https://biblioteca.ce.senac.br/bnportal/pt-BR/#/search/26260?exp=apostila
