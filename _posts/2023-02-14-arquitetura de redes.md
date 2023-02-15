@@ -1,6 +1,6 @@
 ---
 title:  "Arquitetura de redes"
-date: 2023-02-13 22:00:00 -0300
+date: 2023-02-14 09:00:00 -0300
 categories: [AULAS, INFRAESTRUTURA DE REDES]
 tags: [redes, infraestrutura]
 ---
