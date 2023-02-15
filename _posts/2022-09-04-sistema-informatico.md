@@ -19,7 +19,8 @@ Um Sistema Informático trata-se de um conjuntos de equipamentos mecânicos e el
 
 ### Arquitetura de Von Neumann
 
-![Image](https://user-images.githubusercontent.com/45495068/188341443-ef52ab5c-0710-4b49-8d77-ec350accaa81.png)
+![Arquitetura de Von Neumann]({{site.data.images.von-neumann.link}})
+_{{site.data.images.von-neumann.caption}}_
 
 A figura mostra como funciona o sistema onde são introduzidos os dados na Entrada, usando um ou mais dispositivos destinados a esse fim, e são trabalhados dentro de um dispositivo de processamento (UCP). Após o processamento, os dados são exibidos em dispositivos de Saída.  
 Os equipamentos que são utilizados como entrada podem ser: mouse, teclado, scanner, webcam, etc. Já os de saída temos como exemplo: monitor, impressora, fone de ouvido, etc.  
@@ -28,10 +29,12 @@ O Sistema Informático é formado basicamente por 2 componentes: o Hardware e So
 Hardware é a parte física do computador, isto é, os componentes e equipamentos necessário para o funcionamento do sistema informático. Os programas que comandam o hardware, damos o nome de software.
 
 > A Arquitetura de von Neumann (de John von Neumann, pronunciado Nóimánn) é uma arquitetura de computador que se caracteriza pela possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados, podendo assim manipular tais programas. Esta arquitetura é um projeto modelo de um computador digital de programa armazenado que utiliza uma unidade de processamento (CPU) e uma de armazenamento ("memória") para comportar, respectivamente, instruções e dados. [^1]
+{: .prompt-info }
 
 ## Principais elementos
 
-![Image](https://user-images.githubusercontent.com/45495068/188341931-3c74a730-00b7-4975-8c7a-45046f5c9e37.png)
+![elementos do hardware]({{site.data.images.elementos-hardware.link}})
+_{{site.data.images.elementos-hardware.caption}}_
 
 * Hardware - dispositivos físicos de entrada, processamento, memória e Saída;
 * Software - comanda o Hardware, composto de Sistema Operacional e Aplicativos.
@@ -53,13 +56,15 @@ O processamento é composto de uma placa onde são montados: o processador, a me
 
 #### Placa mãe
 
-![Image](https://user-images.githubusercontent.com/45495068/188344746-df400076-608f-4f90-aa63-b97b8dacee4b.png)
+![Placa mãe]({{site.data.images.placa-mae.link}})
+_{{site.data.images.placa-mae.caption}}_
 
 É uma placa principal que interliga todos os outros componentes. A motherboard ou mainboard é uma placa de circuito impresso e pode apresentar diferentes configurações dependendo da marca e do modelo. Para se poder aproveitar todos os recursos e suas potencialidades, é essencial portar o Manual da mesma, nele obtemos, por exemplo, qual(is) processador(es) podem ser instalados, os tipos de memórias, a velocidade dos barramentos, etc.
 
 #### CPU ou Processador
 
-![Image](https://user-images.githubusercontent.com/45495068/188344929-38fff809-7854-409a-9497-cad4e355bcf4.png)
+![CPU]({{site.data.images.cpu.link}})
+_{{site.data.images.cpu.caption}}_
 
 Os processadores ou CPUs (Central Processing Unit) são circuitos integrados previamente
 programados para realizar todas as tarefas relativas a manipulação e processamento da
@@ -68,7 +73,8 @@ com dispositivos de entradas e dados em dispositivos de saída.
 
 #### Barramento
 
-![Image](https://user-images.githubusercontent.com/45495068/188343922-92c16ae6-a962-44c8-b5c1-d2630dddc991.png)
+![Barramentos]({{site.data.images.barramentos.link}})
+_{{site.data.images.barramentos.caption}}_
 
 Os barramentos ou bus, são sistemas de condutores que possibilita a comunicação e o tráfego de dados entre os componentes do sistema informático. Esse meio permite a comunicação entre processador CPU, memória principal, Slots de Expansão, etc. Podemos ter os seguintes tipos de barramentos:
 
@@ -79,16 +85,21 @@ Os barramentos ou bus, são sistemas de condutores que possibilita a comunicaç�
 * Barramento de Expansão: é o canal por onde dispositivos de expansão são conectados, como placa de vídeo, som, rede, etc.
 * Barramento de alimentação: trilhas de alimentação elétrica entre a fonte e os componentes eletrônicos.
 
-![Image](https://user-images.githubusercontent.com/45495068/188346630-42140ad7-c3aa-4b95-be1a-8c2c1f0ce86d.png)
+![Chipsets]({{site.data.images.chipsets.link}})
+_{{site.data.images.chipsets.caption}}_
 
 Temos também os microcontroladores chamados de ponte norte e ponte sul, que controlam a comunicação entre os barramentos. A ponte norte que vem  integrada nos computadores modernos controla a comunicação entre o processador e a memória principal, e a ponte sul a comunicação com os periféricos.
 
-![Image](https://user-images.githubusercontent.com/45495068/188345700-ac1291b2-8904-4b78-a9ee-3a53120dc844.png)
+![Chipsets]({{site.data.images.chipsets2.link}})
+_{{site.data.images.chipsets2.caption}}_
 
 ### Memória
 
-![Image](https://user-images.githubusercontent.com/45495068/188349367-fd7c4410-55f6-4e1c-a650-856c06e048d1.png)  
-![Image](https://user-images.githubusercontent.com/45495068/188349779-e423e007-6681-42a0-8883-d273017a3896.png)
+![memórias]({{site.data.images.memorias.link}})
+_{{site.data.images.chipsets2.caption}}_
+
+![HDD e SSD]({{site.data.images.hd.link}})
+_{{site.data.images.hd.caption}}_
 
 A memória é o elemento de suporte ao processamento dotado de capacidade para armazenamento de todo tipo de informação, seja eles dados simples ou programas. Computador possui basicamente dois tipos de memória: A Principal e a Secundária.
 
@@ -110,12 +121,13 @@ Na saída as informações são fornecidas ou realimentão a entrada de um novo 
 * Software de Sistema: Função principal é servir de interface entre o usuário e o e hardware e também os softwares aplicativos e o maior exemplo dessa classe é o Sistema Operacional.
 * Software de Aplicação: desempenha tarefas de aplicações do interesse do usuário, tais como editor de textos, planilhas, banco de dados.
 
-![Image](https://user-images.githubusercontent.com/45495068/188345387-a84fe032-f3bc-4877-9759-ad047c3a0a53.png)
+![Componentes do computador]({{site.data.images.componentes-pc.link}})
+_{{site.data.images.componentes-pc.caption}}_
 
 ## Referências
 
 [^1]: [Arquitetura de von Neumann - Wikipédia](https://pt.wikipedia.org/wiki/Arquitetura_de_von_Neumann)
 
 * [Apresentação sobre Sistemas Informáticos](https://drive.google.com/file/d/1bi_GMsgJ93DbNpZjLDh_vIMtlwr_vNqK/view)
-* [Apostila de Montagem e Instalação de Sistemas Informáticos. Governo do Estado do Ceará](https://educacaoprofissional.seduc.ce.gov.br/images/material_didatico/redes_de_computadores/redes_de_computadores_montagem_instalacoes_sistemas_informaticos.pdf)
+* [Apostila sobre {{ site.data.references.apostilas.redes[13].name }}]({{ site.data.references.apostilas.redes[13].link }})
 * [Monte seu PC - meupc.net](https://meupc.net/)

@@ -29,13 +29,49 @@ redes-cliente-serv:
   caption: apostila de Meios de Comunicação da Seduc
 topologia-barramento:
   link: https://user-images.githubusercontent.com/45495068/182739000-d1a24f90-aefb-4146-8384-b76ec65d7cfb.png
+  caption:
 topologia-anel:
   link: https://user-images.githubusercontent.com/45495068/182739043-dac9a65d-27f0-43a1-9356-0438df56b672.png
+  caption:
 topologia-estrela:
   link: https://user-images.githubusercontent.com/45495068/182739095-2a528b3e-023e-4fd9-b505-b4913b84b61f.png
+  caption:
 topologia-arvore:
   link: https://user-images.githubusercontent.com/45495068/182739138-dc2b36e8-71cf-477f-89e5-5ddb7138f5ec.png
+  caption:
 topologia-hibrida:
   link: https://user-images.githubusercontent.com/45495068/182739187-a7f94769-d805-49f5-af88-4390b991cb8a.png
+  caption:
 topologia-malha:
   link: https://user-images.githubusercontent.com/45495068/182739222-4c11a233-32ee-4d51-9df2-40c23a3fa119.png
+  caption:
+von-neumann:
+  link: https://user-images.githubusercontent.com/45495068/188341443-ef52ab5c-0710-4b49-8d77-ec350accaa81.png
+  caption: Arquitetura de Von Neumann
+elementos-hardware:
+  link: https://user-images.githubusercontent.com/45495068/188341931-3c74a730-00b7-4975-8c7a-45046f5c9e37.png
+  caption: Arquitetura da comunicação com barramentos no computador
+placa-mae:
+  link: https://user-images.githubusercontent.com/45495068/188344746-df400076-608f-4f90-aa63-b97b8dacee4b.png
+  caption: Esquema da placa-mãe do computador
+cpu:
+  link: https://user-images.githubusercontent.com/45495068/188344929-38fff809-7854-409a-9497-cad4e355bcf4.png
+  caption: Esquema da comunicação do processador com as memórias
+barramentos:
+  link: https://user-images.githubusercontent.com/45495068/188343922-92c16ae6-a962-44c8-b5c1-d2630dddc991.png
+  caption: Esquema da comunicação através dos barramentos da placa-mãe
+chipsets:
+  link: https://user-images.githubusercontent.com/45495068/188346630-42140ad7-c3aa-4b95-be1a-8c2c1f0ce86d.png
+  caption: Chipsets ponte norte e sul
+chipsets2:
+  link: https://user-images.githubusercontent.com/45495068/188345700-ac1291b2-8904-4b78-a9ee-3a53120dc844.png
+  caption: Chipsets e as memórias
+memorias:
+  link: https://user-images.githubusercontent.com/45495068/188349367-fd7c4410-55f6-4e1c-a650-856c06e048d1.png
+  caption: Memória principal e secundária
+hd:
+  link: https://user-images.githubusercontent.com/45495068/188349779-e423e007-6681-42a0-8883-d273017a3896.png
+  caption: Hard Disc e SSD
+componentes-pc:
+  link: https://user-images.githubusercontent.com/45495068/188345387-a84fe032-f3bc-4877-9759-ad047c3a0a53.png
+  caption: Principais componentes do computador
