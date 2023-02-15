@@ -2,7 +2,7 @@
 title:  "Curso de Arduino Manual do Mundo"
 date: 2023-02-13 09:00:00 -0300
 categories: [AULAS, NOÇÕES DE ROBÓTICA]
-tags: [eletrônica, arduino, robótica, curso, eletrônica]
+tags: [eletrônica, arduino, robótica, curso]
 ---
 Desafio de automação com Arduino do Manual do Mundo.
 
