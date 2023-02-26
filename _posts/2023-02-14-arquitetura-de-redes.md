@@ -68,4 +68,4 @@ As quatro camadas do Modelo TCP/IP são:
  caption="Arquitetura de Redes de Computadores - Ana Julia F Alves Ferreira"
  %}
 
- - [Apostila de Meios de Comunicação de Dados]({{site.data.references.apostilas.redes[0].link}})
+- [Apostila de Meios de Comunicação de Dados]({{site.data.references.apostilas.redes[0].link}})
