@@ -75,3 +75,9 @@ hd:
 componentes-pc:
   link: https://user-images.githubusercontent.com/45495068/188345387-a84fe032-f3bc-4877-9759-ad047c3a0a53.png
   caption: Principais componentes do computador
+arduino:
+  link: assets/img/img_posts/arduino-board-anatomy.png
+  caption: Anatomia do Arduino, fonte arduino.cc
+arduino-timeline:
+  link: assets/img/img_posts/arduino-timeline.png
+  caption: Linha do tempo do Arduino, fonte arduino.cc
