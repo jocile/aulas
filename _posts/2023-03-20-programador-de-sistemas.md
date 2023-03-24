@@ -1,6 +1,6 @@
 ---
 title:  "Programador de Sistemas"
-date: 2023-02-06 14:00:00 -0300
+date: 2023-03-20 14:00:00 -0300
 categories: [AULAS, PROGRAMADOR DE SISTEMAS]
 tags: [Senac, planejamento, programador, programação]
 ---

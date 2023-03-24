@@ -30,8 +30,8 @@
   class: 3º Informática
   school: EEEP Mon. Aloísio
 
-- tag: informática
-  name: Informática Básica
-  description: Informática Básica Intensivo Windows com pacote Office e internet
+- tag: programador
+  name: Programador de Sistemas
+  description: Lógica de programação, algoritmos, programação orientada a objetos com a linguagem Java
   class: Informática
   school: SENAC
