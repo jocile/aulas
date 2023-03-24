@@ -1,7 +1,7 @@
 ---
 title:  "Programador de Sistemas"
-date: 2023-03-20 14:00:00 -0300
-categories: [AULAS, PROGRAMADOR DE SISTEMAS]
+date: 2023-03-20 18:30:00 -0300
+categories: [DESENVOLVIMENTO, PROGRAMADOR]
 tags: [Senac, planejamento, programador, programação]
 ---
 O Programador de Sistemas é o profissional que especifica, desenvolve, testa e implanta sistema de informação, contemplando requisitos de segurança e disponibilidade. Além disso, modela dados, documenta e faz a manutenção em sistemas.
