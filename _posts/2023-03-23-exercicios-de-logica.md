@@ -1,8 +1,8 @@
 ---
 title:  "Exercícios de lógica"
-date: 2023-03-22 18:30:00 -0300
+date: 2023-03-23 18:30:00 -0300
 categories: [DESENVOLVIMENTO, PROGRAMADOR]
-tags: [Senac, lógica, programador, programação]
+tags: [Senac, lógica, programador, programação, exercícios]
 ---
 Resolva os exercícios usando a linguagem Portugol ou VisuAlg.
 
