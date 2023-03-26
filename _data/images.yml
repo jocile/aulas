@@ -81,3 +81,12 @@ arduino:
 arduino-timeline:
   link: assets/img/img_posts/arduino-timeline.png
   caption: Linha do tempo do Arduino, fonte arduino.cc
+arduino-descricao:
+  link: assets/img/img_posts/arduino-descricao-min.png
+  caption: Descrição dos componentes do Arduino, fonte arduino.cc
+arduino-shields:
+  link: assets/img/img_posts/arduino-shields-min.png
+  caption: Placa de expansão do Arduino, fonte arduino.cc
+arduino-tipos:
+  link: assets/img/img_posts/arduino-tipos-min.png
+  caption: Tipos de placas do Arduino, fonte arduino.cc
