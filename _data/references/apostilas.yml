@@ -123,64 +123,64 @@ senac:
 
   - tag: arquitetura-de-software
     name: Arquitetura de software - Andrey Araujo Masiero
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D3225#/legacy/epub/3225
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=3225
 
   - tag: arquitetura-de-banco
     name: Arquitetura de banco de dados - Milton Goya
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D3282#/legacy/epub/3282
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=3282
 
   - tag: poo
     name: Programação orientada a objetos - Allen Oberleitner
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D3006#/legacy/epub/3006
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=3006
 
   - tag: algoritmos-I
     name: Algoritmos e programação I - Allen Oberleitner
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D2649#/legacy/epub/2649
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2649
 
   - tag: algoritmos-II
     name: Algoritmos e programação II - Andrey Araujo Masiero
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D2653#/legacy/epub/2653
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2653
 
   - tag: logica
     name: Lógica de programação - Gley Fabiano Cardoso Xavier
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D1306#/legacy/epub/1306
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=1306
 
   - tag: programacao-de-banco
     name: Programação de banco de dados - Leonardo Alexandre Ferreira Leite
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D3188#/legacy/epub/3188
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=3188
 
   - tag: analise
     name: Análise de sistemas - Henrique Pontes Gonçalves de Oliveira
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D2133#/legacy/epub/2133
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2133
 
   - tag: qualidade
     name: Qualidade de software - Clenio F. Salviano
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D2642#/legacy/epub/2642
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2642
 
   - tag: gestao-de-qualidade
     name: Gestão da qualidade no desenvolvimento de software - Mauro de Mesquita Spinola
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D1369#/legacy/epub/1369
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=1369
 
   - tag: introducao-python
     name: Introdução à programação em Python - Sérgio Furgeri
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D3011#/legacy/epub/3011
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=3011
 
   - tag: desenvolvimento-de-sistemas
     name: Desenvolvimento de sistemas - Allen Oberleitner
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D2152#/legacy/epub/2152
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2152
 
   - tag: banco-base
     name: Banco de dados - bases conceituais e pragmáticas - Leonardo Alexandre Ferreira Leite
-    link: https://bibliotecadigitalsenac.com.br/?from=busca%3FcontentInfo%3D2659%26term%3Ddados#/legacy/epub/2659
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2659
 
   - tag: estrutura
     name: Estrutura de dados - Valter Castelhano de Oliveira
-    link: https://bibliotecadigitalsenac.com.br/?from=busca%3FcontentInfo%3D2776%26term%3Ddados#/legacy/epub/2776
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2776
 
   - tag: introducao-ao-banco
     name: Introdução a bancos de dados - Paloma Cristina Pereira
-    link: https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D2915#/legacy/epub/2915
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=2915
 
   - tag: banco-de-dados
     name: Banco de dados
-    link: https://bibliotecadigitalsenac.com.br/?from=busca%3FcontentInfo%3D3402%26term%3Ddados#/legacy/3402
+    link: https://bibliotecadigitalsenac.com.br/#/?contentInfo=3402
