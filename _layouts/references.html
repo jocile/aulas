@@ -17,28 +17,28 @@ layout: page
       <a class="nav-link" data-toggle="tab" href="#informatica">Informática</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#redes"
-        >Redes de Computadores</a
-      >
+      <a class="nav-link" data-toggle="tab" href="#redes">Redes de Computadores</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#senac">Senac</a>
     </li>
   </ul>
 </div>
 <!-- Tab panes -->
 <div class="tab-content">
   <div class="tab-pane container active" id="geral">
-    <div class="panel-heading">Planejamento das aulas</div>
+    <div class="panel-heading">Apostilas e livros usados nas aulas</div>
     <div class="panel-body">
       <h3>Apostilas das Disciplinas da Escola Profissional</h3>
       <ul>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#informatica"
-            >Curso Médio Técnico em Informática</a
-          >
+          <a class="nav-link" data-toggle="tab" href="#informatica">Curso Médio Técnico em Informática</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#redes"
-            >Curso Médio Técnico em Redes de Computadores</a
-          >
+          <a class="nav-link" data-toggle="tab" href="#redes">Curso Médio Técnico em Redes de Computadores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#senac">Cursos no Senac - área restrita aos alunos</a>
         </li>
       </ul>
     </div>
@@ -56,8 +56,7 @@ layout: page
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
           <a href="{{ apostila.link }}">
             <i class="far fa-file-pdf"></i>
-            {{ apostila.name }}</a
-          >
+            {{ apostila.name }}</a>
         </li>
         {% endfor %}
       </ul>
@@ -76,8 +75,27 @@ layout: page
         <li class="d-flex justify-content-between pl-md-3 pr-md-3">
           <a href="{{ apostila.link }}">
             <i class="far fa-file-pdf"></i>
-            {{ apostila.name }}</a
-          >
+            {{ apostila.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="senac">
+    <div class="panel-heading">Cursos de Informática do Senac</div>
+    <div class="panel-body">
+      <h3>Livros de Desenvolvimento de Sistemas:</h3>
+      Área na Biblioteca Virtual restrita aos alunos:
+      {% assign references = site.data.references.apostilas.senac | sort: 'name'
+      %}
+      <ul>
+        {% for apostila in references %}
+
+        <li class="d-flex justify-content-between pl-md-3 pr-md-3">
+          <a href="{{ apostila.link }}">
+            <i class="far fa-file-pdf"></i>
+            {{ apostila.name }}</a>
         </li>
         {% endfor %}
       </ul>
