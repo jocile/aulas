@@ -66,8 +66,9 @@ As informações são divididas em quatro tipos primitivos:
   3. Não é permitido o uso de caracteres especiais;
 - DECLARAÇÃO DE VARIÁVEIS - Precisamos sempre definir as variáveis especificando qual o material dos objetos que por lá podem ser armazenados.
 
-Exemplo: - Inteiro - AULA;
+Exemplo:
 
+- Inteiro - AULA;
 - Real - ABC, XPTO, D123;
 - Caractere - NOME, ENDEREÇO;
 - lógico - NOTA, RESPOSTA.

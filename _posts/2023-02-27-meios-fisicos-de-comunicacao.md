@@ -1,6 +1,6 @@
 ---
 title: "Meios físicos de comunicação"
-date: 2023-02-26 10:40:00 -0300
+date: 2023-02-27 10:40:00 -0300
 categories: [AULAS, INFRAESTRUTURA DE REDES]
 tags: [infraestrutura, protocolos]
 mermaid: true
