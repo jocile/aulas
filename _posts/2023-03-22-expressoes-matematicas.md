@@ -2,7 +2,7 @@
 title:  "Expressões matemáticas"
 date: 2023-03-22 18:30:00 -0300
 categories: [DESENVOLVIMENTO, PROGRAMADOR]
-tags: [Senac, lógica, programador, programação]
+tags: [Senac, lógica, programador, programação, portugol]
 ---
 Chamamos de operadores matemáticos ou aritméticos o conjunto de símbolos que representa as operações básicas da matemática, a saber: + adição ; - subtração ; * multiplicação ; / divisão ; ** potenciação ; // radiciação.
 
@@ -110,13 +110,13 @@ Fornece um valor a uma certa variável tendo que este valor ser compatível com 
 
 Exemplo
 
-```
+```plaintext
 lógico: A, B;
 Inteiro: X, AULA;
-A 🡨 Verdadeiro;
-X 🡨 15;
-AULA 🡨 8 + 13 DIV 5;
-B 🡨 5 = 3;
+A = Verdadeiro;
+X = 15;
+AULA = 8 + 13 DIV 5;
+B = 5 > 3;
 ```
 
 ## COMANDOS DE ENTRADA DE DADOS
@@ -128,7 +128,7 @@ Leia ( X, AULA, B );
 
 Exemplo:     Escreva ( X );
 Escreva ( X, AULA, B );
-Escreva ( “O resultado do peso do aluno é de “, PESO, “ quilos” );
+Escreva ( "O resultado do peso do aluno é de ", PESO, " quilos” );
 
 ## BLOCOS
 
@@ -144,7 +144,7 @@ Exemplo:
 inicio
 |
 |
-| seqüência de ações
+| sequência de ações
 |
 |
 | resultado
@@ -153,7 +153,7 @@ fim.
 
 ESTRUTURAS DE CONTROLE
 
-SEQÜENCIAL
+SEQUENCIAL
 
 | nome do programa
 |
@@ -167,6 +167,31 @@ inicio
 |          .
 | comando n;
 fim.
-Exercícios
+
+Exercício:
 
 - Construa um algoritmo que calcule a média aritmética entre quatro notas quaisquer fornecidas pelo usuário.
+
+Resolução em Portugol:
+
+```plaintext
+programa
+{
+	funcao inicio()
+	{
+		real N1, N2, N3, N4, media
+		escreva("Digite o primeiro número: ")
+		leia(N1)
+		escreva("Digite o segundo número: ")
+		leia(N2)
+    escreva("Digite o terceiro número: ")
+		leia(N3)
+    escreva("Digite o quarto número: ")
+		leia(N4)
+    media = ( N1 + N2 + N3 + N4 ) / 4
+		escreva ("A media aritmética do aluno nas quatro notas tiradas é: ", media )
+	}
+}
+```
+
+[IDE do Portugol Studio online](https://dgadelha.github.io/Portugol-Webstudio/)

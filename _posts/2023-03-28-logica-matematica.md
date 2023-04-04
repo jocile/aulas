@@ -6,7 +6,7 @@ tags: [Senac, lógica, programador, programação, exercícios]
 ---
 Chamamos de operadores matemáticos ou aritméticos o conjunto de símbolos que representa as operações básicas da matemática, a saber:
 
-```mathematica
+```plaintext
  + adição ;
  +  - subtração ;
  * multiplicação ;
@@ -17,7 +17,7 @@ Chamamos de operadores matemáticos ou aritméticos o conjunto de símbolos que 
 
 Exemplos:
 
-```mathematica
+```plaintext
  -2 + 2 ;
  ABC / 5 ;
  aula * ABC + XPTO - 8.
@@ -37,7 +37,7 @@ ABS( x ) - resulta o valor absoluto de X.
 
 Exemplos:
 
-```java
+```pascal
  - 15 DIV 7 resulta 2
 - 15 MOD 7 resulta 1
 - INT( 34.567 ) resulta 34
@@ -57,7 +57,7 @@ Exemplos:
 
 ### Exercícios
 
-```mathematica
+```plaintext
 3 ** 2 - 4 / 2 + ABS( 5 - 3 * 5 ) / 2
 ( FRAC( A / B ) + ABS( C ) ) ** 3 onde A = 5 , B = 10 e C = -4
 3 + ( 27 // 3 ) * (( 3 MOD D + 0.5 ) * 2 ) onde D = 1.5
@@ -65,7 +65,7 @@ Exemplos:
 
 ## OPERADORES RELACIONAIS com EXPRESSÕES LÓGICAS
 
-```mathematica
+```plaintext
 = ( igual a )
 # ou <> ( diferente)
 > ( maior )
@@ -74,7 +74,7 @@ Exemplos:
 
 ### Exemplo
 
-```mathematica
+```plaintext
 2 * 4 = 24 / 3
   8  =  8
       V
@@ -82,7 +82,7 @@ Exemplos:
 
 ## OPERADORES LÓGICOS
 
-```mathematica
+```plaintext
 E = conjunção
 OU = disjunção
 NÃO =  negação
@@ -90,14 +90,14 @@ NÃO =  negação
 
 Exemplo:
 
-```mathematica
+```plaintext
 2 < 5 e 15 / 3 = 5
-V   e     5      = 5
-V   e   V
+V  e  5  = 5
+V  e  V
 V
 ```
 
-### PRIORIDADES LÒGICAS
+### PRIORIDADES LÓGICAS
 
 Na resolução das expressões lógicas, as operações e funções lógicas guardam entre si uma hierarquia.
 
@@ -115,7 +115,7 @@ PRIORIDADES ENTRE TODOS OS OPERADORES
 
 ### Exercícios 2
 
-1. `NÃO 2 3 < 4 2 OU ABS( INT( -15 / 2 ) ) < 10`
+1. `NÃO 2**3 < 4**2 OU ABS( INT( -15 / 2 ) ) < 10`
 
 Resolução:
 
@@ -124,35 +124,46 @@ Vamos resolver essa expressão passo a passo:
 ```plaintext
 
 1. Primeiramente, vamos resolver a parte interna de cada função:
- 2 ** 3 = 8
+
+```plaintext
+ _2 ** 3 = 8
  4 ** 2 = 16
  INT( -15 / 2 ) = INT( -7.5 ) = -8
- ABS( -8 ) = 8
-2. Agora podemos substituir esses valores na expressão original:
- NÃO 8 < 16 OU 8 < 10
-3. Continuando com a ordem de precedência dos operadores, vamos avaliar primeiro a comparação matemática:
- 8 < 16 é verdadeiro (True)
- 8 < 10 é verdadeiro (True)
-4. Agora, vamos avaliar a negação da primeira condição:
- NÃO True é falso (False)
-5. Por fim, temos o resultado da expressão:
- False OU True é verdadeiro (True)
+ ABS( -8 ) = 8_
 
 ```
+
+2. Agora podemos substituir esses valores na expressão original:
+
+ `NÃO 8 < 16 OU 8 < 10`
+
+3. Continuando com a ordem de precedência dos operadores, vamos avaliar primeiro a comparação matemática:
+
+```plaintext
+ 8 < 16 é verdadeiro (True)
+ 8 < 10 é verdadeiro (True)
+
+```
+
+4. Agora, vamos avaliar a negação da primeira condição:
+
+ NÃO True é falso (False)
+
+5. Por fim, temos o resultado da expressão:
+
+ False OU True é verdadeiro (True)
 
 Portanto, a expressão lógica é verdadeira (True).
 
-```plaintext
-1. 3 * ( C / 4 + 5) < - 8 * 3 + ( 15 MOD 8 - 3 ) OU 5 ** 2 > INT( C * 0.7 ) onde C = 20
-2. NÃO L OU V E ABS( C ) >= A DIV A onde L = .F. C = -3.5 e A < > 0
-
-```
-
-Exercícios para casa
+### Exercícios 3
 
 ```plaintext
-1. A ** 3 / B + 5 - C * D > C * D + A - B OU A // 2 / D < 18 - A onde A = 9 , B = 3 , C = 4 e D = 2
-2. 5 + A * B ≥ 16 // 4 - D E 6 / A * C / ( A - B ) = 234 OU A / 4 - ( 7 + 5 * C ) < A ** 2 - 3 * B
+
+1) 3 * ( C / 4 + 5) < - 8 * 3 + ( 15 MOD 8 - 3 ) OU 5 ** 2 > INT( C * 0.7 ) onde C = 20
+
+2) A ** 3 / B + 5 - C * D > C * D + A - B OU A // 2 / D < 18 - A onde A = 9 , B = 3 , C = 4 e D = 2
+
+3) 5 + A * B ≥ 16 // 4 - D E 6 / A * C / ( A - B ) = 234 OU A / 4 - ( 7 + 5 * C ) < A ** 2 - 3 * B
 
 ```
 
@@ -162,8 +173,8 @@ Exercícios para casa
 
 **Exemplo:**
 
-```mathematica
-**lógico: A, B;
+```plaintext
+  lógico: A, B;
 	Inteiro: X, AULA;
 	A = Verdadeiro;
 	X = 15;
@@ -188,7 +199,7 @@ Escreva ( “O resultado do peso do aluno é de “, PESO, “ quilos” );
 
 ```
 
-## BLOCOS 
+## BLOCOS
 
 - Um algoritmo pode ser visto como um bloco. Ele serve para definir os limites nos quais as variáveis declaradas em seu interior são conhecidas e processadas.**
 
@@ -196,8 +207,8 @@ Escreva ( “O resultado do peso do aluno é de “, PESO, “ quilos” );
 
 **Exemplo:**
 
-```mathematica
-	**| nome do programa
+```plaintext
+	| nome do programa
 	|
 	| declaração de variáveis
 	|
@@ -209,15 +220,15 @@ inicio
 	|
 	| resultado
 	|
-fim.**
+fim.
 ```
 
 ## ESTRUTURAS DE CONTROLE
 
 **SEQÜENCIAL**
 
-```mathematica
-	**| nome do programa
+```plaintext
+	| nome do programa
 	|
 	| declaração de variáveis
 	|
@@ -228,14 +239,14 @@ inicio
 	| comando c;
 	| 
 	| comando n;
-fim.**
+fim.
 ```
 
-## Exercícios 3
+## Exercícios 4
 
 - **Construa um algoritmo que calcule a média aritmética entre quatro notas quaisquer fornecidas pelo usuário.**
 
-```jsx
+```liquid
 programa {
   // Calcular a media de duas notas
   funcao inicio() {

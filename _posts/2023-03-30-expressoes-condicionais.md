@@ -1,6 +1,6 @@
 ---
-title:  "Estruturas de controle"
-date: 2023-03-24 17:00:00 -0300
+title:  "Expressões condicionais"
+date: 2023-03-30 17:00:00 -0300
 categories: [DESENVOLVIMENTO, PROGRAMADOR]
 tags: [Senac, lógica, programador, programação, exercícios]
 ---
