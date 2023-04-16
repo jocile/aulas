@@ -76,8 +76,8 @@ theme_mode: # [light|dark]
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
-# e.g. 'https://cdn.com'
-img_cdn: "https://ik.imagekit.io/jocile/"
+# e.g. 'https://cdn.com' "https://ik.imagekit.io/jocile/"
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/avatar.jpg

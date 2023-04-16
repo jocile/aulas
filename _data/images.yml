@@ -76,17 +76,26 @@ componentes-pc:
   link: https://user-images.githubusercontent.com/45495068/188345387-a84fe032-f3bc-4877-9759-ad047c3a0a53.png
   caption: Principais componentes do computador
 arduino:
-  link: assets/img/img_posts/arduino-board-anatomy.png
+  link: /assets/img/img_posts/arduino-board-anatomy.png
   caption: Anatomia do Arduino, fonte arduino.cc
 arduino-timeline:
-  link: assets/img/img_posts/arduino-timeline.png
+  link: /assets/img/img_posts/arduino-timeline.png
   caption: Linha do tempo do Arduino, fonte arduino.cc
 arduino-descricao:
-  link: assets/img/img_posts/arduino-descricao-min.png
+  link: /assets/img/img_posts/arduino-descricao-min.png
   caption: Descrição dos componentes do Arduino, fonte arduino.cc
 arduino-shields:
-  link: assets/img/img_posts/arduino-shields-min.png
+  link: /assets/img/img_posts/arduino-shields-min.png
   caption: Placa de expansão do Arduino, fonte arduino.cc
 arduino-tipos:
-  link: assets/img/img_posts/arduino-tipos-min.png
+  link: /assets/img/img_posts/arduino-tipos-min.png
   caption: Tipos de placas do Arduino, fonte arduino.cc
+protoboard:
+  link: /assets/img/img_posts/protoboard.png
+  caption: Protoboard usado para conexões
+corrente-continua:
+  link: /assets/img/img_posts/corrente-continua.png
+  caption: Gráfico da corrente pelo tempo
+corrente-alternada:
+  link: /assets/img/img_posts/corrente-alternada.png
+  caption: Gráfico da corrente pelo tempo
