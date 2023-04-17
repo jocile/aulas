@@ -99,3 +99,15 @@ corrente-continua:
 corrente-alternada:
   link: /assets/img/img_posts/corrente-alternada.png
   caption: Gráfico da corrente pelo tempo
+resistor:
+  link: /assets/img/img_posts/resistor.png
+  caption: Resistor
+calculo-da-resistencia:
+  link: /assets/img/img_posts/calculo-da-resistencia.png
+  caption: Cálculo da resistência
+resistor-cores:
+  link: /assets/img/img_posts/resistor-cores.png
+  caption: Identificação de cores do resistor
+led:
+  link: /assets/img/img_posts/led.png
+  caption: Componente eletrônico led

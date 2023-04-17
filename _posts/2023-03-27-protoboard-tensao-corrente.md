@@ -2,7 +2,7 @@
 title:  "Protoboard tensão e corrente"
 date: 2023-03-27 09:00:00 -0300
 categories: [AULAS, NOÇÕES DE ROBÓTICA]
-tags: [arduino, robótica, curso, programação]
+tags: [arduino, robótica, curso, eletricidade, eletrônica]
 ---
 O Arduino é uma plataforma de prototipagem eletrônica bastante popular, que permite a criação de projetos de automação, robótica, Internet das Coisas (IoT), entre outros. Uma das principais vantagens do Arduino é a sua flexibilidade, que permite a conexão de diversos componentes eletrônicos, como sensores, atuadores e displays.
 
@@ -62,6 +62,18 @@ A corrente alternada é a forma mais comum de energia elétrica utilizada em res
 A forma de onda da corrente alternada é geralmente senoidal, o que significa que a intensidade da corrente elétrica varia em uma curva que se assemelha a um seno ou um cosseno. A forma de onda senoidal é a mais utilizada em circuitos de potência porque é a forma mais eficiente de transmissão de energia. No entanto, em alguns circuitos de controle, podem ser utilizadas outras formas de onda, como triangular ou quadrada.
 
 Ao contrário da corrente contínua, a corrente alternada é composta por fases, que são diferentes formas de onda que estão defasadas no tempo em relação umas às outras. Isso é necessário para que haja um fluxo de energia constante e contínuo no circuito. Além disso, a corrente alternada é geralmente transmitida em três fios, cada um correspondendo a uma fase, além de um fio neutro que é comum a todas as fases. Esse sistema é conhecido como trifásico e é amplamente utilizado em aplicações industriais.
+
+## Calculando
+
+Cálculo da tensão:
+
+- Se a resistência (R) e a corrente (I) são conhecidas, a tensão (V) pode ser calculada pela fórmula `V = R * I`.
+- Se a tensão em um ponto do circuito é conhecida, a tensão em outro ponto pode ser calculada usando a lei de Ohm: `V = I * R`, onde I é a corrente que flui entre os dois pontos e R é a resistência entre os dois pontos.
+
+Cálculo da corrente:
+
+- Se a resistência (R) e a tensão (V) são conhecidas, a corrente (I) pode ser calculada pela fórmula `I = V/R`.
+- Se a corrente que flui em um componente é conhecida, a corrente em outro componente pode ser calculada usando a lei de Ohm: `I = V / R`, onde V é a tensão entre os dois componentes e R é a resistência entre os dois componentes.
 
 ## Referências
 

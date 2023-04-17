@@ -428,6 +428,6 @@ public class Main {
 
 [Java array: como declarar, usar e manipular arrays em Java?](https://blog.betrybe.com/java/java-array/)
 
-[Apostilas | Alura Cursos Online](https://www.alura.com.br/apostilas)
+[Apostilas - Alura Cursos Online](https://www.alura.com.br/apostilas)
 
 [Learn Java - Dev.java](https://dev.java/learn/)
