@@ -1,6 +1,6 @@
 ---
 title:  "Componente Resistor propriedades"
-date: 2023-04-10 09:00:00 -0300
+date: 2023-04-11 09:00:00 -0300
 categories: [AULAS, NOÇÕES DE ROBÓTICA]
 tags: [arduino, robótica, curso, eletrônica]
 ---
