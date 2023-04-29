@@ -1,6 +1,6 @@
 ---
 title:  "Componente Led"
-date: 2023-04-16 09:00:00 -0300
+date: 2023-04-17 09:00:00 -0300
 categories: [AULAS, NOÇÕES DE ROBÓTICA]
 tags: [arduino, robótica, curso, eletrônica]
 ---

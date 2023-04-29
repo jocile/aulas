@@ -1,6 +1,6 @@
 ---
 title:  "Teste Vocacional"
-date: 2023-04-18 10:00:00 -0300
+date: 2023-04-24 10:00:00 -0300
 categories: [AULAS, PLANEJAMENTO DE CARREIRA]
 tags: [planejamento, carreira, graduação]
 ---
