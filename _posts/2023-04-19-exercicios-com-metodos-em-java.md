@@ -100,37 +100,6 @@ class Aluno {
 }
 ```
 
-Neste ex
-
-```java
-import java.util.Scanner;
-
-public class MediaNotas {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("Digite a primeira nota: ");
-        double nota1 = input.nextDouble();
-
-        System.out.print("Digite a segunda nota: ");
-        double nota2 = input.nextDouble();
-
-        System.out.print("Digite a terceira nota: ");
-        double nota3 = input.nextDouble();
-
-        double media = Aluno.calcularMedia(nota1, nota2, nota3);
-
-        System.out.println("A média é: " + media);
-    }
-}
-
-class Aluno {
-    public static double calcularMedia(double nota1, double nota2, double nota3) {
-        return (nota1 + nota2 + nota3) / 3;
-    }
-}
-```
-
 Neste exemplo, criamos uma classe Aluno que possui apenas um método estático calcularMedia, que recebe as três notas como parâmetros e retorna a média. No método main, lemos as notas do usuário e chamamos o método calcularMedia da classe Aluno passando as notas como argumentos. O método calcularMedia é declarado como static para que possa ser chamado diretamente pela classe Aluno, sem precisar criar um objeto da classe.
 
 ## Referências

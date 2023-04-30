@@ -315,6 +315,7 @@ public class ComparadorNumeros {
     return Math.min(numero1, numero2);
   }
 }
+```
 
 Aqui, estamos definindo três funções: `ehIgual`, `getMaior` e `getMenor`.
 
@@ -323,8 +324,6 @@ A função `ehIgual` simplesmente compara os dois números e retorna `true` se e
 As funções `getMaior` e `getMenor` usam a classe `Math` do Java para determinar o maior e o menor número entre os dois dados.
 
 No método `main`, lemos os dois números do usuário e usamos uma declaração condicional para imprimir o resultado correto com base em se os números são iguais ou diferentes.
-
-```
 
 ## Referências
 
