@@ -238,62 +238,11 @@ Neste exemplo, criamos uma nova ArrayList de strings, adicionamos alguns element
 > Existem muitos métodos úteis disponíveis para trabalhar com ArrayLists, como adicionar ou remover elementos, obter o tamanho da lista e acessar elementos individuais por índice. Também podemos usar o método "contains" para verificar se a lista contém um determinado elemento.
 {: .prompt-info }
 
-## Funções
-
-Em Java, as funções são chamadas de métodos e são definidas dentro de uma classe. Um método é um bloco de código que executa uma tarefa específica e pode ser chamado várias vezes ao longo do programa.
-
-Aqui está um exemplo simples de um método em Java:
-
-```java
-public class ExemploMetodo {
-    public static void main(String[] args) {
-        int resultado = somar(3, 4);
-        System.out.println(resultado);
-    }
-
-    public static int somar(int a, int b) {
-        int resultado = a + b;
-        return resultado;
-    }
-}
-```
-
-Neste exemplo, criamos um método chamado "somar" que recebe dois argumentos inteiros e retorna sua soma. O método é definido com o modificador "public" (que significa que ele pode ser acessado de fora da classe), o tipo de retorno (que é int neste caso), o nome do método e os parâmetros que ele recebe entre parênteses.
-
-O método "somar" é chamado dentro do método "main" e o resultado é armazenado na variável "resultado", que é então exibida no console.
-
-Além disso, os métodos podem ser sobrecarregados, o que significa que podemos ter dois ou mais métodos com o mesmo nome, mas diferentes tipos ou números de parâmetros. Isso é útil quando queremos executar a mesma tarefa com diferentes tipos de entrada.
-
-```java
-public class ExemploSobrecarga {
-    public static void main(String[] args) {
-        int resultadoInteiro = somar(3, 4);
-        double resultadoDouble = somar(3.5, 4.5);
-        System.out.println(resultadoInteiro);
-        System.out.println(resultadoDouble);
-    }
-
-    public static int somar(int a, int b) {
-        int resultado = a + b;
-        return resultado;
-    }
-
-    public static double somar(double a, double b) {
-        double resultado = a + b;
-        return resultado;
-    }
-}
-```
-
-Neste exemplo, temos dois métodos "somar" com os mesmos nomes, mas diferentes tipos de entrada (int e double). Quando chamamos o método "somar" com inteiros, o método com inteiros como parâmetros é chamado e retorna um inteiro. Quando chamamos o método "somar" com doubles, o método com doubles como parâmetros é chamado e retorna um double.
-
 ## Exercícios
 
 1. Faça um algoritmo para ler dois números e imprimir o maior, o menor ou então dizer se são iguais.
 2. Faça um algoritmo para ler um número inteiro e dizer se o número lido é par ou impar.
 3. Faça um algoritmo para ler dois números A e B e dizer se A é divisível por B.
-4. Faça um algoritmo para ler dois números e imprimi-los em ordem crescente.
-5. Faça um algoritmo para ler três números e imprimir o maior.
 
 ## Resolução com Java
 
@@ -371,63 +320,14 @@ public class Main {
 }
 ```
 
-### 4. Ordenar números
-
-Para imprimir dois números em ordem crescente, podemos utilizar a classe Arrays e o método sort.
-
-```java
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class Main {
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Digite o primeiro número: ");
-    int num1 = scanner.nextInt();
-    System.out.print("Digite o segundo número: ");
-    int num2 = scanner.nextInt();
-
-    int[] numeros = {num1, num2};
-    Arrays.sort(numeros);
-
-    System.out.println("Os números em ordem crescente são: " + numeros[0] + " e " + numeros[1]);
-  }
-}
-```
-
-### 5. Encontrar o maior
-
-Para encontrar o maior número entre três, podemos utilizar estruturas condicionais para compará-los.
-
-```java
-import java.util.Scanner;
-
-public class Main {
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Digite o primeiro número: ");
-    int num1 = scanner.nextInt();
-    System.out.print("Digite o segundo número: ");
-    int num2 = scanner.nextInt();
-    System.out.print("Digite o terceiro número: ");
-```
-
 ## Referências
 
-[O que é Java e por onde começar? | Zup](https://www.zup.com.br/blog/o-que-e-java)
-
-[Java Tutorial](https://www.w3schools.com/java/default.asp)
-
-[Qual a diferença entre JDK, JRE e JVM](https://dicasdejava.com.br/qual-a-diferenca-entre-jdk-jre-e-jvm/)
-
-[Estruturas condicionais e de repetição](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao)
-
-[If, else java e operador ternário: como usar?](https://blog.betrybe.com/if-else-java/)
-
-[Declarações if-else em java - Javatpoint](https://www.javatpoint.com/pt/declarações-if-else-em-java)
-
-[Java array: como declarar, usar e manipular arrays em Java?](https://blog.betrybe.com/java/java-array/)
-
-[Apostilas - Alura Cursos Online](https://www.alura.com.br/apostilas)
-
-[Learn Java - Dev.java](https://dev.java/learn/)
+- [O que é Java e por onde começar? | Zup](https://www.zup.com.br/blog/o-que-e-java)
+- [Java Tutorial](https://www.w3schools.com/java/default.asp)
+- [Qual a diferença entre JDK, JRE e JVM](https://dicasdejava.com.br/qual-a-diferenca-entre-jdk-jre-e-jvm/)
+- [Estruturas condicionais e de repetição](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao)
+- [If, else java e operador ternário: como usar?](https://blog.betrybe.com/if-else-java/)
+- [Declarações if-else em java - Javatpoint](https://www.javatpoint.com/pt/declarações-if-else-em-java)
+- [Java array: como declarar, usar e manipular arrays em Java?](https://blog.betrybe.com/java/java-array/)
+- [Apostilas - Alura Cursos Online](https://www.alura.com.br/apostilas)
+- [Learn Java - Dev.java](https://dev.java/learn/)
