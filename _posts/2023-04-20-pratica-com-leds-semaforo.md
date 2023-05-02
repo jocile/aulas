@@ -94,4 +94,4 @@ Com o Tinkercad e o Arduino, é possível criar projetos incríveis, como o sem�
 
 {% include embed/youtube.html id='pljx0UEcJZs' %}
 
-[TUTORIAL TINKERCAD ARDUINO COMO CRIAR E SIMULAR UM SEMÁFORO SIMPLES](https://www.youtube.com/watch?v=pljx0UEcJZs)
+- [TUTORIAL TINKERCAD ARDUINO COMO CRIAR E SIMULAR UM SEMÁFORO SIMPLES](https://www.youtube.com/watch?v=pljx0UEcJZs)
