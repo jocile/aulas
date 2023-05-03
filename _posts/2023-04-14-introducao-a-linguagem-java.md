@@ -322,7 +322,7 @@ public class Main {
 
 ## Referências
 
-- [O que é Java e por onde começar? | Zup](https://www.zup.com.br/blog/o-que-e-java)
+- [O que é Java e por onde começar? - Zup](https://www.zup.com.br/blog/o-que-e-java)
 - [Java Tutorial](https://www.w3schools.com/java/default.asp)
 - [Qual a diferença entre JDK, JRE e JVM](https://dicasdejava.com.br/qual-a-diferenca-entre-jdk-jre-e-jvm/)
 - [Estruturas condicionais e de repetição](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao)
