@@ -32,63 +32,65 @@ Para desenvolver um algoritmo em Java usando GUI Swing para ler três números e
 Segue abaixo um exemplo de código que implementa esses passos:
 
 ```java
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
 
-public class MaiorNumeroGUI extends JFrame implements ActionListener {
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class MaiorNumeroGUI extends JFrame{
 
     private JLabel label1, label2, label3, resultado;
-    private JTextField campo1, campo2, campo3;
+    private JTextField campo1, campo2;
     private JButton botao;
 
     public MaiorNumeroGUI() {
         super("Encontre o maior número");
-        setSize(300, 200);
+        setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        label1 = new JLabel("Insira três números:");
+        label1 = new JLabel("Insira dois números:");
         label2 = new JLabel("Número 1:");
         label3 = new JLabel("Número 2:");
-        resultado = new JLabel("");
+        resultado = new JLabel(" ");
 
         campo1 = new JTextField(10);
         campo2 = new JTextField(10);
-        campo3 = new JTextField(10);
 
         botao = new JButton("Encontrar o maior");
-        botao.addActionListener(this);
 
         JPanel painel = new JPanel();
-        painel.setLayout(new GridLayout(4, 2));
+        painel.setLayout(new GridLayout(4, 2, 10, 10));
         painel.add(label1);
         painel.add(new JLabel(""));
         painel.add(label2);
         painel.add(campo1);
         painel.add(label3);
         painel.add(campo2);
-        painel.add(new JLabel(""));
         painel.add(botao);
+        painel.add(resultado);        
 
         add(painel, BorderLayout.CENTER);
-        add(resultado, BorderLayout.SOUTH);
-    }
+        //add(resultado, BorderLayout.SOUTH);
+    
 
-    public void actionPerformed(ActionEvent evento) {
+    botao.addActionListener(e -> {
         int num1 = Integer.parseInt(campo1.getText());
         int num2 = Integer.parseInt(campo2.getText());
-        int num3 = Integer.parseInt(campo3.getText());
 
         int maior = num1;
-        if (num2 > maior) {
+        if (num1 > maior) {
+            maior = num1;
+        } else {
             maior = num2;
-        }
-        if (num3 > maior) {
-            maior = num3;
         }
 
         resultado.setText("O maior número é: " + maior);
-    }
+    });
+  }
 
     public static void main(String[] args) {
         MaiorNumeroGUI app = new MaiorNumeroGUI();
@@ -98,7 +100,7 @@ public class MaiorNumeroGUI extends JFrame implements ActionListener {
 
 ```
 
-## 2. Faça um algoritmo para ler dois números A e B e dizer se A é divisível por B.
+## 2. Faça um algoritmo para ler dois números A e B e dizer se A é divisível por B
 
 Para resolver o problema de ler dois números A e B e dizer se A é divisível por B, podemos seguir os seguintes passos:
 
@@ -138,17 +140,17 @@ public class DivisibilidadeGUI extends JFrame implements ActionListener {
         botao.addActionListener(this);
 
         JPanel painel = new JPanel();
-        painel.setLayout(new GridLayout(3, 2));
+        painel.setLayout(new GridLayout(4, 2, 10, 10));
         painel.add(label1);
         painel.add(label2);
         painel.add(new JLabel("Número 1:"));
         painel.add(campo1);
         painel.add(new JLabel("Número 2:"));
         painel.add(campo2);
+        painel.add(botao);
+        painel.add(resultado);
 
         add(painel, BorderLayout.CENTER);
-        add(botao, BorderLayout.SOUTH);
-        add(resultado, BorderLayout.NORTH);
     }
 
     public void actionPerformed(ActionEvent evento) {
@@ -186,20 +188,19 @@ Para resolver o problema de ler dois números e imprimir o maior, o menor ou diz
 Segue abaixo o código atualizado que verifica se o número A é divisível pelo número B:
 
 ```java
-javaCopy code
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class DivisibilidadeGUI extends JFrame implements ActionListener {
+public class MaiorMenorIgualGUI extends JFrame implements ActionListener {
 
     private JLabel label1, label2, resultado;
     private JTextField campo1, campo2;
     private JButton botao;
 
-    public DivisibilidadeGUI() {
-        super("Divisibilidade");
-        setSize(300, 200);
+    public MaiorMenorIgualGUI() {
+        super("Maior, Menor ou Igual");
+        setSize(600, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         label1 = new JLabel("Insira dois números:");
@@ -213,35 +214,45 @@ public class DivisibilidadeGUI extends JFrame implements ActionListener {
         botao.addActionListener(this);
 
         JPanel painel = new JPanel();
-        painel.setLayout(new GridLayout(3, 2));
+        painel.setLayout(new GridLayout(4, 2, 10, 10));
         painel.add(label1);
         painel.add(label2);
         painel.add(new JLabel("Número 1:"));
         painel.add(campo1);
         painel.add(new JLabel("Número 2:"));
         painel.add(campo2);
+        painel.add(botao);
+        painel.add(resultado);
 
         add(painel, BorderLayout.CENTER);
-        add(botao, BorderLayout.SOUTH);
-        add(resultado, BorderLayout.NORTH);
     }
 
     public void actionPerformed(ActionEvent evento) {
         int num1 = Integer.parseInt(campo1.getText());
         int num2 = Integer.parseInt(campo2.getText());
 
-        if (num1 % num2 == 0) {
-            resultado.setText(num1 + " é divisível por " + num2 + ".");
+        if (num1 > num2) {
+            resultado.setText(num1 + " é o maior número.");
+        } else if (num2 > num1) {
+            resultado.setText(num2 + " é o maior número.");
         } else {
-            resultado.setText(num1 + " não é divisível por " + num2 + ".");
+            resultado.setText("Os números são iguais.");
+        }
+
+        if (num1 < num2) {
+            resultado.setText(resultado.getText() + "\n" + num1 + " é o menor número.");
+        } else if (num2 < num1) {
+            resultado.setText(resultado.getText() + "\n" + num2 + " é o menor número.");
+        } else {
+            resultado.setText(resultado.getText() + "\n" + "Os números são iguais.");
         }
     }
 
     public static void main(String[] args) {
-        DivisibilidadeGUI app = new DivisibilidadeGUI();
+        MaiorMenorIgualGUI app = new MaiorMenorIgualGUI();
         app.setVisible(true);
     }
-}
+  }
 
 ```
 
@@ -254,9 +265,13 @@ Para criar uma janela com menu que permita ao usuário escolher qual exemplo exe
 Segue abaixo o código completo para uma janela com menu que exibe os três exemplos anteriores:
 
 ```java
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 
 public class ExemplosGUI extends JFrame implements ActionListener {
 
@@ -274,7 +289,7 @@ public class ExemplosGUI extends JFrame implements ActionListener {
         exemplosMenu = new JMenu("Exemplos");
 
         // Adiciona os itens do menu
-        maiorMenuItem = new JMenuItem("Maior de três números");
+        maiorMenuItem = new JMenuItem("Maior número");
         maiorMenuItem.addActionListener(this);
         exemplosMenu.add(maiorMenuItem);
 
@@ -296,7 +311,7 @@ public class ExemplosGUI extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent evento) {
         if (evento.getSource() == maiorMenuItem) {
             // Executa o exemplo de encontrar o maior de três números
-            new MaiorDeTresNumerosGUI().setVisible(true);
+            new MaiorNumeroGUI().setVisible(true);
         } else if (evento.getSource() == divisibilidadeMenuItem) {
             // Executa o exemplo de verificar divisibilidade
             new DivisibilidadeGUI().setVisible(true);
