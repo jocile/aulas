@@ -387,4 +387,5 @@ Neste exemplo, criamos uma classe Conta que possui os métodos depositar, sacar,
 
 ## Referências
 
-[Java OOP (Object-Oriented Programming)](https://www.w3schools.com/java/java_oop.asp)
+- [Java OOP (Object-Oriented Programming)](https://www.w3schools.com/java/java_oop.asp)
+- [Criando jogo virtual pet]({% post_url 2023-05-11-criando-jogo-virtual-pet %})

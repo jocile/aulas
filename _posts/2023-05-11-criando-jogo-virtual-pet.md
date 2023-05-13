@@ -244,4 +244,8 @@ Lógica de programação cap. 10. pg. 247.
 E-book. Disponível em: [https://bibliotecadigitalsenac.com.br/?from=%3FcontentInfo%3D1306#/legacy/epub/1306](https://bibliotecadigitalsenac.com.br/?from=%3FcontentInfo%3D1306#/legacy/epub/1306)
 Acesso em 11/05/2023
 
-[Exercicios com classes em java]({% post_url 2023-04-20-exercicios-com-classes-em-java %})
+- [Exercícios com classes em java]({% post_url 2023-04-20-exercicios-com-classes-em-java %})
+- [Editor de diagramas Mermaid](https://mermaid.live/)
+- [Mermaid Class diagram Help ](https://mermaid.js.org/syntax/classDiagram.html)
+- [Java OOP (Object-Oriented Programming)](https://www.w3schools.com/java/java_oop.asp)
+- [Repositório da atividade jogo Pet no Github ](https://github.com/jocile/programador-senac/blob/main/poo/)

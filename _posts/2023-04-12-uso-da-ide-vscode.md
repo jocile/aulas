@@ -2,7 +2,7 @@
 title:  "Uso da IDE VScode"
 date: 2023-04-12 18:30:00 -0300
 categories: [DESENVOLVIMENTO, PROGRAMADOR]
-tags: [Senac, programador, programação, vscode]
+tags: [Senac, programador, programação, vscode, ide]
 ---
 O VScode (Visual Studio Code) é uma IDE (Integrated Development Environment) de código aberto e gratuita, desenvolvida pela Microsoft, que oferece suporte para várias linguagens de programação, incluindo Python e Java. Algumas das principais características do VScode para edição de código nessas linguagens são:
 
