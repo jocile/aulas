@@ -23,11 +23,13 @@ Sempre me interessei muito por tecnologia e acabei encontrando a área quando cu
 
 Atualmente estou buscando conhecimento em cursos:
 
-- [Treinamento na nuvem Google](https://www.cloudskillsboost.google/?locale=pt_BR)
+- [techguide.sh](https://techguide.sh/)
 - [Bootcamp SpringBoot DevSuperior](https://devsuperior.com.br/cursos/)
 - [Digital Inovatio One - DIO](https://dio.me/sign-up?ref=XXNHOX4TYB)
-- [Cisco Skills for all](https://skillsforall.com/)
 - [Rocketseat](https://www.rocketseat.com.br/)
+- [Alura treinamentos](https://www.alura.com.br/)
+- [Treinamento na nuvem Google](https://www.cloudskillsboost.google/?locale=pt_BR)
+- [Cisco Skills for all](https://skillsforall.com/)- 
 - [Treinamento Microsoft](https://learn.microsoft.com/pt-br/training/)
 - [Treinamento Amazon AWS](https://explore.skillbuilder.aws/learn)
 - [Treinamento Huawei](https://e.huawei.com/en/talent/portal/#/)
