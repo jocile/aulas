@@ -2,7 +2,7 @@
 title:  "Programação visual com Netbeans"
 date: 2023-05-10 17:00:00 -0300
 categories: [DESENVOLVIMENTO, PROGRAMADOR]
-tags: [Senac, programador, programação, gui, java, ide]
+tags: [Senac, programador, programação, gui, java, ide, uml, diagrama]
 ---
 O NetBeans é um ambiente de desenvolvimento integrado (IDE) popular que suporta várias linguagens de programação, incluindo Java, C/C++, PHP e HTML/CSS/JavaScript.
 
@@ -37,7 +37,7 @@ Para criar diagramas de classes usando o plugin EasyUML no NetBeans, siga as eta
 7. Personalize o diagrama: Você pode personalizar o diagrama de classe conforme suas preferências. Clique com o botão direito do mouse em uma classe ou relacionamento e selecione "Properties" (Propriedades) para ajustar as configurações, como nome da classe, multiplicidade do relacionamento, visibilidade dos membros, etc. Você também pode redimensionar as classes e reposicioná-las no diagrama conforme necessário.
 8. Salve o diagrama: Após concluir o diagrama de classe, salve-o clicando em "File" (Arquivo) no menu superior e selecionando "Save" (Salvar). Escolha um local e um nome para o arquivo de diagrama e clique em "Save" (Salvar).
 
-> O EasyUML é um plugin útil para criar diagramas de classes no NetBeans, mas tenha em mente que ele pode ter algumas limitações e não possui todos os recursos avançados de ferramentas dedicadas para modelagem UML. Para projetos maiores e mais complexos, é recomendável considerar o uso de ferramentas específicas de modelagem UML, por exemplo o [PlantUML](https://plantuml.com/).
+> O EasyUML é um plugin útil para criar diagramas de classes no NetBeans, mas tenha em mente que ele pode ter algumas limitações e não possui todos os recursos avançados de ferramentas dedicadas para modelagem UML. Para projetos maiores e mais complexos, é recomendável considerar o uso de ferramentas específicas de modelagem UML, por exemplo o [PlantUML](https://plantuml.com/), e o [Mermaid](https://mermaid.live/).
 {: .prompt-tip }
 
 ### Gerando código Java
