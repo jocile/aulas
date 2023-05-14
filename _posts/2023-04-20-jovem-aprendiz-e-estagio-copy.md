@@ -1,7 +1,7 @@
 ---
 title:  "Jovem aprendiz e estágio"
 date: 2023-04-20 10:00:00 -0300
-categories: [AULAS, PLANEJAMENTO DE CARREIRA]
+categories: [AULAS, PROFISSÃO E FORMAÇÃO]
 tags: [profissão]
 ---
 Os regimes de estagiário e Jovem Aprendiz são regulamentados pela CLT e pela Lei nº 11.788/2011, porém são diferentes entre si. Os colaboradores contratados em ambos regimes entram em uma empresa para adquirir experiência profissional e devem ter suas horas de estudo respeitadas. Neste artigo mostraremos o que diz a lei e as diferenças entre as duas modalidades de contratos!
