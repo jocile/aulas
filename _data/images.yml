@@ -111,3 +111,6 @@ resistor-cores:
 led:
   link: /assets/img/img_posts/led.png
   caption: Componente eletrônico led
+opcoes-explorador:
+  link: /assets/img/img_posts/opcoes-explorador.png
+  caption: janela de configuração da visualização do explorador do Windows
