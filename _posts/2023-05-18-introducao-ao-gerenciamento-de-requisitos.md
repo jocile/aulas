@@ -212,8 +212,8 @@ sequenceDiagram
 ## Referências
 
 [![Video Técnicas para Elicitação de Requisitos](http://img.youtube.com/vi/22gtIfAdelU/0.jpg){: w="200" h="50" }](http://www.youtube.com/watch?v=22gtIfAdelU)
-[![Video O que é Levantamento de Requisitos](http://img.youtube.com/vi/VcOeM2AD8Yk/0.jpg){: w="200" h="50" }](http://www.youtube.com/watch?v=VcOeM2AD8Yk)]
+[![Video O que é Levantamento de Requisitos](http://img.youtube.com/vi/VcOeM2AD8Yk/0.jpg){: w="200" h="50" }](http://www.youtube.com/watch?v=VcOeM2AD8Yk)
 
-- [Biblioteca Senac: Análise de Sistemas capítulos 5 e 7 - Henrique Pontes Gonçalves de Oliveira](https://bibliotecadigitalsenac.com.br/?from=?contentInfo=2133#/legacy/epub/2133)
 - [Requisitos Funcionais, Não Funcionais e De Domínio](https://andremaretti.wordpress.com/2014/03/09/requisitos-funcionais-nao-funcionais-e-de-dominio/)
 - [Editor de diagramas Mermaid](https://mermaid.live/)
+- [Livro restrito da biblioteca Senac - {{site.data.references.apostilas.senac[8].name}} - capítulos 5 e 7]({{site.data.references.apostilas.senac[8].link}})

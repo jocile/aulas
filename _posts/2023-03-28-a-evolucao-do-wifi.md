@@ -2,7 +2,7 @@
 title: "A evolução do WiFi"
 date: 2023-03-28 10:40:00 -0300
 categories: [AULAS, INFRAESTRUTURA DE REDES]
-tags: [infraestrutura, wifi]
+tags: [infraestrutura, WiFi]
 ---
 A evolução do Wi-Fi tem sido uma das mais rápidas e dramáticas no mundo das tecnologias de comunicação sem fio. Desde sua primeira versão, o Wi-Fi tem evoluído rapidamente para oferecer maior largura de banda, melhor desempenho e maior alcance.
 

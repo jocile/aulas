@@ -2,7 +2,7 @@
 title: "Tecnologias de redes sem fio"
 date: 2023-03-27 10:40:00 -0300
 categories: [AULAS, INFRAESTRUTURA DE REDES]
-tags: [infraestrutura, conectores, wifi]
+tags: [infraestrutura, conectores, WiFi]
 ---
 As redes sem fio surgiram para promover a mobilidade e a visualização rápida dos dados, independentemente da localização do usuário, e são transmitidas pelo ar ou espaço livre, constituindo-se como meio físico para propagação de sinais eletromagnéticos.
 

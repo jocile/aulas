@@ -114,3 +114,6 @@ led:
 opcoes-explorador:
   link: /assets/img/img_posts/opcoes-explorador.png
   caption: janela de configuração da visualização do explorador do Windows
+modelo-conceitual:
+  link: /assets/img/img_posts/modelo-conceitual.png
+  caption: Modelo conceitual
