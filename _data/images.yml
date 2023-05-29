@@ -117,3 +117,9 @@ opcoes-explorador:
 modelo-conceitual:
   link: /assets/img/img_posts/modelo-conceitual.png
   caption: Modelo conceitual
+display7:
+  link: /assets/img/img_posts/display7.png
+  caption: Display de 7 segmentos
+display7arduino:
+  link: /assets/img/img_posts/display7_arduino.png
+  caption: Montagem do display de 7 segmentos
