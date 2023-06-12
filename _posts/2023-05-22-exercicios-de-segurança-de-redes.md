@@ -100,7 +100,7 @@ Respostas:
 
 ## Propriedades da comunicação segura
 
-Aqui está um exercício com perguntas e respostas de múltipla escolha sobre os pilares da segurança de redes:
+Exercício com perguntas e respostas de múltipla escolha sobre os pilares da segurança de redes:
 
 Pergunta 1: Qual é uma das propriedades desejáveis da comunicação segura que garante que as informações transmitidas sejam acessíveis apenas às partes autorizadas?
 
@@ -137,11 +137,9 @@ Respostas:
 3. c. Autenticação do ponto final
 4. d. Segurança operacional
 
-Espero que esse exercício ajude a reforçar o entendimento dos pilares da segurança de redes e suas propriedades desejáveis.
-
 ## Técnicas de segurança de redes
 
-Aqui está um exercício com perguntas e respostas de múltipla escolha sobre os pilares da segurança de redes:
+Exercício com perguntas e respostas de múltipla escolha sobre os pilares da segurança de redes:
 
 Pergunta 1: Qual é a técnica utilizada para proteger a confidencialidade das informações transmitidas em uma rede, transformando o conteúdo legível em um formato ilegível?
 
@@ -185,8 +183,6 @@ Respostas:
 3. c. Um documento eletrônico que atesta a autenticidade de uma entidade
 4. a. Integridade
 5. c. Uma técnica para verificar a integridade dos dados através de um valor resumido único
-
-Espero que este exercício ajude a solidificar o conhecimento sobre os pilares da segurança de redes e suas respectivas características.
 
 ## Referências
 
