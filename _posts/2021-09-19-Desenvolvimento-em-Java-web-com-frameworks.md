@@ -270,8 +270,7 @@ Para mais detalhes acesse: [Criando Uma Aplicação Simples Com Spring MVC](http
 
 ## Referências
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=VQkG6UyJhcY" target="_blank">Vídeo-aula sobre spring framework <img src="http://img.youtube.com/vi/VQkG6UyJhcY/0.jpg" 
-alt="Video-aula sobre spring framework" width="240" height="180" border="10" /></a>
+[![Vídeo-aula sobre spring framework](http://img.youtube.com/vi/VQkG6UyJhcY/0.jpg){: w="240" h="180" }](http://www.youtube.com/watch?feature=player_embedded&v=VQkG6UyJhcY)
 
 [^2]: AFONSO, Alexandre. O que é Spring Boot? **Algaworks**, 2017. Disponível em <https://blog.algaworks.com/spring-boot/>. Acessado em 19 de setembro de 2021.
 [^4]: BRITO, Michelli. Spring Boot da api rest aos microservices. 2021. Disponível em <https://www.michellibrito.com/>. Acessado em 19 de setembro de 2021.
