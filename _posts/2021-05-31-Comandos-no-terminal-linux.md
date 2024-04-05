@@ -151,13 +151,13 @@ As bibliotecas de programas ficam armazenadas em repositórios (servidores), e s
 
 ## Referências
 
-[^1]: Comandos Bash Linux – Guia Básico e Exemplos de Uso. **Hostinger tutoriais**, 2020. Disponível em <https://www.hostinger.com.br/tutoriais/comandos-bash-linux>. Acessado em 31 de maio de 2021.
+[^1]: Comandos Bash Linux - Guia Básico e Exemplos de Uso. **Hostinger tutoriais**, 2020. Disponível em <https://www.hostinger.com.br/tutoriais/comandos-bash-linux>. Acessado em 31 de maio de 2021.
 
 [^2]: FILIPE, Luis, Arthur e Rodrigo. Shell Script. **UFES**. Disponível em: <http://www.inf.ufes.br/~vitorsouza/archive/2020/wp-content/uploads/teaching-lp-20132-seminario-shell.pdf>. Acessado em 31 de maio de 2021.
 
 [^3]: Iniciando o uso do terminal do linux. **UFSM**, 2021. Disponível em: <https://www.ufsm.br/pet/sistemas-de-informacao/2020/04/29/iniciando-o-uso-do-terminal-do-linu/>. Acessado em 31 de maio de 2021.
 
-[^4]: The Complete Guide to “useradd” Command in Linux – 15 Practical Examples. **Tecmint**, 2019. Disponível em: <https://www.tecmint.com/add-users-in-linux/>. Acessado em 31 de maio de 2021.
+[^4]: The Complete Guide to "useradd" Command in Linux - 15 Practical Examples. **Tecmint**, 2019. Disponível em: <https://www.tecmint.com/add-users-in-linux/>. Acessado em 31 de maio de 2021.
 
 [^5]: O Manual do Administrador Debian. **Debian handbook**. Disponível em: <https://debian-handbook.info/browse/pt-BR/stable/sect.apt-get.html>. Acessado em 31 de maio de 2021.
 
@@ -167,7 +167,7 @@ As bibliotecas de programas ficam armazenadas em repositórios (servidores), e s
 
 [^8]: MATHEUS, Yure. Entendendo as permissões no Linux. **Alura**, 2017. Disponível em: <https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux>. Acessado em 31 de maio de 2021.
 
-[^9]: DELFINO, Pedro. Comando Kill – Aprenda A Gerenciar Processos No Linux ( Windows E MacOS). **Profissionais Linux**. Disponível em: <https://e-tinet.com/linux/comando-kill/>. Acessado em 31 de maio de 2021.
+[^9]: DELFINO, Pedro. Comando Kill - Aprenda A Gerenciar Processos No Linux ( Windows E MacOS). **Profissionais Linux**. Disponível em: <https://e-tinet.com/linux/comando-kill/>. Acessado em 31 de maio de 2021.
 
 [^10]: CISNEIROS, Hugo. Comandos no linux. **UFCG**, 2003. Disponível em <http://www.dca.ufcg.edu.br/mna/Linux.pdf>. Acessado em 31 de maio de 2021.
 
