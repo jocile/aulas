@@ -1,0 +1,237 @@
+<!DOCTYPE html><html lang="pt-BR" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover" ><meta name="generator" content="Jekyll v4.3.3" /><meta property="og:title" content="Atividade de configuração de roteadores" /><meta property="og:locale" content="pt_BR" /><meta name="description" content="Neste artigo, vamos explorar o processo de configuração de um roteador Wi-Fi para uma rede local. Abordaremos os passos necessários para configurar o servidor DHCP, o canal, a senha do Wi-Fi e a senha do administrador. Como exemplo, utilizaremos um roteador da TP-Link." /><meta property="og:description" content="Neste artigo, vamos explorar o processo de configuração de um roteador Wi-Fi para uma rede local. Abordaremos os passos necessários para configurar o servidor DHCP, o canal, a senha do Wi-Fi e a senha do administrador. Como exemplo, utilizaremos um roteador da TP-Link." /><link rel="canonical" href="https://jocile.com/aulas/aulas/posts/exercicios-de-configuracao-de-roteadores/" /><meta property="og:url" content="https://jocile.com/aulas/aulas/posts/exercicios-de-configuracao-de-roteadores/" /><meta property="og:site_name" content="Jocile" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2023-05-29T10:40:00-03:00" /><meta name="twitter:card" content="summary" /><meta property="twitter:title" content="Atividade de configuração de roteadores" /><meta name="twitter:site" content="@jocileserra" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-29T10:40:00-03:00","datePublished":"2023-05-29T10:40:00-03:00","description":"Neste artigo, vamos explorar o processo de configuração de um roteador Wi-Fi para uma rede local. Abordaremos os passos necessários para configurar o servidor DHCP, o canal, a senha do Wi-Fi e a senha do administrador. Como exemplo, utilizaremos um roteador da TP-Link.","headline":"Atividade de configuração de roteadores","mainEntityOfPage":{"@type":"WebPage","@id":"https://jocile.com/aulas/aulas/posts/exercicios-de-configuracao-de-roteadores/"},"url":"https://jocile.com/aulas/aulas/posts/exercicios-de-configuracao-de-roteadores/"}</script><title>Atividade de configuração de roteadores | Jocile</title><link rel="apple-touch-icon" sizes="180x180" href="/aulas/assets/img/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/aulas/assets/img/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/aulas/assets/img/favicons/favicon-16x16.png"><link rel="manifest" href="/aulas/assets/img/favicons/site.webmanifest"><link rel="shortcut icon" href="/aulas/assets/img/favicons/favicon.ico"><meta name="apple-mobile-web-app-title" content="Jocile"><meta name="application-name" content="Jocile"><meta name="msapplication-TileColor" content="#da532c"><meta name="msapplication-config" content="/aulas/assets/img/favicons/browserconfig.xml"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="dns-prefetch" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="dns-prefetch" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://cdn.jsdelivr.net" ><link rel="dns-prefetch" href="https://cdn.jsdelivr.net" ><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css"><link rel="stylesheet" href="/aulas/assets/css/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.20.1/dist/tocbot.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css"> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script> <script type="text/javascript"> class ModeToggle { static get MODE_KEY() { return "mode"; } static get MODE_ATTR() { return "data-mode"; } static get DARK_MODE() { return "dark"; } static get LIGHT_MODE() { return "light"; } static get ID() { return "mode-toggle"; } constructor() { if (this.hasMode) { if (this.isDarkMode) { if (!this.isSysDarkPrefer) { this.setDark(); } } else { if (this.isSysDarkPrefer) { this.setLight(); } } } let self = this; /* always follow the system prefers */ this.sysDarkPrefers.addEventListener('change', () => { if (self.hasMode) { if (self.isDarkMode) { if (!self.isSysDarkPrefer) { self.setDark(); } } else { if (self.isSysDarkPrefer) { self.setLight(); } } self.clearMode(); } self.notify(); }); } /* constructor() */ get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); } get isSysDarkPrefer() { return this.sysDarkPrefers.matches; } get isDarkMode() { return this.mode === ModeToggle.DARK_MODE; } get isLightMode() { return this.mode === ModeToggle.LIGHT_MODE; } get hasMode() { return this.mode != null; } get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); } /* get the current mode on screen */ get modeStatus() { if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) { return ModeToggle.DARK_MODE; } else { return ModeToggle.LIGHT_MODE; } } setDark() { $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE); } setLight() { $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE); } clearMode() { $('html').removeAttr(ModeToggle.MODE_ATTR); sessionStorage.removeItem(ModeToggle.MODE_KEY); } /* Notify another plugins that the theme mode has changed */ notify() { window.postMessage({ direction: ModeToggle.ID, message: this.modeStatus }, "*"); } flipMode() { if (this.hasMode) { if (this.isSysDarkPrefer) { if (this.isLightMode) { this.clearMode(); } else { this.setLight(); } } else { if (this.isDarkMode) { this.clearMode(); } else { this.setDark(); } } } else { if (this.isSysDarkPrefer) { this.setLight(); } else { this.setDark(); } } this.notify(); } /* flipMode() */ } /* ModeToggle */ const modeToggle = new ModeToggle(); </script><body data-topbar-visible="true"><div id="sidebar" class="d-flex flex-column align-items-end"><div class="profile-wrapper text-center"><div id="avatar"> <a href="/aulas/" class="mx-auto"> <img src="/aulas/assets/img/avatar.jpg" alt="avatar" onerror="this.style.display='none'"> </a></div><div class="site-title"> <a href="/aulas/">Jocile</a></div><div class="site-subtitle font-italic">Instrutor, desenvolvedor full stack, treinamento profissional</div></div><ul class="w-100"><li class="nav-item"> <a href="/aulas/" class="nav-link"> <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i> <span>HOME</span> </a><li class="nav-item"> <a href="/aulas/categories/" class="nav-link"> <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i> <span>CATEGORIAS</span> </a><li class="nav-item"> <a href="/aulas/tags/" class="nav-link"> <i class="fa-fw fas fa-tag ml-xl-3 mr-xl-3 unloaded"></i> <span>TAGS</span> </a><li class="nav-item"> <a href="/aulas/diario/" class="nav-link"> <i class="fa-fw fas fa-archive ml-xl-3 mr-xl-3 unloaded"></i> <span>DIÁRIO</span> </a><li class="nav-item"> <a href="/aulas/professor/" class="nav-link"> <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i> <span>PROFESSOR</span> </a><li class="nav-item"> <a href="/aulas/aulas/" class="nav-link"> <i class="fa-fw fas fa-laptop ml-xl-3 mr-xl-3 unloaded"></i> <span>AULAS</span> </a><li class="nav-item"> <a href="/aulas/teologia/" class="nav-link"> <i class="fa-fw fas fa-book-open ml-xl-3 mr-xl-3 unloaded"></i> <span>TEOLOGIA</span> </a><li class="nav-item"> <a href="/aulas/referencias/" class="nav-link"> <i class="fa-fw fas fa-book-open ml-xl-3 mr-xl-3 unloaded"></i> <span>REFERÊNCIAS</span> </a></ul><div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center align-items-center"> <button class="mode-toggle btn" aria-label="Switch Mode"> <i class="fas fa-adjust"></i> </button> <span class="icon-border"></span> <a href="https://github.com/jocile" aria-label="github" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i> </a> <a href="https://twitter.com/jocileserra" aria-label="twitter" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter"></i> </a> <a href="javascript:location.href = 'mailto:' + ['jocilecam','gmail.com'].join('@')" aria-label="email" > <i class="fas fa-envelope"></i> </a> <a href="/aulas/feed.xml" aria-label="rss" > <i class="fas fa-rss"></i> </a></div></div><div id="topbar-wrapper"><div id="topbar" class="container d-flex align-items-center justify-content-between h-100 pl-3 pr-3 pl-md-4 pr-md-4"> <span id="breadcrumb"> <span> <a href="/aulas/"> Home </a> </span> <span>Atividade de configuração de roteadores</span> </span> <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i><div id="topbar-title"> Post</div><i id="search-trigger" class="fas fa-search fa-fw"></i> <span id="search-wrapper" class="align-items-center"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" autocomplete="off" placeholder="Buscar..."> </span> <span id="search-cancel" >Cancelar</span></div></div><div id="main-wrapper" class="d-flex justify-content-center"><div id="main" class="container pl-xl-4 pr-xl-4"><div class="row"><div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pr-xl-4"><div class="post pl-1 pr-1 pl-md-2 pr-md-2"><h1 data-toc-skip>Atividade de configuração de roteadores</h1><div class="post-meta text-muted"> <span> Postado em <em class="" data-ts="1685367600" data-df="DD/MM/YYYY" data-toggle="tooltip" data-placement="bottom"> 29/05/2023 </em> </span><div class="d-flex justify-content-between"> <span> Por <em> <a href="https://github.com/jocile">Jocile Serra</a> </em> </span><div> <span class="readtime" data-toggle="tooltip" data-placement="bottom" title="1856 palavras"> <em>10 min</em> de leitura</span></div></div></div><div class="post-content"><p>Neste artigo, vamos explorar o processo de configuração de um roteador Wi-Fi para uma rede local. Abordaremos os passos necessários para configurar o servidor DHCP, o canal, a senha do Wi-Fi e a senha do administrador. Como exemplo, utilizaremos um roteador da TP-Link.</p><h2 id="configuração-inicial"><span class="mr-2">Configuração Inicial</span><a href="#configuração-inicial" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>Antes de iniciar a configuração do roteador, certifique-se de que todos os cabos estejam corretamente conectados e que o roteador esteja ligado. Para acessar as configurações, siga as etapas abaixo:</p><ol><li>Conecte o seu dispositivo (computador ou smartphone) à rede Wi-Fi do roteador. O nome da rede e a senha padrão geralmente estão impressos na parte inferior do roteador.<li>Abra um navegador da web e digite o endereço IP padrão do roteador. Para roteadores TP-Link, o endereço IP padrão comum é <code class="language-plaintext highlighter-rouge">192.168.0.1</code> ou <code class="language-plaintext highlighter-rouge">192.168.1.1</code>. Pressione Enter.<li>Você será redirecionado para a página de login do roteador. Insira o nome de usuário e a senha padrão do administrador. Essas informações também costumam estar impressas na parte inferior do roteador. Se nunca foram alteradas, o nome de usuário e a senha padrão podem ser “admin” para ambos.</ol><h2 id="configurando-o-servidor-dhcp"><span class="mr-2">Configurando o Servidor DHCP</span><a href="#configurando-o-servidor-dhcp" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>O servidor DHCP atribui automaticamente endereços IP aos dispositivos conectados à rede. Para configurá-lo, siga estas etapas:</p><ol><li>Após fazer login no painel de administração do roteador, encontre a seção “DHCP” ou “Configuração do DHCP”.<li>Certifique-se de que o DHCP esteja ativado.<li>Você pode definir o intervalo de endereços IP disponíveis para o DHCP. Defina o “Endereço IP inicial” e o “Endereço IP final” de acordo com suas necessidades.<li>Você também pode definir o tempo de concessão do endereço IP. Esse é o período em que o endereço IP atribuído permanecerá válido.<li>Salve as configurações do DHCP.</ol><h2 id="configurando-o-canal-wi-fi"><span class="mr-2">Configurando o Canal Wi-Fi</span><a href="#configurando-o-canal-wi-fi" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>O canal Wi-Fi determina a frequência utilizada pelo roteador para transmitir o sinal. Ao configurar o canal, é possível evitar interferências e melhorar o desempenho da rede. Siga estas etapas:</p><ol><li>No painel de administração do roteador, procure a seção “Configurações Wi-Fi” ou “Configurações de rede sem fio”.<li>Selecione a opção “Configurações Avançadas” ou “Configurações Avançadas de Wi-Fi”.<li>Procure a opção “Canal” e escolha um canal menos congestionado. Recomenda-se utilizar os canais 1, 6 ou 11, dependendo das condições do ambiente.<li>Salve as configurações do canal Wi-Fi.</ol><h2 id="configurando-a-senha-do-wi-fi"><span class="mr-2">Configurando a Senha do Wi-Fi</span><a href="#configurando-a-senha-do-wi-fi" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>Definir uma senha forte para sua rede Wi-Fi é essencial para garantir a segurança dos dados e evitar acessos não autorizados. Siga estas etapas para configurar a senha do Wi-Fi:</p><ol><li><p>No painel de administração do roteador, vá para a seção “Configurações Wi-Fi” ou “Configurações de rede sem fio”.</p><li>Procure a opção “Segurança” ou “Criptografia”.<li>Selecione o tipo de segurança desejado. Recomenda-se utilizar a opção “WPA2-PSK”, pois é mais segura.<li>Insira a senha desejada no campo correspondente. Certifique-se de utilizar uma senha forte, contendo letras maiúsculas e minúsculas, números e símbolos.<li>Salve as configurações da senha do Wi-Fi.</ol><h2 id="configurando-a-senha-do-administrador"><span class="mr-2">Configurando a Senha do Administrador</span><a href="#configurando-a-senha-do-administrador" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>Além da senha do Wi-Fi, é importante alterar a senha do administrador do roteador para proteger o acesso às configurações do dispositivo. Siga estas etapas:</p><ol><li>No painel de administração do roteador, procure a seção “Configurações do Sistema” ou “Configurações de Administração”.<li>Localize a opção para alterar a senha do administrador.<li>Insira a senha atual do administrador (geralmente “admin” por padrão) e em seguida, insira a nova senha desejada.<li>Salve as configurações da senha do administrador.</ol><h2 id="conclusão"><span class="mr-2">Conclusão</span><a href="#conclusão" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>A configuração de um roteador Wi-Fi para uma rede local envolve passos essenciais, como configurar o servidor DHCP, o canal, a senha do Wi-Fi e a senha do administrador. Com a correta configuração, você pode garantir uma rede estável, segura e com um bom desempenho para todos os dispositivos conectados.</p><p>Lembrando que as etapas descritas neste artigo são baseadas em um exemplo de roteador TP-Link. Os roteadores de outros fabricantes podem ter configurações e interfaces diferentes, mas os conceitos gerais são semelhantes.</p><h2 id="atividade"><span class="mr-2">Atividade</span><a href="#atividade" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>10 questões de múltipla escolha relacionadas ao texto anterior sobre a configuração de um roteador Wi-Fi para uma rede local:</p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+</pre><td class="rouge-code"><pre>1. Qual é o objetivo principal ao configurar o servidor DHCP em um roteador Wi-Fi?
+a) Gerenciar o fluxo de trabalho e aumentar a produtividade.
+b) Limitar a quantidade de trabalho em andamento.
+c) Atribuir automaticamente endereços IP aos dispositivos conectados.
+d) Configurar a segurança da rede sem fio.
+
+2. Qual é a finalidade de configurar o canal Wi-Fi em um roteador?
+a) Determinar a quantidade de dispositivos que podem ser conectados à rede.
+b) Melhorar a velocidade de conexão da rede sem fio.
+c) Evitar interferências e melhorar o desempenho da rede.
+d) Configurar a senha de acesso ao roteador.
+
+3. Qual é a importância de definir uma senha forte para a rede Wi-Fi?
+a) Evitar acessos não autorizados e proteger a segurança dos dados.
+b) Aumentar a velocidade de conexão da rede sem fio.
+c) Limitar a quantidade de dispositivos que podem ser conectados à rede.
+d) Configurar a segurança do servidor DHCP.
+
+4. Qual é a finalidade de configurar a senha do administrador em um roteador?
+a) Proteger o acesso às configurações do roteador.
+b) Limitar a quantidade de dispositivos que podem ser conectados à rede.
+c) Atribuir automaticamente endereços IP aos dispositivos conectados.
+d) Melhorar a velocidade de conexão da rede sem fio.
+
+5. Qual é o endereço IP padrão comum para acessar as configurações de um roteador TP-Link?
+a) 192.168.0.1 ou 192.168.1.1
+b) 10.0.0.1 ou 10.0.0.138
+c) 192.168.10.1 ou 192.168.254.254
+d) 172.16.0.1 ou 172.31.255.254
+
+6. O que é recomendado escolher ao configurar o canal Wi-Fi em um roteador para evitar interferências?
+a) O canal com o número mais alto.
+b) O canal com o número mais baixo.
+c) O canal 6, independentemente das condições do ambiente.
+d) O canal 1, 6 ou 11, dependendo das condições do ambiente.
+
+7. Qual é o tipo de segurança recomendado para a rede Wi-Fi em um roteador?
+a) WEP
+b) WPA
+c) WPA2-PSK
+d) WPA3
+
+8. O que é importante verificar antes de iniciar a configuração de um roteador?
+a) Conectar todos os dispositivos à rede Wi-Fi.
+b) Verificar os requisitos de hardware do roteador.
+c) Certificar-se de que os cabos estão corretamente conectados e o roteador está ligado.
+d) Fazer backup de todos os dispositivos conectados à rede.
+
+9. O que o servidor DHCP faz em um roteador Wi-Fi?
+a) Define o canal de transmissão do sinal Wi-Fi.
+b) Gerencia o fluxo de trabalho e aumenta a produtividade.
+c) Atribui automaticamente endereços IP aos dispositivos conectados.
+d) Define a segurança da rede sem fio.
+
+10. Por que é importante alterar a senha do administrador em um roteador?
+a) Para aumentar a velocidade de conexão da rede sem fio.
+b) Para limitar a quantidade de dispositivos que podem ser conectados à rede.
+c) Para evitar acessos não autorizados e proteger o acesso às configurações do roteador.
+d) Para configurar a segurança do servidor DHCP.
+</pre></table></code></div></div><p>Respostas:</p><ol><li>c) Atribuir automaticamente endereços IP aos dispositivos conectados.<li>c) Evitar interferências e melhorar o desempenho da rede.<li>a) Evitar acessos não autorizados e proteger a segurança dos dados.<li>a) Proteger o acesso às configurações do roteador.<li>a) 192.168.0.1 ou 192.168.1.1<li>d) O canal 1, 6 ou 11, dependendo das condições do ambiente.<li>c) WPA2-PSK<li>c) Certificar-se de que os cabos estão corretamente conectados e o roteador está ligado.<li>c) Atribui automaticamente endereços IP aos dispositivos conectados.<li>c) Para evitar acessos não autorizados e proteger o acesso às configurações do roteador.</ol><h2 id="atividade-2"><span class="mr-2">Atividade 2</span><a href="#atividade-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+</pre><td class="rouge-code"><pre>1. Qual é a finalidade do servidor DHCP em um roteador Wi-Fi?
+a) Fornecer acesso à Internet aos dispositivos conectados.
+b) Gerenciar o fluxo de trabalho do roteador.
+c) Atribuir endereços IP automaticamente aos dispositivos conectados.
+d) Controlar o canal de transmissão do Wi-Fi.
+
+2. Qual é a faixa de endereços IP geralmente configurada pelo servidor DHCP?
+a) 192.168.0.1 a 192.168.0.255
+b) 10.0.0.1 a 10.0.0.255
+c) 172.16.0.1 a 172.31.255.254
+d) 192.168.1.1 a 192.168.1.254
+
+3. Qual é o objetivo de escolher um canal menos congestionado para o roteador Wi-Fi?
+a) Reduzir a velocidade da conexão de Internet.
+b) Evitar interferências e melhorar o desempenho da rede.
+c) Aumentar a segurança da rede sem fio.
+d) Bloquear o acesso de dispositivos desconhecidos à rede.
+
+4. Qual é o tipo de segurança recomendado para a senha do Wi-Fi?
+a) WEP
+b) WPA
+c) WPA2
+d) WPS
+
+5. Qual é a importância de alterar a senha do administrador do roteador Wi-Fi?
+a) Melhorar a velocidade de conexão da rede.
+b) Evitar a interferência de dispositivos vizinhos.
+c) Proteger o acesso às configurações do roteador.
+d) Impedir o acesso de dispositivos desconhecidos à rede.
+
+6. Qual é o endereço IP padrão comum para acessar as configurações de um roteador TP-Link?
+a) 192.168.0.1
+b) 10.0.0.1
+c) 172.16.0.1
+d) 192.168.1.1
+
+7. Quais são as etapas iniciais para configurar um roteador Wi-Fi?
+a) Conectar dispositivos sem fio e abrir um navegador da web.
+b) Configurar o servidor DHCP e o canal do Wi-Fi.
+c) Definir a senha do administrador e a senha do Wi-Fi.
+d) Verificar a velocidade da conexão de Internet e escolher o tipo de segurança.
+
+8. O que acontece se uma senha fraca for escolhida para a rede Wi-Fi?
+a) A rede Wi-Fi não funcionará corretamente.
+b) A velocidade da conexão de Internet será reduzida.
+c) A rede Wi-Fi estará vulnerável a ataques e acessos não autorizados.
+d) Os dispositivos conectados não poderão se comunicar entre si.
+
+9. O que é necessário para acessar as configurações de um roteador Wi-Fi?
+a) Conectar-se à rede Wi-Fi do roteador e abrir um navegador da web.
+b) Conectar-se fisicamente ao roteador usando um cabo Ethernet.
+c) Enviar um e-mail para o fabricante do roteador solicitando as configurações.
+d) Reiniciar o roteador e pressionar um botão específico para entrar nas configurações.
+
+10. Qual é a vantagem de revisar e atualizar regularmente as configurações do roteador Wi-Fi?
+a) Melhorar a velocidade da conexão de Internet.
+b) Garantir a compatibilidade com dispositivos mais recentes.
+c) Corrigir falhas de segurança e melhorar o desempenho da rede.
+d) Permitir que dispositivos desconhecidos se conectem à rede.
+</pre></table></code></div></div><h2 id="respostas-2"><span class="mr-2">Respostas 2</span><a href="#respostas-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><ol><li>c) Atribuir endereços IP automaticamente aos dispositivos conectados.<li>c) 172.16.0.1 a 172.31.255.254<li>b) Evitar interferências e melhorar o desempenho da rede.<li>c) WPA2<li>c) Proteger o acesso às configurações do roteador.<li>d) 192.168.1.1<li>a) Conectar dispositivos sem fio e abrir um navegador da web.<li>c) A rede Wi-Fi estará vulnerável a ataques e acessos não autorizados.<li>a) Conectar-se à rede Wi-Fi do roteador e abrir um navegador da web.<li>c) Corrigir falhas de segurança e melhorar o desempenho da rede.</ol></div><div class="post-tail-wrapper text-muted"><div class="post-meta mb-3"> <i class="far fa-folder-open fa-fw mr-1"></i> <a href='/aulas/categories/aulas/'>AULAS</a>, <a href='/aulas/categories/infraestrutura-de-redes/'>INFRAESTRUTURA DE REDES</a></div><div class="post-tags"> <i class="fa fa-tags fa-fw mr-1"></i> <a href="/aulas/tags/infraestrutura/" class="post-tag no-text-decoration" >infraestrutura</a> <a href="/aulas/tags/seguran%C3%A7a/" class="post-tag no-text-decoration" >segurança</a> <a href="/aulas/tags/exerc%C3%ADcios/" class="post-tag no-text-decoration" >exercícios</a></div><div class="post-tail-bottom d-flex justify-content-between align-items-center mt-3 pt-5 pb-2"><div class="license-wrapper"> Esta postagem está licenciada sob <a href="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0 </a> pelo autor.</div><div class="share-wrapper"> <span class="share-label text-muted mr-1">Compartilhar</span> <span class="share-icons"> <a href="https://twitter.com/intent/tweet?text=Atividade%20de%20configura%C3%A7%C3%A3o%20de%20roteadores%20-%20Jocile&url=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Fexercicios-de-configuracao-de-roteadores%2F" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter"> <i class="fa-fw fab fa-twitter"></i> </a> <a href="https://www.facebook.com/sharer/sharer.php?title=Atividade%20de%20configura%C3%A7%C3%A3o%20de%20roteadores%20-%20Jocile&u=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Fexercicios-de-configuracao-de-roteadores%2F" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" rel="noopener" aria-label="Facebook"> <i class="fa-fw fab fa-facebook-square"></i> </a> <a href="https://t.me/share/url?url=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Fexercicios-de-configuracao-de-roteadores%2F&text=Atividade%20de%20configura%C3%A7%C3%A3o%20de%20roteadores%20-%20Jocile" data-toggle="tooltip" data-placement="top" title="Telegram" target="_blank" rel="noopener" aria-label="Telegram"> <i class="fa-fw fab fa-telegram"></i> </a> <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Fexercicios-de-configuracao-de-roteadores%2F" data-toggle="tooltip" data-placement="top" title="Linkedin" target="_blank" rel="noopener" aria-label="Linkedin"> <i class="fa-fw fab fa-linkedin"></i> </a> <i id="copy-link" class="fa-fw fas fa-link small" data-toggle="tooltip" data-placement="top" title="Copie o link" data-title-succeed="Link copiado com sucesso!"> </i> </span></div></div></div></div></div><div id="panel-wrapper" class="col-xl-3 pl-2 text-muted"><div class="access"><div id="access-lastmod" class="post"><div class="panel-heading">Atualizados recentemente</div><ul class="post-content pl-0 pb-1 ml-1 mt-2"><li><a href="/aulas/posts/Prompt-de-comando/">O Prompt de Comando</a><li><a href="/aulas/posts/Comandos-no-terminal-linux/">Comandos no terminal do linux</a><li><a href="/aulas/posts/Desenvolvimento-em-Java-web-com-frameworks/">Desenvolvimento em java web com frameworks</a><li><a href="/aulas/posts/exercicios-de-seguran%C3%A7a-de-redes/">Exercícios de segurança de redes</a><li><a href="/aulas/posts/mer/">Modelo Entidade Relacionamento</a></ul></div><div id="access-tags"><div class="panel-heading">Trending Tags</div><div class="d-flex flex-wrap mt-3 mb-1 mr-3"> <a class="post-tag" href="/aulas/tags/senac/">Senac</a> <a class="post-tag" href="/aulas/tags/programa%C3%A7%C3%A3o/">programação</a> <a class="post-tag" href="/aulas/tags/programador/">programador</a> <a class="post-tag" href="/aulas/tags/planejamento/">planejamento</a> <a class="post-tag" href="/aulas/tags/infraestrutura/">infraestrutura</a> <a class="post-tag" href="/aulas/tags/rob%C3%B3tica/">robótica</a> <a class="post-tag" href="/aulas/tags/arduino/">arduino</a> <a class="post-tag" href="/aulas/tags/carreira/">carreira</a> <a class="post-tag" href="/aulas/tags/simulador/">simulador</a> <a class="post-tag" href="/aulas/tags/curso/">curso</a></div></div></div><div id="toc-wrapper" class="pl-0 pr-4 mb-5"><div class="panel-heading pl-3 pt-2 mb-2">Conteúdo</div><nav id="toc"></nav></div><script src="https://cdn.jsdelivr.net/npm/tocbot@4.20.1/dist/tocbot.min.js"></script></div></div><div class="row"><div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4 mt-5"><div id="related-posts" class="mb-2 mb-sm-4"><h3 class="pt-2 mb-4 ml-1" data-toc-skip>Leia também</h3><div class="card-deck mb-4"><div class="card"> <a href="/aulas/posts/exercicios-de-seguran%C3%A7a-de-redes/"><div class="card-body"> <em class="small" data-ts="1684762800" data-df="DD/MM/YYYY" > 22/05/2023 </em><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Exercícios de segurança de redes</h3><div class="text-muted small"><p> Exercícios de segurança de redes Configuração de roteadores Exercício com perguntas e respostas de múltipla escolha sobre a configuração de roteadores de Wi-Fi em uma rede local: Pergunta 1: Qua...</p></div></div></a></div><div class="card"> <a href="/aulas/posts/seguranca-de-rede/"><div class="card-body"> <em class="small" data-ts="1683207600" data-df="DD/MM/YYYY" > 04/05/2023 </em><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Segurança de redes</h3><div class="text-muted small"><p> A segurança em redes de computadores é um tema fundamental na era da informação, em que a troca de dados e o acesso a sistemas ocorrem de forma ampla e constante. Nesse contexto, é essencial compre...</p></div></div></a></div><div class="card"> <a href="/aulas/posts/zona-desmilitarizada-de-rede/"><div class="card-body"> <em class="small" data-ts="1683812400" data-df="DD/MM/YYYY" > 11/05/2023 </em><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Zona desmilitarizada de rede</h3><div class="text-muted small"><p> A segurança em redes de computadores é um tema fundamental na era da informação, nela a Zona Desmilitarizada (DMZ), também conhecida como Rede de Perímetro, é uma área intermediária dentro de uma r...</p></div></div></a></div></div></div><div class="post-navigation d-flex justify-content-between"> <a href="/aulas/posts/exercicios-ferramentas-de-produtividade-kanban/" class="btn btn-outline-primary" prompt="Anterior"><p>Exercícios de Ferramenta de produtividade Kanban</p></a> <a href="/aulas/posts/scrum-com-jira-e-asana/" class="btn btn-outline-primary" prompt="Próximo"><p>Scrum com Jira e Asana</p></a></div></div></div></div><div id="search-result-wrapper" class="d-flex justify-content-center unloaded"><div class="col-12 col-sm-11 post-content"><div id="search-hints"><div id="access-tags"><div class="panel-heading">Trending Tags</div><div class="d-flex flex-wrap mt-3 mb-1 mr-3"> <a class="post-tag" href="/aulas/tags/senac/">Senac</a> <a class="post-tag" href="/aulas/tags/programa%C3%A7%C3%A3o/">programação</a> <a class="post-tag" href="/aulas/tags/programador/">programador</a> <a class="post-tag" href="/aulas/tags/planejamento/">planejamento</a> <a class="post-tag" href="/aulas/tags/infraestrutura/">infraestrutura</a> <a class="post-tag" href="/aulas/tags/rob%C3%B3tica/">robótica</a> <a class="post-tag" href="/aulas/tags/arduino/">arduino</a> <a class="post-tag" href="/aulas/tags/carreira/">carreira</a> <a class="post-tag" href="/aulas/tags/simulador/">simulador</a> <a class="post-tag" href="/aulas/tags/curso/">curso</a></div></div></div><div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div></div></div></div><footer><div class="container pl-lg-4 pr-lg-4"><div class="d-flex justify-content-between align-items-center text-muted ml-md-3 mr-md-3"><div class="footer-left"><p class="mb-0"> © 2024 <a href="https://github.com/jocile">Jocile Serra</a>. <span data-toggle="tooltip" data-placement="top" title="Exceto onde indicado de outra forma, as postagens do blog neste site são licenciadas sob a Creative Commons Attribution 4.0 International (CC BY 4.0) License pelo autor.">Alguns direitos reservados.</span></p></div><div class="footer-right"><p class="mb-0">Feito com <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> usando o tema <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>.</p></div></div></div></footer><div id="mask"></div><a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button"> <i class="fas fa-angle-up"></i> </a><div id="notification" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="true" data-autohide="false"><div class="toast-header"> <button type="button" class="ml-2 ml-auto close" data-dismiss="toast" aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div><div class="toast-body text-center pt-0"><p class="pl-2 pr-2 mb-3">Uma nova versão do conteúdo está disponível.</p><button type="button" class="btn btn-primary" aria-label="Update"> atualização </button></div></div><script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script> <script> SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('search-results'), json: '/aulas/assets/js/data/search.json', searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0"> <a href="{url}">{title}</a><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div><p>{snippet}</p></div>', noResultsText: '<p class="mt-5">Oops! Nenhum resultado encontrado.</p>', templateMiddleware: function(prop, value, template) { if (prop === 'categories') { if (value === '') { return `${value}`; } else { return `<div class="mr-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`; } } if (prop === 'tags') { if (value === '') { return `${value}`; } else { return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`; } } } }); </script> <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script> <script src="https://cdn.jsdelivr.net/combine/npm/dayjs@1.11.6/dayjs.min.js,npm/dayjs@1.11.6/locale/pt.min.js,npm/dayjs@1.11.6/plugin/relativeTime.min.js,npm/dayjs@1.11.6/plugin/localizedFormat.min.js"></script> <script defer src="/aulas/assets/js/dist/post.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> <script defer src="/aulas/app.js"></script>

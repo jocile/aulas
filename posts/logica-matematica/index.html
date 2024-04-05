@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="pt-BR" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover" ><meta name="generator" content="Jekyll v4.3.3" /><meta property="og:title" content="Lógica matemática e algoritmos" /><meta property="og:locale" content="pt_BR" /><meta name="description" content="Chamamos de operadores matemáticos ou aritméticos o conjunto de símbolos que representa as operações básicas da matemática, a saber:" /><meta property="og:description" content="Chamamos de operadores matemáticos ou aritméticos o conjunto de símbolos que representa as operações básicas da matemática, a saber:" /><link rel="canonical" href="https://jocile.com/aulas/aulas/posts/logica-matematica/" /><meta property="og:url" content="https://jocile.com/aulas/aulas/posts/logica-matematica/" /><meta property="og:site_name" content="Jocile" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2023-03-28T17:00:00-03:00" /><meta name="twitter:card" content="summary" /><meta property="twitter:title" content="Lógica matemática e algoritmos" /><meta name="twitter:site" content="@jocileserra" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-04T16:38:49-03:00","datePublished":"2023-03-28T17:00:00-03:00","description":"Chamamos de operadores matemáticos ou aritméticos o conjunto de símbolos que representa as operações básicas da matemática, a saber:","headline":"Lógica matemática e algoritmos","mainEntityOfPage":{"@type":"WebPage","@id":"https://jocile.com/aulas/aulas/posts/logica-matematica/"},"url":"https://jocile.com/aulas/aulas/posts/logica-matematica/"}</script><title>Lógica matemática e algoritmos | Jocile</title><link rel="apple-touch-icon" sizes="180x180" href="/aulas/assets/img/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/aulas/assets/img/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/aulas/assets/img/favicons/favicon-16x16.png"><link rel="manifest" href="/aulas/assets/img/favicons/site.webmanifest"><link rel="shortcut icon" href="/aulas/assets/img/favicons/favicon.ico"><meta name="apple-mobile-web-app-title" content="Jocile"><meta name="application-name" content="Jocile"><meta name="msapplication-TileColor" content="#da532c"><meta name="msapplication-config" content="/aulas/assets/img/favicons/browserconfig.xml"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="dns-prefetch" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="dns-prefetch" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://cdn.jsdelivr.net" ><link rel="dns-prefetch" href="https://cdn.jsdelivr.net" ><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css"><link rel="stylesheet" href="/aulas/assets/css/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.20.1/dist/tocbot.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css"> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script> <script type="text/javascript"> class ModeToggle { static get MODE_KEY() { return "mode"; } static get MODE_ATTR() { return "data-mode"; } static get DARK_MODE() { return "dark"; } static get LIGHT_MODE() { return "light"; } static get ID() { return "mode-toggle"; } constructor() { if (this.hasMode) { if (this.isDarkMode) { if (!this.isSysDarkPrefer) { this.setDark(); } } else { if (this.isSysDarkPrefer) { this.setLight(); } } } let self = this; /* always follow the system prefers */ this.sysDarkPrefers.addEventListener('change', () => { if (self.hasMode) { if (self.isDarkMode) { if (!self.isSysDarkPrefer) { self.setDark(); } } else { if (self.isSysDarkPrefer) { self.setLight(); } } self.clearMode(); } self.notify(); }); } /* constructor() */ get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); } get isSysDarkPrefer() { return this.sysDarkPrefers.matches; } get isDarkMode() { return this.mode === ModeToggle.DARK_MODE; } get isLightMode() { return this.mode === ModeToggle.LIGHT_MODE; } get hasMode() { return this.mode != null; } get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); } /* get the current mode on screen */ get modeStatus() { if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) { return ModeToggle.DARK_MODE; } else { return ModeToggle.LIGHT_MODE; } } setDark() { $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE); } setLight() { $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE); } clearMode() { $('html').removeAttr(ModeToggle.MODE_ATTR); sessionStorage.removeItem(ModeToggle.MODE_KEY); } /* Notify another plugins that the theme mode has changed */ notify() { window.postMessage({ direction: ModeToggle.ID, message: this.modeStatus }, "*"); } flipMode() { if (this.hasMode) { if (this.isSysDarkPrefer) { if (this.isLightMode) { this.clearMode(); } else { this.setLight(); } } else { if (this.isDarkMode) { this.clearMode(); } else { this.setDark(); } } } else { if (this.isSysDarkPrefer) { this.setLight(); } else { this.setDark(); } } this.notify(); } /* flipMode() */ } /* ModeToggle */ const modeToggle = new ModeToggle(); </script><body data-topbar-visible="true"><div id="sidebar" class="d-flex flex-column align-items-end"><div class="profile-wrapper text-center"><div id="avatar"> <a href="/aulas/" class="mx-auto"> <img src="/aulas/assets/img/avatar.jpg" alt="avatar" onerror="this.style.display='none'"> </a></div><div class="site-title"> <a href="/aulas/">Jocile</a></div><div class="site-subtitle font-italic">Instrutor, desenvolvedor full stack, treinamento profissional</div></div><ul class="w-100"><li class="nav-item"> <a href="/aulas/" class="nav-link"> <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i> <span>HOME</span> </a><li class="nav-item"> <a href="/aulas/categories/" class="nav-link"> <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i> <span>CATEGORIAS</span> </a><li class="nav-item"> <a href="/aulas/tags/" class="nav-link"> <i class="fa-fw fas fa-tag ml-xl-3 mr-xl-3 unloaded"></i> <span>TAGS</span> </a><li class="nav-item"> <a href="/aulas/diario/" class="nav-link"> <i class="fa-fw fas fa-archive ml-xl-3 mr-xl-3 unloaded"></i> <span>DIÁRIO</span> </a><li class="nav-item"> <a href="/aulas/professor/" class="nav-link"> <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i> <span>PROFESSOR</span> </a><li class="nav-item"> <a href="/aulas/aulas/" class="nav-link"> <i class="fa-fw fas fa-laptop ml-xl-3 mr-xl-3 unloaded"></i> <span>AULAS</span> </a><li class="nav-item"> <a href="/aulas/teologia/" class="nav-link"> <i class="fa-fw fas fa-book-open ml-xl-3 mr-xl-3 unloaded"></i> <span>TEOLOGIA</span> </a><li class="nav-item"> <a href="/aulas/referencias/" class="nav-link"> <i class="fa-fw fas fa-book-open ml-xl-3 mr-xl-3 unloaded"></i> <span>REFERÊNCIAS</span> </a></ul><div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center align-items-center"> <button class="mode-toggle btn" aria-label="Switch Mode"> <i class="fas fa-adjust"></i> </button> <span class="icon-border"></span> <a href="https://github.com/jocile" aria-label="github" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i> </a> <a href="https://twitter.com/jocileserra" aria-label="twitter" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter"></i> </a> <a href="javascript:location.href = 'mailto:' + ['jocilecam','gmail.com'].join('@')" aria-label="email" > <i class="fas fa-envelope"></i> </a> <a href="/aulas/feed.xml" aria-label="rss" > <i class="fas fa-rss"></i> </a></div></div><div id="topbar-wrapper"><div id="topbar" class="container d-flex align-items-center justify-content-between h-100 pl-3 pr-3 pl-md-4 pr-md-4"> <span id="breadcrumb"> <span> <a href="/aulas/"> Home </a> </span> <span>Lógica matemática e algoritmos</span> </span> <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i><div id="topbar-title"> Post</div><i id="search-trigger" class="fas fa-search fa-fw"></i> <span id="search-wrapper" class="align-items-center"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" autocomplete="off" placeholder="Buscar..."> </span> <span id="search-cancel" >Cancelar</span></div></div><div id="main-wrapper" class="d-flex justify-content-center"><div id="main" class="container pl-xl-4 pr-xl-4"><div class="row"><div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pr-xl-4"><div class="post pl-1 pr-1 pl-md-2 pr-md-2"><h1 data-toc-skip>Lógica matemática e algoritmos</h1><div class="post-meta text-muted"> <span> Postado em <em class="" data-ts="1680033600" data-df="DD/MM/YYYY" data-toggle="tooltip" data-placement="bottom"> 28/03/2023 </em> </span> <span> Atualizado <em class="" data-ts="1680637129" data-df="DD/MM/YYYY" data-toggle="tooltip" data-placement="bottom"> 04/04/2023 </em> </span><div class="d-flex justify-content-between"> <span> Por <em> <a href="https://github.com/jocile">Jocile Serra</a> </em> </span><div> <span class="readtime" data-toggle="tooltip" data-placement="bottom" title="992 palavras"> <em>5 min</em> de leitura</span></div></div></div><div class="post-content"><p>Chamamos de operadores matemáticos ou aritméticos o conjunto de símbolos que representa as operações básicas da matemática, a saber:</p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre><td class="rouge-code"><pre> + adição ;
+ +  - subtração ;
+ * multiplicação ;
+ / divisão ;
+ ** potenciação ;
+ // radiciação.
+</pre></table></code></div></div><p>Exemplos:</p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre> -2 + 2 ;
+ ABC / 5 ;
+ aula * ABC + XPTO - 8.
+</pre></table></code></div></div><h2 id="funções-matemáticas-que-serão-usadas"><span class="mr-2">FUNÇÕES MATEMÁTICAS QUE SERÃO USADAS</span><a href="#funções-matemáticas-que-serão-usadas" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>MOD( resto da divisão )</p><p>DIV( quociente inteiro da divisão )</p><p>INT( x ) - resulta a parte inteira de um número X.</p><p>FRAC( x ) - resulta a parte fracionária de X.</p><p>ABS( x ) - resulta o valor absoluto de X.</p><p>Exemplos:</p><div class="language-pascal highlighter-rouge"><div class="code-header"> <span data-label-text="Pascal"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre> <span class="p">-</span> <span class="m">15</span> <span class="k">DIV</span> <span class="m">7</span> <span class="n">resulta</span> <span class="m">2</span>
+<span class="p">-</span> <span class="m">15</span> <span class="k">MOD</span> <span class="m">7</span> <span class="n">resulta</span> <span class="m">1</span>
+<span class="p">-</span> <span class="n">INT</span><span class="p">(</span> <span class="m">34.567</span> <span class="p">)</span> <span class="n">resulta</span> <span class="m">34</span>
+<span class="p">-</span> <span class="n">FRAC</span><span class="p">(</span> <span class="m">546.34</span> <span class="p">)</span> <span class="n">resulta</span> <span class="m">34</span>
+<span class="p">-</span> <span class="n">ABS</span> <span class="p">(</span> <span class="p">-</span><span class="m">34</span> <span class="p">)</span> <span class="n">resulta</span> <span class="m">34</span>
+</pre></table></code></div></div><h2 id="prioridades"><span class="mr-2">PRIORIDADES</span><a href="#prioridades" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><ul><li>Na resolução das expressões aritméticas, as operações e funções matemáticas guardam entre si uma hierarquia.</ul><ol><li>Parênteses mais internos.<li>Funções matemáticas.<li><code class="language-plaintext highlighter-rouge">* //</code><li><code class="language-plaintext highlighter-rouge">/</code><li><code class="language-plaintext highlighter-rouge">+ -</code></ol><h3 id="exercícios"><span class="mr-2">Exercícios</span><a href="#exercícios" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>3 ** 2 - 4 / 2 + ABS( 5 - 3 * 5 ) / 2
+( FRAC( A / B ) + ABS( C ) ) ** 3 onde A = 5 , B = 10 e C = -4
+3 + ( 27 // 3 ) * (( 3 MOD D + 0.5 ) * 2 ) onde D = 1.5
+</pre></table></code></div></div><h2 id="operadores-relacionais-com-expressões-lógicas"><span class="mr-2">OPERADORES RELACIONAIS com EXPRESSÕES LÓGICAS</span><a href="#operadores-relacionais-com-expressões-lógicas" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>= ( igual a )
+# ou &lt;&gt; ( diferente)
+&gt; ( maior )
+&lt; ( menor )
+</pre></table></code></div></div><h3 id="exemplo"><span class="mr-2">Exemplo</span><a href="#exemplo" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>2 * 4 = 24 / 3
+  8  =  8
+      V
+</pre></table></code></div></div><h2 id="operadores-lógicos"><span class="mr-2">OPERADORES LÓGICOS</span><a href="#operadores-lógicos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>E = conjunção
+OU = disjunção
+NÃO =  negação
+</pre></table></code></div></div><p>Exemplo:</p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>2 &lt; 5 e 15 / 3 = 5
+V  e  5  = 5
+V  e  V
+V
+</pre></table></code></div></div><h3 id="prioridades-lógicas"><span class="mr-2">PRIORIDADES LÓGICAS</span><a href="#prioridades-lógicas" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><p>Na resolução das expressões lógicas, as operações e funções lógicas guardam entre si uma hierarquia.</p><p>1 - NÃO</p><p>2 - E / OU</p><p>PRIORIDADES ENTRE TODOS OS OPERADORES</p><ol><li>Parênteses mais internos;<li>Funções matemáticas; ( MOD - FRAC - DIV ….)<li>Operadores aritméticos; ( ** - // - * - / - + - - )<li>Operadores relacionais; ( # - = - &gt; - &lt; )<li>Operadores lógicos.( E - OU - NÃO )</ol><h3 id="exercícios-2"><span class="mr-2">Exercícios 2</span><a href="#exercícios-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><ol><li><code class="language-plaintext highlighter-rouge">NÃO 2**3 &lt; 4**2 OU ABS( INT( -15 / 2 ) ) &lt; 10</code></ol><p>Resolução:</p><p>Vamos resolver essa expressão passo a passo:</p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre><td class="rouge-code"><pre>
+1. Primeiramente, vamos resolver a parte interna de cada função:
+
+```plaintext
+ _2 ** 3 = 8
+ 4 ** 2 = 16
+ INT( -15 / 2 ) = INT( -7.5 ) = -8
+ ABS( -8 ) = 8_
+
+</pre></table></code></div></div><ol><li>Agora podemos substituir esses valores na expressão original:</ol><p><code class="language-plaintext highlighter-rouge">NÃO 8 &lt; 16 OU 8 &lt; 10</code></p><ol><li>Continuando com a ordem de precedência dos operadores, vamos avaliar primeiro a comparação matemática:</ol><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre> 8 &lt; 16 é verdadeiro (True)
+ 8 &lt; 10 é verdadeiro (True)
+
+</pre></table></code></div></div><ol><li>Agora, vamos avaliar a negação da primeira condição:</ol><p>NÃO True é falso (False)</p><ol><li>Por fim, temos o resultado da expressão:</ol><p>False OU True é verdadeiro (True)</p><p>Portanto, a expressão lógica é verdadeira (True).</p><h3 id="exercícios-3"><span class="mr-2">Exercícios 3</span><a href="#exercícios-3" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre><td class="rouge-code"><pre>
+1) 3 * ( C / 4 + 5) &lt; - 8 * 3 + ( 15 MOD 8 - 3 ) OU 5 ** 2 &gt; INT( C * 0.7 ) onde C = 20
+
+2) A ** 3 / B + 5 - C * D &gt; C * D + A - B OU A // 2 / D &lt; 18 - A onde A = 9 , B = 3 , C = 4 e D = 2
+
+3) 5 + A * B ≥ 16 // 4 - D E 6 / A * C / ( A - B ) = 234 OU A / 4 - ( 7 + 5 * C ) &lt; A ** 2 - 3 * B
+
+</pre></table></code></div></div><h2 id="comando-de-atribuição"><span class="mr-2">COMANDO DE ATRIBUIÇÃO</span><a href="#comando-de-atribuição" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><ul><li>Fornece um valor a uma certa variável tendo que este valor ser compatível com o tipo de variável que foi declarada.**</ul><p><strong>Exemplo:</strong></p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre><td class="rouge-code"><pre>  lógico: A, B;
+	Inteiro: X, AULA;
+	A = Verdadeiro;
+	X = 15;
+	AULA = 8 + 13 DIV 5;
+	B = 5 = 3;**
+</pre></table></code></div></div><h2 id="comandos-de-entrada-de-dados"><span class="mr-2">COMANDOS DE ENTRADA DE DADOS</span><a href="#comandos-de-entrada-de-dados" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p><strong>Exemplo: Leia ( X );</strong></p><p><code class="language-plaintext highlighter-rouge">Leia ( X, AULA, B );</code></p><h2 id="comandos-de-saída-de-dados"><span class="mr-2">COMANDOS DE SAÍDA DE DADOS</span><a href="#comandos-de-saída-de-dados" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p><strong>Exemplo: Escreva ( X );</strong></p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>Escreva ( X, AULA, B );
+
+Escreva ( “O resultado do peso do aluno é de “, PESO, “ quilos” );
+
+</pre></table></code></div></div><h2 id="blocos"><span class="mr-2">BLOCOS</span><a href="#blocos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><ul><li>Um algoritmo pode ser visto como um bloco. Ele serve para definir os limites nos quais as variáveis declaradas em seu interior são conhecidas e processadas.**</ul><p><strong>Para delimitar um bloco ( algoritmo ) utilizamos os delimitadores: inicio e fim.</strong></p><p><strong>Exemplo:</strong></p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre><td class="rouge-code"><pre>	| nome do programa
+	|
+	| declaração de variáveis
+	|
+inicio
+	|
+	|
+	| seqüência de ações
+	|
+	|
+	| resultado
+	|
+fim.
+</pre></table></code></div></div><h2 id="estruturas-de-controle"><span class="mr-2">ESTRUTURAS DE CONTROLE</span><a href="#estruturas-de-controle" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p><strong>SEQÜENCIAL</strong></p><div class="language-plaintext highlighter-rouge"><div class="code-header"> <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre><td class="rouge-code"><pre>	| nome do programa
+	|
+	| declaração de variáveis
+	|
+inicio
+	|
+	| comando a;
+	| comando b;
+	| comando c;
+	| 
+	| comando n;
+fim.
+</pre></table></code></div></div><h2 id="exercícios-4"><span class="mr-2">Exercícios 4</span><a href="#exercícios-4" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><ul><li><strong>Construa um algoritmo que calcule a média aritmética entre quatro notas quaisquer fornecidas pelo usuário.</strong></ul><div class="language-liquid highlighter-rouge"><div class="code-header"> <span data-label-text="Liquid"><i class="fas fa-code small"></i></span> <button aria-label="copy" data-title-succeed="Copiado!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre><td class="rouge-code"><pre>programa {
+  // Calcular a media de duas notas
+  funcao inicio() {
+    inteiro a, b
+    real media
+    escreva("Digite a primeira nota: ")
+		leia(a)
+    escreva("Digite a segunda nota: ")
+		leia(b)
+    media = (a+b)/2
+    escreva("Voce digitou:", a)
+    escreva(" e Voce digitou:", b)
+    escreva(" a média é:", media)
+  }
+}
+</pre></table></code></div></div><h2 id="referências"><span class="mr-2">Referências</span><a href="#referências" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><ul><li><a href="https://www.todamateria.com.br/logica-matematica/">👨🏽‍🏫 Lógica matemática</a><li><a href="https://dgadelha.github.io/Portugol-Webstudio/">Editor Portugol online</a></ul></div><div class="post-tail-wrapper text-muted"><div class="post-meta mb-3"> <i class="far fa-folder-open fa-fw mr-1"></i> <a href='/aulas/categories/desenvolvimento/'>DESENVOLVIMENTO</a>, <a href='/aulas/categories/programador/'>PROGRAMADOR</a></div><div class="post-tags"> <i class="fa fa-tags fa-fw mr-1"></i> <a href="/aulas/tags/senac/" class="post-tag no-text-decoration" >Senac</a> <a href="/aulas/tags/l%C3%B3gica/" class="post-tag no-text-decoration" >lógica</a> <a href="/aulas/tags/programador/" class="post-tag no-text-decoration" >programador</a> <a href="/aulas/tags/programa%C3%A7%C3%A3o/" class="post-tag no-text-decoration" >programação</a> <a href="/aulas/tags/exerc%C3%ADcios/" class="post-tag no-text-decoration" >exercícios</a></div><div class="post-tail-bottom d-flex justify-content-between align-items-center mt-3 pt-5 pb-2"><div class="license-wrapper"> Esta postagem está licenciada sob <a href="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0 </a> pelo autor.</div><div class="share-wrapper"> <span class="share-label text-muted mr-1">Compartilhar</span> <span class="share-icons"> <a href="https://twitter.com/intent/tweet?text=L%C3%B3gica%20matem%C3%A1tica%20e%20algoritmos%20-%20Jocile&url=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Flogica-matematica%2F" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter"> <i class="fa-fw fab fa-twitter"></i> </a> <a href="https://www.facebook.com/sharer/sharer.php?title=L%C3%B3gica%20matem%C3%A1tica%20e%20algoritmos%20-%20Jocile&u=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Flogica-matematica%2F" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" rel="noopener" aria-label="Facebook"> <i class="fa-fw fab fa-facebook-square"></i> </a> <a href="https://t.me/share/url?url=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Flogica-matematica%2F&text=L%C3%B3gica%20matem%C3%A1tica%20e%20algoritmos%20-%20Jocile" data-toggle="tooltip" data-placement="top" title="Telegram" target="_blank" rel="noopener" aria-label="Telegram"> <i class="fa-fw fab fa-telegram"></i> </a> <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fjocile.com%2Faulas%2Faulas%2Fposts%2Flogica-matematica%2F" data-toggle="tooltip" data-placement="top" title="Linkedin" target="_blank" rel="noopener" aria-label="Linkedin"> <i class="fa-fw fab fa-linkedin"></i> </a> <i id="copy-link" class="fa-fw fas fa-link small" data-toggle="tooltip" data-placement="top" title="Copie o link" data-title-succeed="Link copiado com sucesso!"> </i> </span></div></div></div></div></div><div id="panel-wrapper" class="col-xl-3 pl-2 text-muted"><div class="access"><div id="access-lastmod" class="post"><div class="panel-heading">Atualizados recentemente</div><ul class="post-content pl-0 pb-1 ml-1 mt-2"><li><a href="/aulas/posts/Prompt-de-comando/">O Prompt de Comando</a><li><a href="/aulas/posts/Comandos-no-terminal-linux/">Comandos no terminal do linux</a><li><a href="/aulas/posts/Desenvolvimento-em-Java-web-com-frameworks/">Desenvolvimento em java web com frameworks</a><li><a href="/aulas/posts/exercicios-de-seguran%C3%A7a-de-redes/">Exercícios de segurança de redes</a><li><a href="/aulas/posts/mer/">Modelo Entidade Relacionamento</a></ul></div><div id="access-tags"><div class="panel-heading">Trending Tags</div><div class="d-flex flex-wrap mt-3 mb-1 mr-3"> <a class="post-tag" href="/aulas/tags/senac/">Senac</a> <a class="post-tag" href="/aulas/tags/programa%C3%A7%C3%A3o/">programação</a> <a class="post-tag" href="/aulas/tags/programador/">programador</a> <a class="post-tag" href="/aulas/tags/planejamento/">planejamento</a> <a class="post-tag" href="/aulas/tags/infraestrutura/">infraestrutura</a> <a class="post-tag" href="/aulas/tags/rob%C3%B3tica/">robótica</a> <a class="post-tag" href="/aulas/tags/arduino/">arduino</a> <a class="post-tag" href="/aulas/tags/carreira/">carreira</a> <a class="post-tag" href="/aulas/tags/simulador/">simulador</a> <a class="post-tag" href="/aulas/tags/curso/">curso</a></div></div></div><div id="toc-wrapper" class="pl-0 pr-4 mb-5"><div class="panel-heading pl-3 pt-2 mb-2">Conteúdo</div><nav id="toc"></nav></div><script src="https://cdn.jsdelivr.net/npm/tocbot@4.20.1/dist/tocbot.min.js"></script></div></div><div class="row"><div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4 mt-5"><div id="related-posts" class="mb-2 mb-sm-4"><h3 class="pt-2 mb-4 ml-1" data-toc-skip>Leia também</h3><div class="card-deck mb-4"><div class="card"> <a href="/aulas/posts/exercicios-de-logica/"><div class="card-body"> <em class="small" data-ts="1679607000" data-df="DD/MM/YYYY" > 23/03/2023 </em><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Exercícios de lógica</h3><div class="text-muted small"><p> Resolva os exercícios usando a linguagem Portugol ou VisuAlg. Construa um algoritmo que calcule a média aritmética entre quatro notas quaisquer fornecidas pelo usuário. Faça um algoritmo para...</p></div></div></a></div><div class="card"> <a href="/aulas/posts/estruturas-de-controle/"><div class="card-body"> <em class="small" data-ts="1679688000" data-df="DD/MM/YYYY" > 24/03/2023 </em><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Estruturas de controle</h3><div class="text-muted small"><p> Permite a escolha de um grupo de ações e estruturas a ser executado quando determinadas condições, representadas por expressões lógicas, são ou não satisfeitas. SIMPLES ( SE / ENTÃO / INICIO /...</p></div></div></a></div><div class="card"> <a href="/aulas/posts/expressoes-com-literais/"><div class="card-body"> <em class="small" data-ts="1680120000" data-df="DD/MM/YYYY" > 29/03/2023 </em><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Expressões com literais</h3><div class="text-muted small"><p> São expressões com constantes e/ou variáveis literais que têm como resultado valores literais. Diferentemente das expressões aritméticas, as expressões literais aceitam somente o operador de concat...</p></div></div></a></div></div></div><div class="post-navigation d-flex justify-content-between"> <a href="/aulas/posts/a-evolucao-do-wifi/" class="btn btn-outline-primary" prompt="Anterior"><p>A evolução do WiFi</p></a> <a href="/aulas/posts/expressoes-com-literais/" class="btn btn-outline-primary" prompt="Próximo"><p>Expressões com literais</p></a></div></div></div></div><div id="search-result-wrapper" class="d-flex justify-content-center unloaded"><div class="col-12 col-sm-11 post-content"><div id="search-hints"><div id="access-tags"><div class="panel-heading">Trending Tags</div><div class="d-flex flex-wrap mt-3 mb-1 mr-3"> <a class="post-tag" href="/aulas/tags/senac/">Senac</a> <a class="post-tag" href="/aulas/tags/programa%C3%A7%C3%A3o/">programação</a> <a class="post-tag" href="/aulas/tags/programador/">programador</a> <a class="post-tag" href="/aulas/tags/planejamento/">planejamento</a> <a class="post-tag" href="/aulas/tags/infraestrutura/">infraestrutura</a> <a class="post-tag" href="/aulas/tags/rob%C3%B3tica/">robótica</a> <a class="post-tag" href="/aulas/tags/arduino/">arduino</a> <a class="post-tag" href="/aulas/tags/carreira/">carreira</a> <a class="post-tag" href="/aulas/tags/simulador/">simulador</a> <a class="post-tag" href="/aulas/tags/curso/">curso</a></div></div></div><div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div></div></div></div><footer><div class="container pl-lg-4 pr-lg-4"><div class="d-flex justify-content-between align-items-center text-muted ml-md-3 mr-md-3"><div class="footer-left"><p class="mb-0"> © 2024 <a href="https://github.com/jocile">Jocile Serra</a>. <span data-toggle="tooltip" data-placement="top" title="Exceto onde indicado de outra forma, as postagens do blog neste site são licenciadas sob a Creative Commons Attribution 4.0 International (CC BY 4.0) License pelo autor.">Alguns direitos reservados.</span></p></div><div class="footer-right"><p class="mb-0">Feito com <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> usando o tema <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>.</p></div></div></div></footer><div id="mask"></div><a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button"> <i class="fas fa-angle-up"></i> </a><div id="notification" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="true" data-autohide="false"><div class="toast-header"> <button type="button" class="ml-2 ml-auto close" data-dismiss="toast" aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div><div class="toast-body text-center pt-0"><p class="pl-2 pr-2 mb-3">Uma nova versão do conteúdo está disponível.</p><button type="button" class="btn btn-primary" aria-label="Update"> atualização </button></div></div><script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script> <script> SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('search-results'), json: '/aulas/assets/js/data/search.json', searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0"> <a href="{url}">{title}</a><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div><p>{snippet}</p></div>', noResultsText: '<p class="mt-5">Oops! Nenhum resultado encontrado.</p>', templateMiddleware: function(prop, value, template) { if (prop === 'categories') { if (value === '') { return `${value}`; } else { return `<div class="mr-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`; } } if (prop === 'tags') { if (value === '') { return `${value}`; } else { return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`; } } } }); </script> <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script> <script src="https://cdn.jsdelivr.net/combine/npm/dayjs@1.11.6/dayjs.min.js,npm/dayjs@1.11.6/locale/pt.min.js,npm/dayjs@1.11.6/plugin/relativeTime.min.js,npm/dayjs@1.11.6/plugin/localizedFormat.min.js"></script> <script defer src="/aulas/assets/js/dist/post.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> <script defer src="/aulas/app.js"></script>
